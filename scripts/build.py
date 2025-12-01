@@ -19,11 +19,52 @@ import sys
 import yaml
 from pathlib import Path
 from datetime import datetime
+import re
 
 # Configuration
 BOOKS_DIR = Path(__file__).parent.parent / "books"
 TEMPLATES_DIR = Path(__file__).parent.parent / "templates"
 DEFAULT_AUTHOR = "Daniel Paredes"
+
+# Month name to number mapping
+MONTH_MAP = {
+    'january': '01', 'february': '02', 'march': '03', 'april': '04',
+    'may': '05', 'june': '06', 'july': '07', 'august': '08',
+    'september': '09', 'october': '10', 'november': '11', 'december': '12'
+}
+
+
+def convert_to_iso_date(date_str: str) -> str:
+    """Convert human-readable date to ISO format for EPUB compatibility.
+    
+    Examples:
+        "December 2025" -> "2025-12"
+        "2025" -> "2025"
+        "2025-12-01" -> "2025-12-01" (already ISO)
+    """
+    if not date_str:
+        return ""
+    
+    date_str = date_str.strip()
+    
+    # Already ISO format (YYYY-MM-DD or YYYY-MM or YYYY)
+    if re.match(r'^\d{4}(-\d{2})?(-\d{2})?$', date_str):
+        return date_str
+    
+    # Try "Month YYYY" format (e.g., "December 2025")
+    match = re.match(r'^(\w+)\s+(\d{4})$', date_str, re.IGNORECASE)
+    if match:
+        month_name = match.group(1).lower()
+        year = match.group(2)
+        if month_name in MONTH_MAP:
+            return f"{year}-{MONTH_MAP[month_name]}"
+    
+    # Try to extract just the year
+    year_match = re.search(r'\d{4}', date_str)
+    if year_match:
+        return year_match.group()
+    
+    return ""
 
 
 def find_books() -> dict[str, Path]:
@@ -260,7 +301,12 @@ def build_epub(book_dir: Path, metadata: dict) -> bool:
     if metadata.get("author"):
         cmd.extend(["--metadata", f"author={metadata['author']}"])
     if metadata.get("date"):
-        cmd.extend(["--metadata", f"date={metadata['date']}"])
+        # EPUB requires ISO date format (YYYY-MM-DD or YYYY-MM or YYYY)
+        # Convert human-readable dates like "December 2025" to "2025-12"
+        date_str = metadata['date']
+        epub_date = convert_to_iso_date(date_str)
+        if epub_date:
+            cmd.extend(["--metadata", f"date={epub_date}"])
     if metadata.get("language"):
         cmd.extend(["--metadata", f"lang={metadata['language']}"])
     

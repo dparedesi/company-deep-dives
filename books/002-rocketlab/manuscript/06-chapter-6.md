@@ -4,7 +4,7 @@
 
 Rocket Lab operates across a diverse and expanding range of target markets within the global space economy, leveraging its vertically integrated capabilities in launch vehicles, satellite components, and spacecraft platforms. Initially focused squarely on disrupting the small satellite launch sector, the company's strategic evolution has broadened its addressable markets significantly. As of mid-2025, Rocket Lab's primary target markets include:
 
-## 6.1.1. Small Satellite Launch Market (Dedicated & Rideshare)
+### Small Satellite Launch Market (Dedicated & Rideshare)
 
 This remains Rocket Lab's foundational market, served predominantly by the Electron launch vehicle.
 
@@ -12,7 +12,7 @@ This remains Rocket Lab's foundational market, served predominantly by the Elect
 * **Value Proposition:** Offering frequent, reliable, dedicated launch opportunities that provide customers with greater control over their orbit and launch schedule compared to traditional rideshare missions on larger rockets. Rideshare options are also available on Electron for cost-sensitive customers.  
 * **Customers:** Commercial constellation operators (for Earth observation, communications, IoT, maritime surveillance, etc.), government agencies (for scientific missions, technology demonstrations, defense/intelligence payloads), and academic institutions.
 
-## 6.1.2. Medium Satellite Launch Market (Future with Neutron)
+### Medium Satellite Launch Market (Future with Neutron)
 
 With the development of the Neutron rocket, Rocket Lab is strategically targeting the significantly larger medium-lift launch market.
 
@@ -20,7 +20,7 @@ With the development of the Neutron rocket, Rocket Lab is strategically targetin
 * **Value Proposition:** Aiming to offer a reliable, reusable, and cost-competitive ($\~50M target price) U.S.-based launch option in a market currently dominated by a small number of providers. Responsiveness and high-cadence potential (enabled by reuse) are key selling points.  
 * **Customers:** Large commercial constellation operators (e.g., broadband internet, expanded EO), government agencies (NASA science/exploration, DoD national security missions via NSSL), and potentially future commercial space stations or logistics missions.
 
-## 6.1.3. Satellite Components and Bus Market
+### Satellite Components and Bus Market
 
 Leveraging its vertical integration and acquisitions (SolAero, Sinclair, PSC, ASI, planned Mynaric), Rocket Lab serves the substantial market for satellite subsystems and platforms.
 
@@ -28,7 +28,7 @@ Leveraging its vertical integration and acquisitions (SolAero, Sinclair, PSC, AS
 * **Value Proposition:** Offering flight-proven, often vertically integrated components (solar power, GNC, structures, comms, software, separation systems) available commercially ("merchant market"). Providing configurable Photon satellite buses (Photon, Explorer, Lightning, Pioneer) allows customers to focus on their payload while procuring a reliable, mission-tailored platform.  
 * **Customers:** Diverse range, including commercial satellite primes, constellation ventures (e.g., Globalstar, SDA suppliers), government agencies (NASA, Space Force), and specialized commercial ventures (e.g., Varda Space Industries).
 
-## 6.1.4. Government & Defense Markets
+### Government & Defense Markets
 
 This is a critical and growing market segment served across multiple Rocket Lab divisions.
 
@@ -36,7 +36,7 @@ This is a critical and growing market segment served across multiple Rocket Lab 
 * **Value Proposition:** Providing trusted, reliable, and often responsive solutions tailored to government needs, including dedicated launch (Electron), hypersonic testing (HASTE), future national security launch (Neutron via NSSL), custom satellite platforms (Photon variants for SDA, VICTUS HAZE, NASA science), and high-reliability components.  
 * **Customers:** As listed above, representing a significant portion of Rocket Lab's current backlog and future growth opportunities.
 
-## 6.1.5. Future Markets (In-Space Services, Constellations)
+### Future Markets (In-Space Services, Constellations)
 
 Rocket Lab is strategically positioning itself to potentially capture value in emerging and future space markets beyond current launch and satellite manufacturing.
 
@@ -83,7 +83,7 @@ Rocket Lab is strategically positioned to capitalize on growth across multiple s
 
 Rocket Lab operates in dynamic and intensely competitive segments of the global space industry. Its expansion from a niche small launch provider to an end-to-end space systems company means it now faces a diverse array of competitors across its different business lines. Understanding this competitive landscape is crucial for assessing Rocket Lab's market position and future prospects.
 
-## 6.3.1. Launch Competitors (Small & Medium)
+### Launch Competitors (Small & Medium)
 
 * **Small Launch Market (Electron):**
 
@@ -97,7 +97,7 @@ Rocket Lab operates in dynamic and intensely competitive segments of the global 
   * **Emerging Competitors:** Other companies like **Relativity Space** (Terran R) and potentially **Firefly Aerospace** (with future medium-lift plans) aim to enter this segment as well. Various state-backed Chinese launchers also compete globally.  
   * **Neutron's Positioning:** Rocket Lab aims to position Neutron (targeting \~$50M price) as a reliable, reusable, U.S.-based alternative, potentially offering advantages in rapid responsiveness and leveraging modern design/manufacturing (composites, ORSC methalox engines, integrated reusable fairing). Success will depend on achieving its target performance, reliability, reusability, cadence, and price point on schedule to effectively challenge established players. Its selection for the NSSL Phase 3 program provides crucial validation and market access.
 
-## 6.3.2. Space Systems Competitors (Components & Buses)
+### Space Systems Competitors (Components & Buses)
 
 By vertically integrating and offering components and satellite buses, Rocket Lab enters markets populated by a wide range of established and new players.
 
@@ -111,7 +111,7 @@ By vertically integrating and offering components and satellite buses, Rocket La
   * Other New Space companies offering configurable small satellite buses (**Terran Orbital, York Space Systems, LeoStella,** etc.).  
   * Rocket Lab differentiates Photon through its direct lineage from the flight-proven Kick Stage, its configurable family approach catering to different mission needs (LEO, Deep Space, Constellations, Specialized), deep integration with in-house components, and the option for a seamless launch+bus package.
 
-## 6.3.3. Competitive Positioning Analysis (SWOT & Porter's Five Forces Elements Summary)
+### Competitive Positioning Analysis (SWOT & Porter's Five Forces Elements Summary)
 
 * **SWOT Analysis Summary:**  
   * **Strengths:** Proven Electron reliability & cadence, vertical integration, Space Systems growth & backlog, dual launch sites, Neutron potential, strong leadership, key government relationships.  

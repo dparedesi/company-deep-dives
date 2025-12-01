@@ -4,7 +4,7 @@
 
 Complementing its launch services, Rocket Lab has developed the Photon satellite platform, a cornerstone of its Space Systems division and its strategy to provide end-to-end space solutions. Evolving intelligently from the flight-proven Electron Kick Stage, Photon is not a single spacecraft but a configurable family of satellite buses designed to support a diverse range of mission profiles, from Low Earth Orbit (LEO) operations to interplanetary exploration. This platform allows customers, including Rocket Lab itself for integrated missions, to bypass the complexity and lead time often associated with developing bespoke satellite hardware.
 
-## 4.1.1. Origins and Common Architecture
+### Origins and Common Architecture
 
 The Photon platform's lineage traces directly back to the Electron's Kick Stage, inheriting its basic structure and leveraging the extensive flight heritage accumulated through numerous Electron missions. Rocket Lab enhanced this foundation by adding essential spacecraft subsystems required for standalone, long-duration missions, including dedicated power generation (solar arrays and batteries), thermal control systems, robust attitude determination and control systems (ADCS), and enhanced communication capabilities.
 
@@ -19,11 +19,11 @@ A key aspect underpinning the Photon family is Rocket Lab's vertical integration
 
 This high degree of component commonality across the Photon family, leveraging flight-proven hardware, is intended to streamline manufacturing, enhance reliability, reduce costs, and allow for faster deployment timelines. The platforms are assembled and tested at Rocket Lab's dedicated Spacecraft Production Complex in Long Beach, California.
 
-## 4.1.2. Photon (Base/LEO Variant): Core Capabilities
+### Photon (Base/LEO Variant): Core Capabilities
 
 The baseline Photon serves as the primary integrated launch-plus-spacecraft solution typically paired with the Electron rocket for LEO missions. It retains the Kick Stage's precision orbital insertion capabilities while adding the necessary subsystems for extended operations as a standalone satellite bus. Its typical applications include hosting customer payloads, serving civil, defense, and commercial missions, acting as a pathfinder (as demonstrated on its first flight, "First Light" in 2020), and supporting technology demonstrations like the LOXSAT cryogenic fuel management test mission for Eta Space/NASA. It generally offers moderate payload accommodation (up to \~170 kg), lower delta-V suitable for LEO station-keeping and deorbit, and an operational lifespan of up to approximately five years, powered by the Curie engine.
 
-## 4.1.3. Explorer (Deep Space Variant): Enabling Interplanetary Missions
+### Explorer (Deep Space Variant): Enabling Interplanetary Missions
 
 Designed specifically for missions beyond LEO, the Explorer variant equips the Photon platform for the rigors of deep space travel. Key modifications include:
 
@@ -33,7 +33,7 @@ Designed specifically for missions beyond LEO, the Explorer variant equips the P
 
 Explorer enables small spacecraft missions to destinations like the Moon (demonstrated by NASA's CAPSTONE mission, where Lunar Photon performed the trans-lunar injection), Mars (serving as the basis for the dual spacecraft in NASA's ESCAPADE mission), Venus, and Earth-Sun Lagrange points. Its payload capacity is necessarily reduced for these high-energy trajectories (around 40-50 kg cited for interplanetary), and it can be launched on Electron, Neutron, or other compatible vehicles.
 
-## 4.1.4. Lightning (LEO Constellation Variant): High-Power, Long-Life Design
+### Lightning (LEO Constellation Variant): High-Power, Long-Life Design
 
 The Lightning variant is optimized for the demanding requirements of large LEO constellations, particularly those focused on telecommunications or high-duty-cycle remote sensing. Its design emphasizes longevity and high performance:
 
@@ -44,7 +44,7 @@ The Lightning variant is optimized for the demanding requirements of large LEO c
 
 Lightning forms the basis for the 17 satellite buses Rocket Lab is building for Globalstar (via MDA) and its spacecraft for the U.S. Space Development Agency's constellation architecture. Due to its likely higher mass and intended application for constellation deployment, Lightning is designed for launch on medium or heavy-lift vehicles, including Rocket Lab's own Neutron.
 
-## 4.1.5. Pioneer (Specialized Mission Variant): Adaptability for Novel Operations
+### Pioneer (Specialized Mission Variant): Adaptability for Novel Operations
 
 The Pioneer variant showcases the Photon platform's high degree of configurability for unique and complex mission profiles. It is designed to support:
 
@@ -54,7 +54,7 @@ The Pioneer variant showcases the Photon platform's high degree of configurabili
 
 Pioneer's adaptability makes it suitable for missions requiring more than standard deployment, including demonstrations of novel space technologies and operations. It can be launched on Electron, Neutron, or other vehicles depending on mission requirements.
 
-## 4.1.6. HyperCurie Engine: Enabling High-Energy Missions
+### HyperCurie Engine: Enabling High-Energy Missions
 
 A key enabler for the high-performance Photon variants, particularly Explorer, is the HyperCurie engine. An evolution of the standard Curie engine, HyperCurie distinguishes itself by:
 
@@ -65,7 +65,7 @@ A key enabler for the high-performance Photon variants, particularly Explorer, i
 
 HyperCurie provides the necessary performance boost for Photon to execute demanding maneuvers like trans-lunar injection or interplanetary trajectory corrections.
 
-## 4.1.7. Modularity vs. Customization Analysis
+### Modularity vs. Customization Analysis
 
 The Photon family exemplifies a strategy balancing standardization with customization. The core architecture, leveraging common, vertically integrated components and Kick Stage heritage, provides a reliable and cost-effective foundation. Modularity is achieved by integrating different "mission kits"—encompassing specific propulsion modules (Curie vs. HyperCurie), tank sizes, power systems (standard vs. high-power Lightning arrays), communication packages (S-band vs. deep space), and specialized payload interfaces—onto this common backbone.
 

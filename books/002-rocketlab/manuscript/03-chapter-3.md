@@ -4,11 +4,11 @@
 
 The Electron rocket is the cornerstone upon which Rocket Lab built its reputation and market presence. As the company's first orbital launch vehicle, Electron was designed specifically to address the burgeoning market for dedicated small satellite launch services, offering frequent, reliable, and cost-effective access to orbit that was previously unavailable to this segment. Standing approximately 18 meters (59 ft) tall with a diameter of 1.2 meters (3 ft 11 in), Electron is tailored to deliver payloads of up to 320 kg (710 lb) to Low Earth Orbit (LEO). Since its first successful orbital launch in January 2018, Electron has become the second most frequently launched U.S. rocket annually (as of late 2024/early 2025 reporting), having completed over 60 launches and deployed over 200 satellites for a diverse range of commercial, civil, and defense customers by May 2025\.
 
-## 3.1.1. Architecture and Core Technologies
+### Architecture and Core Technologies
 
 Electron employs a two-stage architecture, utilizing liquid oxygen (LOX) and refined rocket-grade kerosene (RP-1) as propellants in both stages. A key design feature is its extensive use of advanced carbon composite materials for the main fuselage, propellant tanks, and other structural elements. This lightweight construction significantly reduces the vehicle's dry mass compared to traditional aluminum structures, directly enhancing its payload performance-to-weight ratio – a critical factor for efficiency in small launch vehicles. Rocket Lab leverages advanced manufacturing techniques, including automated processes ("Rosie the Robot"), for the production of these composite structures in-house. An optional third stage, known as the Kick Stage (which also forms the basis of the Photon satellite bus), can be added for enhanced orbital maneuvering and payload deployment precision.
 
-## 3.1.2. Rutherford Engine: Electric Pump-Fed Innovation
+### Rutherford Engine: Electric Pump-Fed Innovation
 
 Powering Electron are Rocket Lab's unique Rutherford engines, designed and manufactured in-house. The Rutherford marked a significant innovation as the first electric pump-fed engine to power an orbital-class rocket. Instead of complex and heavy traditional turbopumps driven by gas generators or preburners, the Rutherford engine uses high-performance lithium-polymer batteries to power brushless DC electric motors, which in turn drive the propellant pumps. This approach simplifies engine design, reduces part count, and is claimed to improve pump efficiency.
 
@@ -16,7 +16,7 @@ Rocket Lab extensively utilizes additive manufacturing (3D printing), primarily 
 
 The first stage of Electron is powered by a cluster of nine sea-level optimized Rutherford engines, collectively generating approximately 224 kN (50,400 lbf) of thrust at lift-off. The second stage employs a single Rutherford engine equipped with an extended nozzle optimized for vacuum operation, producing approximately 25.8 kN (5,800 lbf) of thrust with a higher specific impulse (Isp) of 343 seconds.
 
-## 3.1.3. The Kick Stage & Curie Engine: Precision Deployment
+### The Kick Stage & Curie Engine: Precision Deployment
 
 To provide enhanced mission flexibility and precise orbital insertion, Electron missions often incorporate the optional Kick Stage. This integrated third stage functions as an agile orbital transfer vehicle, equipped with its own avionics, communications, power, and propulsion systems. It is powered by the small, 3D-printed Curie engine, named after scientist Marie Curie.
 
@@ -29,7 +29,7 @@ The Curie engine is capable of multiple restarts in space, allowing the Kick Sta
 
 The Curie engine generates approximately 120 N (27 lbf) of thrust. Rocket Lab has indicated it uses an unspecified liquid bipropellant (potentially a "green" propellant or evolving from its earlier Viscous Liquid Monopropellant work), offering higher performance than simple monopropellants. The Kick Stage architecture also serves as the foundation for Rocket Lab's Photon satellite bus family (discussed in Chapter 4).
 
-## 3.1.4. Electron Performance and Mission Profiles
+### Electron Performance and Mission Profiles
 
 Electron is optimized for delivering payloads up to 320 kg to LEO or approximately 200 kg to a standard 500 km Sun-Synchronous Orbit (SSO), covering the majority of the small satellite market's needs. Its key performance attribute is providing dedicated launch opportunities, giving customers control over their launch schedule and destination orbit, avoiding the compromises often associated with ridesharing on larger rockets.
 
@@ -37,7 +37,7 @@ The vehicle has demonstrated a capability for rapid launch cadence, with multipl
 
 Electron has successfully flown a wide variety of missions, including deploying large constellations (for operators like BlackSky, Kinéis, Spire), launching single satellites for Earth observation (Capella Space, Synspective, Planet), supporting national security missions (NRO, U.S. Space Force), enabling scientific research (NASA), and facilitating technology demonstrations.
 
-## 3.1.5. Electron Reusability Program: Status, Challenges, and Nuances
+### Electron Reusability Program: Status, Challenges, and Nuances
 
 In a challenging endeavor for a small launch vehicle, Rocket Lab is actively pursuing partial reusability for Electron by recovering and aiming to re-fly its first stage. The program has evolved based on flight data:
 
@@ -53,7 +53,7 @@ As of May 2025, the Electron reusability program is ongoing, with Rocket Lab con
 
 Neutron represents Rocket Lab's ambitious leap into the medium-lift launch market and is central to its long-term strategy as an end-to-end space company. Announced in March 2021, Neutron is designed to significantly expand Rocket Lab's capabilities beyond the small satellite niche served by Electron, addressing the growing demand for deploying satellite constellations, launching larger national security and scientific payloads, and potentially enabling future missions like cargo transport or even human spaceflight. Development is proceeding at a rapid pace, with the first orbital launch attempt targeted for the second half of 2025\.
 
-## 3.2.1. Strategic Rationale and Target Markets
+### Strategic Rationale and Target Markets
 
 The development of Neutron is driven by several strategic factors:
 
@@ -62,7 +62,7 @@ The development of Neutron is driven by several strategic factors:
 * **National Security Focus:** Targeting high-assurance missions for the U.S. Department of Defense, evidenced by its selection for the U.S. Space Force's National Security Space Launch (NSSL) Phase 3 Lane 1 contract vehicle in March 2025\.  
 * **Enabling End-to-End Vision:** Neutron is critical for launching larger spacecraft built by Rocket Lab's own Space Systems division and potentially enabling the company to deploy and operate its own future satellite constellations and space-based services.
 
-## 3.2.2. Architecture and Design Philosophy
+### Architecture and Design Philosophy
 
 Neutron incorporates several innovative design features focused explicitly on reliability, reusability, and cost-effectiveness:
 
@@ -71,7 +71,7 @@ Neutron incorporates several innovative design features focused explicitly on re
 * **Integrated Reusable Fairing:** In a unique design choice, Neutron's payload fairing remains permanently attached to the first stage. It opens like a clamshell ("hungry hippo" design) to deploy the second stage and payload, then closes before the first stage returns for landing. This eliminates the complexity and cost associated with expendable or separately recovered fairings.  
 * **Full First Stage Reusability:** The entire first stage, including the integrated fairings and engines, is designed to return for a propulsive vertical landing (initially downrange on a platform, potentially evolving to return-to-launch-site). Features include aerodynamic control surfaces (canards) for atmospheric re-entry steering and a robust thermal protection system (TPS) to enable rapid turnaround.
 
-## 3.2.3. Archimedes Engine: Methalox ORSC Technology
+### Archimedes Engine: Methalox ORSC Technology
 
 Neutron is powered by Rocket Lab's in-house designed and manufactured Archimedes engine:
 
@@ -80,7 +80,7 @@ Neutron is powered by Rocket Lab's in-house designed and manufactured Archimedes
 * **Reusability Focus:** The engine is designed for high reliability and rapid reuse. It operates at lower internal temperatures and pressures than some other ORSC engines to enhance component life. It also features deep throttling capability (down to 50%), essential for controlled propulsive landings.  
 * **Manufacturing:** Like Rutherford, Archimedes leverages extensive additive manufacturing (3D printing) for key components, including turbopump housings, pre-burners, and combustion chamber elements, facilitating complex geometries and potentially faster production scaling.
 
-## 3.2.4. Development Status, Testing Progress, and Timelines (as of May 2025\)
+### Development Status, Testing Progress, and Timelines (as of May 2025\)
 
 Neutron development is a primary focus for Rocket Lab's R\&D efforts and capital expenditure:
 
@@ -91,7 +91,7 @@ Neutron development is a primary focus for Rocket Lab's R\&D efforts and capital
 * **Landing System:** The plan involves initial test flights potentially landing on water without recovery, followed by landings on a dedicated floating platform ("Return On Investment," expected 2026), eventually targeting return-to-launch-site landings for maximum efficiency. Payload capacity varies depending on the recovery profile (8 tonnes RTLS, 13 tonnes downrange landing, 15 tonnes expendable).  
 * **Validation & Contracts:** Selection for NSSL Phase 3 Lane 1 provides significant validation. The first mission contract secured is with AFRL for a Rocket Cargo re-entry demonstration.
 
-## 3.2.5. Potential Technical Challenges
+### Potential Technical Challenges
 
 Developing a reusable medium-lift rocket like Neutron involves overcoming significant technical hurdles, many common to next-generation launch vehicles:
 

@@ -18,6 +18,21 @@ The power of this ontological approach is multi-fold:
 
 This commitment to building and operationalizing rich ontologies is a foundational element that distinguishes Palantir from many other data analytics or AI platform providers. It is the intellectual scaffolding upon which its core product offerings are built.
 
+### Compute modules: Extending the platform with custom logic
+
+A critical evolution in Palantir's architecture is the introduction of **Compute Modules**, which allow organizations to run custom Docker containers directly within the platform's build system. This capability transforms Palantir from a closed analytical environment into an extensible computational substrate.
+
+Compute Modules enable users to:
+
+* **Deploy Custom Algorithms:** Data scientists can package proprietary models, specialized algorithms, or domain-specific computations as containerized workloads that execute natively within the Palantir environment.
+* **Leverage Any Programming Language:** While Palantir's native tools favor Python and SQL, Compute Modules support any language or framework that can run in a container, from R and Julia to Rust and Go.
+* **Integrate Legacy Systems:** Organizations can containerize existing analytical tools or business logic, preserving institutional investments while gaining the benefits of Palantir's data integration and governance.
+* **Scale Dynamically:** Compute Modules inherit Palantir's infrastructure orchestration, automatically scaling resources based on workload demands.
+
+The security model ensures that these custom containers operate within the same rigorous access controls and audit trails as native platform functions. Each Compute Module runs in an isolated environment with precisely defined permissions to access specific Ontology objects, preventing unauthorized data exposure while enabling powerful custom computations.
+
+This architectural openness represents a strategic shift: rather than forcing customers to adapt to Palantir's tooling, the platform now adapts to customer workflows, significantly reducing adoption friction and expanding the range of use cases the platform can address.
+
 ## Palantir Gotham: For Government and Intelligence Dominance
 
 **Stated Purpose:** Palantir Gotham is the company's original flagship platform, specifically engineered to meet the demanding needs of government agencies in the defense, intelligence, law enforcement, and homeland security sectors. Its primary mission is to integrate, manage, secure, analyze, and visualize massive, diverse datasets to empower human analysts in identifying threats, understanding complex situations, and supporting mission-critical decision-making.
@@ -39,7 +54,25 @@ This commitment to building and operationalizing rich ontologies is a foundation
 
 **Underlying Technologies:** Gotham utilizes a combination of proprietary algorithms and open-source components, all hardened for security and scalability. While historically emphasizing "intelligence augmentation" (human-AI teaming), increasingly sophisticated AI/ML capabilities are integrated for tasks like pattern recognition, anomaly detection, entity resolution, and natural language processing.
 
-**Strategic Significance:** Gotham established Palantir's reputation for tackling the most demanding data challenges. Its success in the U.S. intelligence and defense communities provided the financial stability and credibility that allowed the company to expand into other sectors.
+**Strategic Significance:** Gotham established Palantir's reputation for tackling the most demanding data challenges. Its success in the US intelligence and defense communities provided the financial stability and credibility that allowed the company to expand into other sectors.
+
+### Maven Smart System: From headquarters intelligence to tactical edge warfare
+
+The evolution of Gotham reached a pivotal inflection point with the integration of the **Maven Smart System (MSS)**, an operational interface now deployed across the US military and NATO allies. This transformation represents a fundamental shift from "headquarters intelligence" to "tactical edge warfare," where AI-driven analysis occurs not in distant command centers but directly alongside warfighters.
+
+**The sensor-to-shooter integration:** Central to MSS is the integration with hardware platforms like **Picogrid**, which bridges the gap between sensors (drones, reconnaissance cameras, satellite feeds) and shooters (artillery systems, missile platforms, air assets). This creates an end-to-end digital thread from detection to engagement.
+
+**Real-time kill chain automation:** The system automates the critical "Identify, Locate, Prioritize" steps of the kill chain:
+
+* **Identify:** AI models continuously process sensor feeds to detect and classify targets, distinguishing combatants from civilians, military hardware from civilian vehicles.
+* **Locate:** Multi-source data fusion triangulates precise target coordinates, correlating radar, visual, and signals intelligence.
+* **Prioritize:** Threat assessment algorithms rank targets based on operational priorities, rules of engagement, and time-sensitive opportunities.
+
+Commanders can then drag-and-drop AI-generated targeting data directly onto weapon system interfaces, dramatically compressing the decision cycle from hours to minutes or seconds.
+
+**Edge deployment architecture:** Unlike traditional intelligence systems that require connectivity to central data centers, MSS leverages Apollo's deployment capabilities to run sophisticated AI models on ruggedized edge hardware. This ensures operational continuity even in contested electromagnetic environments where communications may be denied or degraded.
+
+**Ethical safeguards:** Despite the automation, Gotham's MSS maintains strict human-in-the-loop requirements for lethal decisions. The system presents recommendations and supporting evidence, but the authority to engage remains with human commanders, adhering to international laws of armed conflict and Department of Defense policies on autonomous weapons.
 
 ## Palantir Foundry: The "Operating System" for the Enterprise
 
@@ -63,6 +96,23 @@ This commitment to building and operationalizing rich ontologies is a foundation
 
 **Strategic Significance:** Foundry represents Palantir's major push into the commercial sector, aiming to replicate its government success by providing a platform that can fundamentally transform how businesses operate through data.
 
+### Palantir Warp Speed: The AI-native manufacturing nervous system
+
+Building on Foundry's enterprise capabilities, Palantir launched **Warp Speed** as a distinct offering designed to revolutionize American re-industrialization. While Foundry addresses general enterprise data challenges, Warp Speed is purpose-built as an **AI-native Manufacturing Execution System (MES)** that transforms how factories operate.
+
+**Beyond traditional ERPs:** Conventional enterprise resource planning systems function as static databases, capturing what happened after the fact. Warp Speed inverts this paradigm by using the Ontology to create a "digital nervous system" that connects engineering designs directly to shop floor operations and supply chain logistics in real-time.
+
+**Core capabilities:**
+
+* **CAD/PLM Integration:** Warp Speed ingests data directly from computer-aided design (CAD) and product lifecycle management (PLM) systems, creating a live digital thread from engineering intent to manufacturing reality.
+* **Dynamic Feedback Loops:** When a component design changes upstream, Warp Speed automatically propagates updates through the system, modifying assembly workflows, adjusting quality gates, recalculating material requirements, and alerting affected suppliers, all in real-time without manual intervention.
+* **Quality Gate Automation:** Inspection criteria and tolerance specifications flow directly from engineering models, ensuring that quality control processes always reflect current design intent.
+* **Supply Chain Synchronization:** Changes ripple outward to suppliers and logistics partners, enabling proactive adjustments rather than reactive firefighting.
+
+**The "walled garden" breaker:** One of Warp Speed's most significant technical achievements is its use of LLMs as a "universal translation layer" to bridge legacy, siloed factory systems. Traditional manufacturing environments are plagued by proprietary systems that don't communicate: ERPs from SAP, PLM from Siemens, shop floor systems from dozens of specialized vendors. Warp Speed's AI-powered connectors can interpret data formats, understand semantic meanings, and translate between these walled gardens without requiring expensive point-to-point integrations.
+
+**Strategic context:** Warp Speed directly addresses the national priority of reshoring manufacturing to the United States. By dramatically reducing the complexity of standing up and operating modern factories, it positions Palantir at the center of defense industrial base modernization, semiconductor manufacturing expansion, and critical infrastructure rebuilding.
+
 ## Palantir Apollo: The Unsung Hero of Deployment & Management
 
 **Stated Purpose:** Palantir Apollo is a continuous delivery and infrastructure platform that powers Palantir's SaaS offerings (Gotham, Foundry, and AIP). Its core purpose is to enable the seamless, secure, and consistent deployment, management, and updating of Palantir's complex software across an extremely diverse range of environments – from public clouds and on-premises data centers to highly restricted, air-gapped classified networks and even edge devices. Apollo essentially allows Palantir to manage its entire suite of products "as a service," regardless of where the customer needs it to run.
@@ -82,6 +132,26 @@ This commitment to building and operationalizing rich ontologies is a foundation
 **Underlying Technologies:** Apollo is built on modern principles of microservices, containerization (like Kubernetes, though it manages Kubernetes itself), and sophisticated orchestration and automation technologies. It incorporates advanced networking and security capabilities to bridge disparate environments.
 
 **Strategic Significance:** Apollo is a critical, and often under-appreciated, technological moat for Palantir. It solves the incredibly difficult problem of delivering and maintaining complex, mission-critical software consistently and securely in environments where traditional SaaS vendors cannot easily operate. This capability is essential for Palantir's government business and its expansion into sovereign cloud initiatives and edge computing scenarios for commercial clients. It underpins the "Operational Sovereignty" that Palantir offers.
+
+### FedStart: Accreditation-as-a-service
+
+Perhaps Apollo's most commercially potent application is **FedStart**, a program that transforms federal compliance from a barrier into a software feature. For technology startups seeking to sell to the US government, the path to market has historically been brutal: obtaining FedRAMP authorization or Impact Level 5 (IL5) clearance typically requires 18-24 months of dedicated effort and $1-2 million in security investments, effectively locking innovative companies out of federal procurement.
+
+FedStart fundamentally restructures this equation:
+
+**How it works:**
+
+1. **Containerization:** The partner company packages their software as containers meeting Palantir's specifications.
+2. **Deployment:** These containers run inside Palantir's Apollo-managed environment, which already holds the necessary federal authorizations.
+3. **Inheritance:** The partner's software "inherits" Palantir's security accreditation, dramatically compressing the time-to-market.
+
+**Technical underpinnings:**
+
+* **Continuous Compliance Monitoring:** Apollo's automation ensures that security configurations remain compliant as software evolves, eliminating the risk of authorization drift.
+* **Air-Gap Capable Updates:** When vulnerabilities are discovered, Apollo can push patches across classified, air-gapped environments where traditional update mechanisms cannot reach.
+* **Audit Trail Generation:** Comprehensive logging satisfies federal audit requirements automatically, reducing the documentation burden on partner companies.
+
+**Strategic implications:** FedStart creates a powerful network effect. Each startup that joins the program strengthens the Palantir ecosystem, brings innovative capabilities to government customers, and generates recurring revenue through infrastructure fees. It positions Apollo not merely as internal tooling but as revenue-generating platform infrastructure, transforming compliance expertise into a scalable business model.
 
 ## Palantir AIP (Artificial Intelligence Platform): Operationalizing AI and LLMs on Private Data
 
@@ -107,6 +177,53 @@ This commitment to building and operationalizing rich ontologies is a foundation
 **Underlying Technologies:** AIP leverages the full data integration, ontological modeling, security frameworks, and application development capabilities of Foundry and Gotham. It uses Apollo for deployment and management. Technically, it involves technologies for managing and orchestrating LLMs, vector databases for retrieval augmented generation (RAG) to provide context to LLMs, prompt engineering tools, and frameworks for AI model fine-tuning and governance.
 
 **Strategic Significance:** AIP is Palantir's spearhead in the current generative AI revolution. It aims to differentiate itself by focusing on the secure, controlled, and operational deployment of AI within the enterprise, leveraging its existing strengths in data integration and management. The success of AIP is seen as critical to Palantir's future growth and its ambition to be the default operating system for AI in complex organizations.
+
+### AIP Logic: The IDE for AI workflows
+
+Moving beyond conversational AI interfaces, **AIP Logic** represents Palantir's answer to a critical enterprise need: deterministic, auditable AI workflows that can be trusted in mission-critical contexts. Logic functions as an "Integrated Development Environment (IDE) for AI," allowing users to construct sophisticated processes where an LLM is just one component in a larger chain of operations.
+
+**Core components:**
+
+* **Blocks:** The fundamental building unit of Logic workflows. Each block represents a discrete operation, which might be an LLM call, a database query, a code execution step, a conditional branch, or an interaction with an external system. Users chain blocks together visually, creating complex workflows without writing traditional code.
+* **The Debugger View:** Perhaps Logic's most valuable feature for enterprise adoption is the ability to see the LLM's chain-of-thought step by step. When a workflow executes, users can inspect exactly what input each block received, what reasoning the LLM performed, and what output it produced. This transparency is essential for regulatory compliance, error diagnosis, and building organizational trust in AI systems.
+* **Hybrid Execution:** Logic workflows seamlessly combine deterministic code execution (guaranteed to produce the same output given the same input) with probabilistic LLM reasoning. This allows enterprises to constrain AI behavior within business rules while still leveraging the flexibility of language models.
+
+**Practical applications:**
+
+* Automated document review workflows where LLMs extract information, code blocks validate against business rules, and human approval gates ensure oversight.
+* Customer service escalation logic where AI handles routine inquiries but deterministically routes complex cases to specialists.
+* Regulatory compliance checks that combine AI interpretation of natural language requirements with programmatic verification against structured data.
+
+### Ontology SDK (OSDK): Building on Palantir
+
+The introduction of the **Ontology SDK (OSDK)** marks a strategic pivot in how Palantir positions itself: no longer just a platform users log into, but a backend they build upon. OSDK allows developers to "generate a custom SDK of their business," creating type-safe programmatic access to their organization's Ontology.
+
+**How it works:**
+
+When an organization defines objects in their Palantir Ontology (factories, customers, orders, equipment, employees), OSDK automatically generates client libraries in Python, TypeScript, and other languages. A "Factory" object in Palantir becomes accessible via clean, intuitive code:
+
+```python
+# Python example
+factory = client.objects.Factory.get("factory-001")
+production_lines = factory.production_lines.list()
+for line in production_lines:
+    print(f"{line.name}: {line.efficiency_score}")
+```
+
+```typescript
+// TypeScript example
+const factory = await client.objects.Factory.get("factory-001");
+const alerts = await factory.activeAlerts.list();
+```
+
+**Capabilities enabled:**
+
+* **Custom Applications:** Development teams can build bespoke web and mobile applications that leverage Palantir's data integration and security without being constrained to Palantir's native interfaces.
+* **System Integration:** External systems can read from and write to the Ontology programmatically, enabling Palantir to serve as the connective tissue between enterprise applications.
+* **Inherited Security:** All OSDK operations inherit the fine-grained access controls defined in the platform. A developer's application cannot access data the end user isn't authorized to see.
+* **Real-time Subscriptions:** Applications can subscribe to Ontology changes, receiving updates when objects are created, modified, or deleted, enabling reactive user interfaces and event-driven architectures.
+
+**Strategic implications:** OSDK transforms Palantir's addressable market. Rather than competing solely as an analytics platform, Palantir becomes foundational infrastructure, the operational data layer that custom applications build upon. This creates deeper integration, higher switching costs, and expands revenue opportunities beyond per-seat licensing into platform consumption models.
 
 ## Inter-Platform Synergy: A Multiplied Force
 

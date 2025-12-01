@@ -4,9 +4,9 @@
 
 # Basic Information
 title: "The Palantir Enigma"
-subtitle: "Forging Operational Sovereignty in a Data-Driven World"
+subtitle: "Forging Operational Sovereignty in a Data-Driven World (Second Edition)"
 author: "Daniel Paredes"
-date: "2025"
+date: "December 2025"
 language: en
 
 # Cover Image (relative to images/ folder)
@@ -41,9 +41,12 @@ epub:
 
 # Book Description (for metadata)
 description: |
-  This report presents an exceptionally comprehensive and in-depth analysis 
-  of Palantir Technologies, aiming to move beyond readily available summaries 
-  to uncover novel insights and connections.
+  This book offers an exceptionally comprehensive and in-depth analysis 
+  of Palantir Technologies, moving beyond readily available summaries 
+  to uncover novel insights and connections. Current as of December 1, 2025,
+  this Second Edition incorporates Palantir's inclusion in the S&P 500,
+  its strategic transfer to Nasdaq, and the transition of AIP from pilot
+  projects to production agentic workflows.
 
 # Keywords/Tags
 keywords:
@@ -52,6 +55,9 @@ keywords:
   - AI
   - Technology
   - Business Analysis
+  - Operational Sovereignty
+  - AIP
+  - Enterprise AI
 
 # Publishing Info
 publisher: "Self-Published"
