@@ -1,0 +1,59 @@
+# Book Metadata
+# =============
+# This file controls how your book is built and styled.
+
+# Basic Information
+title: "The Rocket Lab Story and the Future of Space"
+subtitle: "Māhia to Mars"
+author: "Daniel Paredes"
+date: "2025"
+language: en
+
+# Cover Image (relative to images/ folder)
+cover_image: cover.jpg
+
+# Table of Contents
+toc: true
+toc_depth: 3
+
+# Chapter Numbering
+number_sections: true
+
+# PDF Styling (used by Typst template)
+pdf:
+  paper_size: "us-letter"  # or "a4"
+  font_size: "11pt"
+  margin:
+    top: "1in"
+    bottom: "1in"
+    left: "1.25in"
+    right: "1.25in"
+  fonts:
+    main: "Linux Libertine"
+    code: "Fira Code"
+  colors:
+    primary: "#1a237e"      # Deep blue for space theme
+    accent: "#ff6f00"       # Rocket orange
+
+# EPUB Styling
+epub:
+  chapter_level: 1
+
+# Book Description (for metadata)
+description: |
+  A comprehensive analysis of Rocket Lab, from its founding in New Zealand 
+  to becoming a major player in the commercial space industry. Covers the 
+  Electron rocket, Neutron development, and the future of space access.
+
+# Keywords/Tags
+keywords:
+  - Rocket Lab
+  - Space
+  - Electron
+  - Neutron
+  - Peter Beck
+  - New Space
+
+# Publishing Info
+publisher: "Self-Published"
+rights: "© 2025 Daniel Paredes. All rights reserved."

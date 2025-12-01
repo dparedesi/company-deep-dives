@@ -1,0 +1,58 @@
+# Book Metadata
+# =============
+# This file controls how your book is built and styled.
+
+# Basic Information
+title: "The Palantir Enigma"
+subtitle: "Forging Operational Sovereignty in a Data-Driven World"
+author: "Daniel Paredes"
+date: "2025"
+language: en
+
+# Cover Image (relative to images/ folder)
+cover_image: cover.jpg
+
+# Table of Contents
+toc: true
+toc_depth: 3
+
+# Chapter Numbering
+number_sections: true
+
+# PDF Styling (used by Typst template)
+pdf:
+  paper_size: "us-letter"  # or "a4"
+  font_size: "11pt"
+  margin:
+    top: "1in"
+    bottom: "1in"
+    left: "1.25in"
+    right: "1.25in"
+  fonts:
+    main: "Linux Libertine"  # or any font installed on your system
+    code: "Fira Code"
+  colors:
+    primary: "#2c3e50"      # Headers, links
+    accent: "#3498db"       # Highlights
+
+# EPUB Styling
+epub:
+  chapter_level: 1
+
+# Book Description (for metadata)
+description: |
+  This report presents an exceptionally comprehensive and in-depth analysis 
+  of Palantir Technologies, aiming to move beyond readily available summaries 
+  to uncover novel insights and connections.
+
+# Keywords/Tags
+keywords:
+  - Palantir
+  - Data Analytics
+  - AI
+  - Technology
+  - Business Analysis
+
+# Publishing Info
+publisher: "Self-Published"
+rights: "© 2025 Daniel Paredes. All rights reserved."
