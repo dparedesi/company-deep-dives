@@ -3,8 +3,8 @@
 # This file controls how your book is built and styled.
 
 # Basic Information
-title: "The Memory Business"
-subtitle: "SanDisk's Full Cycle"
+title: "The SanDisk Paradox"
+subtitle: "How Flash Memory's Pioneer Learned to Survive Itself"
 author: "Daniel Paredes"
 date: "April 2026"
 last_published: "2026-04-11"
@@ -12,6 +12,7 @@ language: en
 
 # Cover Image (relative to images/ folder)
 cover_image: cover.jpg
+cover_bg_color: "#011041"  # Exact background color for padding (sampled from generated image)
 
 # Table of Contents
 toc: true

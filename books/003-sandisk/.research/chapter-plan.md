@@ -2,7 +2,7 @@
 
 Plan Date: April 11, 2026
 Book Slug: sandisk
-Working Title: "The Memory Business: SanDisk's Full Cycle"
+Working Title: "The SanDisk Paradox: How Flash Memory's Pioneer Learned to Survive Itself"
 
 ---
 

@@ -36,7 +36,18 @@ Read existing frontmatter files (`books/001-palantir/manuscript/00-frontmatter.m
 Update `books/<NNN>-<slug>/about.md` with:
 
 #### Book Title and Subtitle
-Use the working title from metadata.yaml, or refine it based on what the manuscript actually argues.
+Review the working title from metadata.yaml and refine it based on what the manuscript actually argues. The title must:
+
+1. Include the company name for discoverability (readers search for the company).
+2. Be catchy and memorable, not generic. Avoid words like "Story", "Journey", "Rise", "Tale".
+3. Capture something specific about this company. The word or phrase after the company name should evoke the thesis or the company's distinctive quality.
+4. Vary in structure from other books in the repo. Do not default to "The <Company> <Noun>" every time. Examples of different structures:
+   - "The Palantir Enigma" (article + company + evocative noun)
+   - "Rocket Lab: The Small Launch Revolution" (company + colon + tagline)
+   - "SpaceX and the Reusable Future" (company + "and the" + thematic phrase)
+   - "Anduril's Defense" (company possessive + thematic word)
+
+If the working title from phase 1 already meets these criteria, keep it. If the manuscript revealed a stronger angle, rename accordingly.
 
 #### About the Book
 Write a comprehensive description (see `books/001-palantir/about.md` for length and depth). This should:

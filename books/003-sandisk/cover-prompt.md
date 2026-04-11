@@ -1,6 +1,6 @@
-# Cover design prompt: The Memory Business
+# Cover design prompt: The SanDisk Paradox
 
-Use this prompt to generate a professional book cover for "The Memory Business: SanDisk's Full Cycle" by Daniel Paredes.
+Use this prompt to generate a professional book cover for "The SanDisk Paradox: How Flash Memory's Pioneer Learned to Survive Itself" by Daniel Paredes.
 
 ---
 
@@ -20,9 +20,9 @@ The cover should evoke the themes of memory, cycles, and technology. The central
 
 ### Composition
 
-- **Upper portion:** The title "The Memory Business" in large, clean serif typography (think Linux Libertine or similar). White or very light text against the deep blue background.
+- **Upper portion:** The title "The SanDisk Paradox" in large, clean serif typography (think Linux Libertine or similar). White or very light text against the deep blue background.
 - **Center:** The cyclical visual element. This could be an abstract ring, a circuit-patterned circle, or an orbital motif suggesting return and renewal. The orange accent should highlight part of this element, perhaps a single arc or node breaking from the circle to suggest independence.
-- **Lower portion:** The subtitle "SanDisk's Full Cycle" and author name "Daniel Paredes" in smaller, clean sans-serif type.
+- **Lower portion:** The subtitle "How Flash Memory's Pioneer Learned to Survive Itself" and author name "Daniel Paredes" in smaller, clean sans-serif type.
 
 ### Typography
 

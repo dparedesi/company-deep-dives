@@ -6,7 +6,7 @@ On February 24, 2025, a company called Sandisk Corporation began trading on the 
 
 No other major technology company has completed a full founding-to-IPO-to-acquisition-to-independence cycle within four decades. SanDisk's journey from a three-person startup called SunDisk in 1988 to a newly independent public company in 2025 traverses the entire modern history of flash memory, from an unproven technology with niche applications to the dominant storage medium across consumer electronics, mobile devices, data centers, and automotive systems. Understanding this journey reveals the structural realities of the semiconductor industry: $10 to $20 billion fabrication facilities, extreme pricing volatility, the persistent advantage of Asian manufacturers with state backing or vertical integration, and the narrow path available to Western companies trying to compete in capital-intensive hardware businesses.
 
-This book, "The Memory Business: SanDisk's Full Cycle," presents the most comprehensive publicly available analysis of SanDisk Corporation. It moves beyond surface-level summaries to examine the technology, strategy, competitive dynamics, and structural forces that shaped a company whose story is ultimately about whether independence is viable in an industry that punishes mid-sized players.
+This book, "The SanDisk Paradox: How Flash Memory's Pioneer Learned to Survive Itself," presents the most comprehensive publicly available analysis of SanDisk Corporation. It moves beyond surface-level summaries to examine the technology, strategy, competitive dynamics, and structural forces that shaped a company whose story is ultimately about whether independence is viable in an industry that punishes mid-sized players.
 
 ## The uniqueness of the SanDisk story
 

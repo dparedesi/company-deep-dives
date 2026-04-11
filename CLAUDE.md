@@ -91,7 +91,10 @@ The PDF cover page renders at US Letter (8.5 x 11 inches, ratio 1:1.294). Image 
 6. Convert to JPEG: `sips -s format jpeg images/cover-padded.png --out images/cover.jpg`.
 7. Build and visually verify: `python scripts/build.py <slug>` then `open output/<NNN>-<slug>.pdf`.
 
-**Getting the exact background color:** Image generators use a background color that may not match the hex in `metadata.yaml`. Ask the user to sample the exact color from the image using a color picker (for example, imagecolorpicker.com, macOS Digital Color Meter, or any eyedropper tool) and provide the hex code. Use that exact color for padding so the bars blend seamlessly.
+**Getting the exact background color:** Image generators use a background color that may not match the hex in `metadata.yaml` `pdf.colors.primary`. Do NOT assume the metadata color matches. Instead:
+1. Check if `cover_bg_color` exists in `metadata.yaml`. If so, use it directly.
+2. If not, ask the user to sample the exact color from the image using a color picker (for example, imagecolorpicker.com, macOS Digital Color Meter, or any eyedropper tool) and provide the hex code.
+3. After sampling, **store it in `metadata.yaml`** as `cover_bg_color: "<HEX>"` so the cover can be regenerated later without re-sampling.
 
 **Key details:**
 - Always pad (extend canvas), never stretch or crop. Stretching distorts the design; cropping loses content.

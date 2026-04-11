@@ -32,7 +32,13 @@ books/<NNN>-<slug>/
 
 Copy the metadata.yaml from `books/001-palantir/metadata.yaml` as a template. Update:
 
-- `title`: A working title. Use the pattern "The <Company> <Something>" or a distinctive phrase. This is a placeholder; the user may change it later.
+- `title`: A working title that is catchy and memorable. The company name must appear in the title for discoverability (readers search for the company, not abstract phrases). Beyond that, vary the structure so books don't look like copies of each other. Examples of different structures:
+  - "The Palantir Enigma" (company name + evocative noun)
+  - "Rocket Lab: The Small Launch Revolution" (company name + colon + descriptive tagline)
+  - "SpaceX and the Reusable Future" (company name + "and the" + thematic phrase)
+  - "Anduril's Defense" (company possessive + thematic word)
+  - "The Stripe Network" (article + company name + noun)
+  Avoid generic words like "Story", "Journey", "Rise". Pick words that capture something specific about what makes this company interesting, disruptive, or different. This is a working title; the user may change it.
 - `subtitle`: A working subtitle that captures the core thesis angle. Placeholder.
 - `date`: Current month and year (for example, "April 2026").
 - `last_published`: Today's ISO date.
@@ -90,7 +96,7 @@ Write `books/<NNN>-<slug>/cover-prompt.md` with a detailed prompt for an image g
 - **What to avoid**: company logos (trademark risk), product photos, generic stock imagery (globes, handshakes, arrows), more than 3 colors, gradients/gloss effects.
 - **Reference style**: think Princeton University Press or MIT Press. Clean, geometric, confident, restrained.
 - **Technical specs**: US Letter ratio (8.5 x 11 inches, which is 1:1.294). Request this explicitly. In pixels at 150 DPI: 1275 x 1650. Generators will likely ignore the exact ratio, so plan for a dimension fix step.
-- **Cover dimension fix**: After the user provides the generated image, check its actual dimensions with `sips -g pixelWidth -g pixelHeight`. If the ratio does not match US Letter (1:1.294), pad the sides using ImageMagick: `magick <input> -background "<HEX_COLOR>" -gravity center -extent <target_width>x<height> cover-padded.png`. Calculate target width as `height * 8.5 / 11`. The background color must match the image's actual background exactly. Ask the user to sample it with a color picker and provide the hex code. Then convert to JPEG: `sips -s format jpeg cover-padded.png --out images/cover.jpg`. Never stretch or crop.
+- **Cover dimension fix**: After the user provides the generated image, check its actual dimensions with `sips -g pixelWidth -g pixelHeight`. If the ratio does not match US Letter (1:1.294), pad the sides using ImageMagick: `magick <input> -background "<HEX_COLOR>" -gravity center -extent <target_width>x<height> cover-padded.png`. Calculate target width as `height * 8.5 / 11`. The background color must match the image's actual background exactly. Ask the user to sample it with a color picker and provide the hex code. **Important:** Store the sampled color in `metadata.yaml` as `cover_bg_color: "<HEX>"` so the cover can be regenerated without re-sampling. Do NOT assume the metadata `pdf.colors.primary` matches the actual image background; image generators often shift colors. Then convert to JPEG: `sips -s format jpeg cover-padded.png --out images/cover.jpg`. Never stretch or crop.
 - **One-sentence summary** at the end.
 
 Read `books/003-sandisk/cover-prompt.md` as an example of the expected depth and format.
