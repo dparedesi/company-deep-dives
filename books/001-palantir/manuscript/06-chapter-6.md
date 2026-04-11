@@ -20,15 +20,15 @@ Palantir Gotham, augmented by Apollo for deployment and increasingly AIP for adv
 
 **Military Operations, Defense Modernization, and Readiness:**
 
-* **Application (e.g., US Army, US Navy, US Air Force, Special Operations Command \- SOCOM):**  
-  * **Common Operational Picture:** Integrating data from sensors, logistics systems, personnel records, and intelligence feeds to provide commanders with a unified view of the battlespace or operational environment.  
+* **Application (e.g., US Army, US Navy, US Air Force, Special Operations Command - SOCOM):**
+  * **Common Operational Picture:** Integrating data from sensors, logistics systems, personnel records, and intelligence feeds to provide commanders with a unified view of the battlespace or operational environment. Palantir and Anduril are collaborating on "Golden Dome" shield software, a defence initiative combining Palantir's data integration and AI capabilities with Anduril's autonomous systems expertise, extending the scope of AI-driven defence infrastructure. <!-- F5 -->  
   * **Predictive Maintenance:** Analyzing sensor data from vehicles, aircraft, and ships (e.g., Palantir's work with the US Air Force on aircraft readiness) to predict equipment failures, optimize maintenance schedules, and improve fleet availability.  
   * **Logistics & Supply Chain Optimization:** Tracking and managing the flow of personnel, equipment, and supplies in complex, often contested, environments.  
   * **Mission Planning & Targeting:** The US Army’s TITAN (Tactical Intelligence Targeting Access Node) program, for which a consortium including Palantir was selected as prime contractor, aims to use AI/ML integrated via Palantir software to rapidly process sensor data from space, air, and ground to provide targeting information for long-range precision fires. TITAN represents a key node in the military's push toward integrated sensor-to-shooter architectures.  
   * **Readiness (e.g., US Army's Vantage Program):** Providing a data-driven platform for Army leaders to assess and manage personnel readiness, equipment availability, and training status across the force.  
 * **AIP and Agentic Operations:** The US military is moving toward an "AI enterprise" architecture that consolidates previously fragmented contracts into larger umbrella agreements. Palantir is positioned as one of the core software vendors in this consolidation. AIP specifically serves as an orchestration layer on top of Gotham data that can automate tasks such as triaging sensor feeds, recommending logistics moves, or proposing maintenance actions. This represents a shift from purely analytical systems to ones that can act semi-autonomously under human supervision.
 * **Claimed Impact:** Improved situational awareness, faster decision-making cycles (OODA loop), increased operational efficiency, enhanced soldier/asset safety, reduced equipment downtime, and optimized resource allocation. For predictive maintenance, even modest improvements in fleet readiness can translate to significant cost savings and enhanced operational capability.  
-* **ROI Nature:** Measured in operational effectiveness, mission success rates, cost avoidance (e.g., preventing costly equipment failures or optimizing fuel consumption), and improved force readiness. The US Army's decision to award Palantir a $250 million contract in May 2024 to expand AI and machine learning capabilities underscores perceived value.
+* **ROI Nature:** Measured in operational effectiveness, mission success rates, cost avoidance (e.g., preventing costly equipment failures or optimizing fuel consumption), and improved force readiness. The US Army's decision to award Palantir a $250 million contract in May 2024 to expand AI and machine learning capabilities underscores perceived value. Palantir has also secured an approximately $1 billion contract with the US Department of Homeland Security, representing a significant expansion of its footprint in federal homeland security operations. <!-- F3 -->
 
 **Law Enforcement and Public Safety:**
 
@@ -41,6 +41,10 @@ Palantir Gotham, augmented by Apollo for deployment and increasingly AIP for adv
 * **Application:** Organizations like Team Rubicon (a veteran-led disaster response NGO) have used Palantir Foundry to integrate data for improved situational awareness during natural disasters. This includes mapping affected areas, tracking volunteer deployments, managing aid distribution, and identifying unmet needs.  
 * **Claimed Impact:** Faster and more efficient coordination of relief efforts, better allocation of scarce resources to the most affected populations, and improved volunteer management.  
 * **ROI Nature:** Measured in lives assisted, speed of aid delivery, and overall effectiveness of the humanitarian response. The ability to quickly make sense of a chaotic information environment during a crisis is invaluable.
+
+**Emerging defence and security partnerships:**
+
+Palantir's defence ecosystem continues to expand through targeted partnerships. A collaboration with Ondas Inc. for intelligence, surveillance, and reconnaissance (ISR) missions extends Palantir's role in defence-adjacent operational technology, while a partnership with Polymarket and TWG AI related to sports integrity represents a novel vertical for the company's data analytics capabilities. These partnerships, while individually modest in scale, demonstrate the breadth of Palantir's applicability across the defence and security spectrum. <!-- F10, F9 -->
 
 **Public Health and Pandemic Response:**
 
@@ -104,7 +108,7 @@ This model has two critical ROI implications. First, "time to first value" has c
 **Automotive, mobility, and logistics (e.g., Stellantis, Ferrari F1, Hertz):**
 
 * **Application:**  
-  * **Supply Chain Management & Resilience (Stellantis):** Using Foundry to improve visibility across complex, multi-tiered global supply chains, identify potential disruptions (e.g., chip shortages), and optimize inventory.  
+  * **Supply Chain Management & Resilience (Stellantis):** Using Foundry to improve visibility across complex, multi-tiered global supply chains, identify potential disruptions (e.g., chip shortages), and optimize inventory. Palantir extended this partnership for five years in early 2026, demonstrating continued commercial traction in the automotive and manufacturing vertical. <!-- F7 -->  
   * **Manufacturing Quality & Efficiency:** Analyzing production data to improve quality control and reduce defects.  
   * **High-Performance Engineering (Scuderia Ferrari):** Using Palantir to rapidly analyze vast amounts of data from F1 cars (telemetry, sensor data) and race simulations to optimize car performance, race strategy, and real-time decision-making.  
   * **Fleet Management (Hertz):** Hertz has chosen AIP to modernize its fleet analytics and AI development, replacing a mix of legacy systems. The goal is to optimize fleet allocation, pricing, and maintenance using generative AI and agents working over vehicle, customer, and operational data. This represents Palantir extending from pure analytics into "autonomous margin management" across a large, asset-heavy network.
@@ -133,13 +137,13 @@ At a national scale, the NHS Federated Data Platform reports similar system-leve
 
 **Financial services and insurance:**
 
-Banks, insurers, and health payers represent a growing area of AIP adoption.
+Banks, insurers, and health payers represent a growing area of AIP adoption. The expansion of Palantir's consulting partnership with Bain and Company illustrates a new channel strategy: Bain embeds Palantir technology in its client engagements, serving as a force multiplier for commercial adoption across financial services and other verticals. <!-- F8 -->
 
-* **Application:** Integrating diverse financial data (transaction records, customer data, market data, regulatory feeds) for:  
-  * Advanced Fraud Detection & Prevention.  
-  * Anti-Money Laundering (AML) and Know Your Customer (KYC) compliance.  
-  * Risk Management and Capital Adequacy.  
-  * Optimizing Trading Strategies and Execution.  
+* **Application:** Integrating diverse financial data (transaction records, customer data, market data, regulatory feeds) for:
+  * Advanced Fraud Detection & Prevention.
+  * Anti-Money Laundering (AML) and Know Your Customer (KYC) compliance.
+  * Risk Management and Capital Adequacy.
+  * Optimizing Trading Strategies and Execution.
   * Underwriting and claims workflow automation via AIP agents.
 * **Emerging patterns:** AIG expects to double its five-year CAGR partly due to Palantir technology. A major healthcare payer signed a five-year, $26 million deal within five weeks of an AIP trial, illustrating how compressed sales cycles and rapid trial-to-deal conversion are reshaping the ROI narrative. The value proposition is increasingly about embedding agents into underwriting and claims workflows rather than just analytics dashboards.
 * **Claimed Impact:** Reduced losses from fraud, improved compliance with complex regulations, more efficient risk management processes, enhanced trading performance.  

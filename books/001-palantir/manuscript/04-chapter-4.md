@@ -78,11 +78,11 @@ Palantir's cost structure reflects its dual identity as a high-growth software c
   * Palantir has been working to manage SBC levels more predictably, and its impact as a percentage of revenue has been declining.
   * In FY 2024, stock-based compensation increased by approximately 216 million dollars versus 2023, partly due to a 115.8 million dollar one-time acceleration on market-vesting stock appreciation rights. A large portion of reported SBC in 2024 reflects one-off acceleration of legacy awards rather than the run-rate compensation structure for new hires, which somewhat distorts GAAP margins in the short term.
 
-**Balance Sheet Strength:** As of December 2024, Palantir maintained 5.2 billion dollars of cash, equivalents, and short-term US Treasuries with no financial debt, providing substantial financial flexibility.
+**Balance Sheet Strength:** As of the end of FY2025, Palantir maintained approximately 7.18 billion dollars in cash, equivalents, and short-term US Treasuries with only approximately 229 million dollars in debt, providing substantial financial flexibility. <!-- F1 (updated) -->
 
 **Operating Leverage Emerging**
 
-The cost structure that once made Palantir look like a consulting-heavy hybrid now increasingly behaves like a mature software company. In Q2 2025, the company reported approximately 1.0 billion dollars in quarterly revenue (a milestone first), with GAAP operating margin around 27%, adjusted operating margin approximately 46%, and Rule of 40 around 94. By Q3 2025, GAAP operating margin reached roughly 33% and GAAP net income margin approximately 40%, with Rule of 40 above 110. The company is combining revenue growth of 48% to 63% with GAAP operating margins in the high twenties to low thirties and Rule of 40 scores in the 90 to 110 range, a level usually reserved for the strongest cloud franchises.
+The cost structure that once made Palantir look like a consulting-heavy hybrid now increasingly behaves like a mature software company. In Q2 2025, the company reported approximately 1.0 billion dollars in quarterly revenue (a milestone first), with GAAP operating margin around 27%, adjusted operating margin approximately 46%, and Rule of 40 around 94. By Q3 2025, GAAP operating margin reached roughly 33% and GAAP net income margin approximately 40%, with Rule of 40 above 110. For the full year FY2025, the company delivered gross margins of approximately 82%, EBIT margins near 32%, and net income margins of approximately 36%. Palantir is combining revenue growth above 50% with GAAP operating margins in the low thirties and Rule of 40 scores well above 100, a level usually reserved for the strongest cloud franchises. <!-- F1 (updated) -->
 
 ## Financial Performance Review: The Journey to Profitability and Growth
 
@@ -97,7 +97,7 @@ Palantir's financial narrative is one of transformation from a high-growth, loss
 * 2022: 1.91 billion dollars (24% year over year)
 * 2023: 2.23 billion dollars (17% year over year)
 * 2024: 2.9 billion dollars (approximately 30% year over year)
-* 2025: Guided to 4.396 to 4.40 billion dollars, roughly 53% year over year growth versus 2024, after three consecutive guidance raises.
+* 2025: Approximately 4.48 billion dollars, roughly 56% year over year growth versus 2024, exceeding the guidance range of 4.396 to 4.40 billion after three consecutive raises. <!-- F1 (updated) -->
 
 The trajectory tells a compelling story: after growth decelerated in 2022 and 2023 as Palantir invested in commercial go-to-market capabilities, AIP catalyzed a re-acceleration that has taken the company from mid-teens growth to over 50% growth in under two years.
 
@@ -138,7 +138,7 @@ The company is no longer in the "profit optional" phase. By Q3 2025, Palantir wa
 
 Palantir maintains a fortress balance sheet that provides substantial strategic flexibility.
 
-**Cash Position:** As of December 2024, the company held approximately 5.2 billion dollars in cash, equivalents, and short-term US Treasuries with no financial debt.
+**Cash Position:** As of the end of FY2025, the company held approximately 7.18 billion dollars in cash, equivalents, and short-term US Treasuries against approximately 229 million dollars in debt. <!-- F1 (updated) -->
 
 **Free Cash Flow Generation:**
 
@@ -159,7 +159,7 @@ Palantir's stock valuation reflects the market's assessment of its position as a
 
 **Late-2025 Valuation Metrics:**
 
-As of late 2025, Palantir has been one of the best-performing S&P 500 stocks, with shares up well over 100% year to date and having roughly doubled again after its S&P 500 inclusion. The company trades at forward price-to-earnings ratios in the 200+ range (approximately 246 times forward earnings in some recent analyses), compared to Nvidia at around 33 times. By any traditional metric, the valuation is extreme even by high-growth software standards. The market is effectively pricing Palantir as an AI infrastructure winner on par with the major hyperscalers.
+As of late 2025, Palantir had been one of the best-performing S&P 500 stocks, with shares reaching an all-time high of approximately $207.52. The company traded at forward price-to-earnings ratios in the 200+ range (approximately 246 times forward earnings in some recent analyses), compared to Nvidia at around 33 times. By early 2026, the stock had declined roughly 26% from that peak, trading at approximately $128 amid broader AI disruption fears across the software sector, though one-year returns remained positive at roughly 28 to 42% and three-year returns were approximately 1,498%. The forward P/E remained elevated near 99. By any traditional metric, the valuation is extreme even by high-growth software standards. The market is effectively pricing Palantir as an AI infrastructure winner on par with the major hyperscalers. <!-- F2 (updated) -->
 
 **The Bull Case:**
 
@@ -172,7 +172,7 @@ As of late 2025, Palantir has been one of the best-performing S&P 500 stocks, wi
 
 * Valuation is priced for perfection, with multiple commentators arguing there is no rational reason to own the stock besides momentum at current levels.
 * Heavy reliance on US government contracts exposes the company to macro uncertainty around defense budgets, even as commercial grows.
-* Some investors express concern about executive share sales, including CEO Alex Karp's 10b5-1 plan to sell up to approximately 1.2 billion dollars worth of stock through 2025.
+* Some investors express concern about executive share sales, including CEO Alex Karp's 10b5-1 plan to sell up to approximately 1.2 billion dollars worth of stock through 2025. In FY2025 and early 2026, insider selling intensified significantly: Peter Thiel sold approximately $570 million in shares, with other insiders including Stephen Cohen, Shyam Sankar, Ryan Taylor, and Matthew Glazer also selling substantial amounts. While such selling can reflect normal diversification and pre-planned trading programmes, the scale and breadth at a premium valuation has drawn investor attention as a risk signal. <!-- F13 (updated) -->
 * International commercial growth has lagged US performance, raising questions about global scalability.
 
 **A Valuation Sanity Check:**
@@ -183,12 +183,12 @@ A simple way to think about Palantir's valuation is to translate the premium mul
 
 As of late 2025, Palantir's key metrics present a company at an inflection point:
 
-* **Revenue:** 2.9 billion dollars in 2024, guided to approximately 4.4 billion dollars in 2025 (53% year over year growth).
+* **Revenue:** 2.9 billion dollars in 2024, approximately 4.48 billion dollars in FY2025 (56% year over year growth), slightly exceeding guidance. <!-- F1 (updated) -->
 * **Revenue Mix:** 55% government, 45% commercial; US accounts for approximately two-thirds of total revenue.
-* **Profitability:** GAAP net income margins around 30% to 40% in 2025 quarters, Rule of 40 comfortably above 40 (reaching 110+ in Q3 2025).
-* **Cash Position:** Over 5 billion dollars in cash and Treasuries, no debt.
-* **Free Cash Flow:** 1.9 to 2.1 billion dollars adjusted free cash flow guidance for FY 2025.
-* **Valuation:** Top-performing S&P 500 name with a very high forward price-to-earnings ratio, highly sensitive to any change in the AIP growth story.
+* **Profitability:** GAAP net income approximately 1.63 billion dollars for FY2025 (36% margin), gross margin approximately 82%, EBIT margin approximately 32%. Rule of 40 comfortably above 100. <!-- F1 (updated) -->
+* **Cash Position:** Approximately 7.18 billion dollars in cash and Treasuries, approximately 229 million dollars in debt. <!-- F1 (updated) -->
+* **Free Cash Flow:** Approximately 2 billion dollars adjusted free cash flow for FY 2025. <!-- F1 (updated) -->
+* **Valuation:** Stock declined roughly 26% from an all-time high of approximately $207.52 in early 2026, trading near $128 with a forward P/E near 99. Highly sensitive to any change in the AIP growth story. <!-- F2 (updated) -->
 
 **Summary of Financial Trajectory:**  
 Palantir has successfully navigated a challenging path from a pioneering, mission-driven private company to a publicly traded entity demonstrating increasing financial discipline and a clear trajectory towards sustainable, profitable growth. The US commercial segment, powered by AIP, is currently its main growth engine. Strong gross margins, improving operating leverage, and robust free cash flow generation paint a picture of improving financial health. However, its premium valuation necessitates continued exceptional execution and leadership in the rapidly evolving AI-driven enterprise software market. The ability to translate its technological prowess into consistent, scalable, and profitable growth across both its commercial and government segments globally will ultimately determine its long-term financial success and market standing.

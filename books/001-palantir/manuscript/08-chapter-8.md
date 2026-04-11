@@ -66,7 +66,7 @@ Palantir faces intense competition and evolving market dynamics that could threa
 
 **Commercial Adoption Challenges & Churn:**
 
-* **Risk:** Despite strong recent US commercial growth, sustaining this momentum, successfully replicating it internationally, and preventing churn among large commercial clients are ongoing challenges. Failure to consistently demonstrate compelling ROI or adapt to specific industry needs could slow commercial adoption.  
+* **Risk:** Despite strong recent US commercial growth, sustaining this momentum, successfully replicating it internationally, and preventing churn among large commercial clients are ongoing challenges. Failure to consistently demonstrate compelling ROI or adapt to specific industry needs could slow commercial adoption. Broader AI disruption fears have also hit the software sector, with investors questioning whether AI agents will disintermediate traditional software vendors. Palantir faces dual exposure as both a potential disruptor through AIP and a potential disruptee if AI commoditises data integration. <!-- F18 -->
 * **Impact:** Missed growth targets, reduced investor confidence, inability to diversify sufficiently from government revenue.
 
 **Dependence on Sustained AI Investment Cycle:**
@@ -107,8 +107,7 @@ By 2024, Palantir held $5.2 billion in cash, cash equivalents, and short-term Tr
 
 **Valuation Risk:**
 
-* **Risk:** Palantir's stock often trades at a premium valuation (e.g., high Price-to-Sales multiple) compared to many peers, predicated on expectations of sustained high growth and AI leadership. Investor commentary increasingly flags Palantir's valuation as "too high" relative to its revenue scale and independence, especially versus bundled cloud players. This valuation is vulnerable to shifts in market sentiment, interest rate changes, or any failure by Palantir to meet these lofty expectations. If US commercial growth slows or ethical controversies bite, valuation compression could be severe.  
-* **Impact:** High stock price volatility, potential for sharp corrections if growth falters or market sentiment sours on high-growth tech.
+* **Risk:** Palantir's stock often trades at a premium valuation (e.g., high Price-to-Sales multiple) compared to many peers, predicated on expectations of sustained high growth and AI leadership. Investor commentary increasingly flags Palantir's valuation as "too high" relative to its revenue scale and independence, especially versus bundled cloud players. This valuation is vulnerable to shifts in market sentiment, interest rate changes, or any failure by Palantir to meet these lofty expectations. If US commercial growth slows or ethical controversies bite, valuation compression could be severe. In early 2026, the stock declined approximately 26% from an all-time high of around $207.52 amid broader AI disruption fears across the software sector, illustrating the execution risk embedded in the premium valuation. The analyst community has become polarised: bulls cite a "Category of One" positioning and an "ontology moat that proves itself," while bears maintain that the valuation leaves no room for missteps. This disagreement itself is a risk factor, as it increases stock volatility and the potential for sharp sentiment shifts. <!-- F2, F17 -->
 
 **Litigation, Fines, and AI Regulation Costs:**
 
@@ -152,7 +151,7 @@ Given the nature of its technology and client base, ethical and reputational ris
 
 **Persistent Negative Public Perception and Activist Campaigns:**
 
-* **Risk:** Ongoing controversies (e.g., work with ICE including ImmigrationOS, predictive policing concerns, military AI) can solidify a negative public image, making it harder to win certain commercial contracts (especially with ESG-focused companies or consumer brands), attract and retain top talent (particularly in AI), and gain regulatory approvals. Recent flashpoints include the NHS Federated Data Platform backlash, with a BMJ editorial and British Medical Association vote opposing Palantir as an FDP partner, investor-led human rights campaigns around ICE work, and growing concern about Palantir's role in Israel and Gaza leading to divestment decisions by at least one European asset manager. These issues are no longer only social media arguments but involve major medical bodies and institutional investors. Ethical controversies can hinder recruitment and retention of top AI engineers who may prefer employers perceived as less politically entangled, echoing the Google Project Maven episode.  
+* **Risk:** Ongoing controversies (e.g., work with ICE including ImmigrationOS, predictive policing concerns, military AI) can solidify a negative public image, making it harder to win certain commercial contracts (especially with ESG-focused companies or consumer brands), attract and retain top talent (particularly in AI), and gain regulatory approvals. The ImmigrationOS contract, described in reporting as powering aspects of the US deportation crackdown, has drawn criticism from prominent technology figures including Paul Graham, extending the debate beyond activist circles into mainstream tech discourse. Recent flashpoints include the NHS Federated Data Platform backlash, with a BMJ editorial and British Medical Association vote opposing Palantir as an FDP partner, investor-led human rights campaigns around ICE work, and growing concern about Palantir's role in Israel and Gaza leading to divestment decisions by at least one European asset manager. These issues are no longer only social media arguments but involve major medical bodies and institutional investors. Ethical controversies can hinder recruitment and retention of top AI engineers who may prefer employers perceived as less politically entangled, echoing the Google Project Maven episode. <!-- F4 -->
 * **Impact:** Limited commercial market penetration, increased recruitment costs, employee morale issues, ongoing legal and public relations battles.
 
 **Failure to Uphold "Ethical AI" Principles:**
@@ -168,6 +167,11 @@ Internal operational challenges can also pose significant risks.
 
 * **Risk:** Palantir relies heavily on the vision and leadership of CEO Alex Karp. His departure could create uncertainty. Additionally, the loss of other key executives or a significant number of highly skilled engineers and data scientists (particularly those with deep knowledge of Palantir's complex systems or cutting-edge AI) could disrupt innovation, client relationships, and operational execution. The broader AI talent war, where big tech spends hundreds of billions on AI and pays aggressive compensation, increases the opportunity cost for Palantir engineers and intensifies retention challenges.  
 * **Impact:** Leadership vacuum, slower product development, loss of institutional knowledge, potential impact on strategic direction.
+
+**Insider selling concentration:**
+
+* **Risk:** Significant insider selling has occurred at Palantir: Peter Thiel sold approximately $570 million in shares, with other insiders including CEO Alex Karp, Stephen Cohen, Shyam Sankar, Ryan Taylor, and Matthew Glazer also selling substantial amounts. While such selling can reflect normal diversification and pre-planned trading programmes, the scale and breadth at a premium valuation has drawn investor attention. CEO Alex Karp's corporate jet expenses of approximately $17.2 million have also attracted scrutiny, adding to governance concerns around leadership concentration and corporate spending. <!-- F13, F14 -->
+* **Impact:** Negative signal to the market about insider confidence, potential contribution to valuation pressure, governance risk if shareholders perceive excessive executive compensation or insufficient alignment with long-term value creation.
 
 **Failure to Effectively Scale Go-to-Market (GTM) Strategies:**
 

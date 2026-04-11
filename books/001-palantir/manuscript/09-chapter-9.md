@@ -3,7 +3,7 @@
 Having dissected Palantir Technologies' history, technology, business model, market positioning, ethical considerations, and risk factors, this chapter synthesizes these elements to project a future outlook. It explores potential trajectories through multi-scenario forecasting, identifies unexploited strategic opportunities, and culminates in the "Operational Sovereignty" thesis: an unprecedented perspective on Palantir's unique value proposition and strategic endgame. As of late 2025, several developments have materially reshaped the outlook:
 
 * Q3 2025 delivered record quarterly revenue of approximately 1.18 billion dollars, up roughly 63 percent year over year, with GAAP operating margin around 33 percent.
-* Full-year 2025 guidance was raised to approximately 4.4 billion dollars, driven largely by US commercial hypergrowth: US commercial revenue up about 120 percent year over year and remaining deal value up nearly 200 percent.
+* Full-year 2025 revenue reached approximately 4.48 billion dollars (slightly exceeding the guidance of 4.4 billion), with TTM net income of approximately 1.63 billion dollars and a cash position of approximately 7.18 billion dollars. <!-- F1 -->
 * The US Army awarded a ten-year enterprise service agreement with a ceiling of up to 10 billion dollars, consolidating approximately 75 separate contracts into a unified platform relationship.
 * NATO acquired the Maven Smart System (MSS NATO) as an AI-enabled warfighting platform, and the US Maven Smart System contract ceiling was increased.
 * The NHS Federated Data Platform rollout advanced with an estimated whole-life cost above 1 billion pounds and expected five-times returns, though adoption remains uneven and controversy persists.
@@ -17,7 +17,7 @@ The trajectory of Palantir over the next five to ten years is subject to a confl
 
 **Where we stand in late 2025**
 
-As context for these scenarios, Palantir's Q3 2025 run rate places annual revenue around 4.7 billion dollars, with GAAP operating margins in the low thirties and raised full-year guidance of approximately 4.4 billion dollars. The company is now firmly GAAP profitable at scale, structurally more diversified in defence through Maven and the Army enterprise deal, and still relatively concentrated in US markets, with slower progress in some international public-sector settings (for example, the UK border contract was not renewed). These facts anchor all three scenarios.
+As context for these scenarios, Palantir's FY2025 results confirmed annual revenue of approximately 4.48 billion dollars, with GAAP operating margins in the low thirties and net income of approximately 1.63 billion dollars. The company is now firmly GAAP profitable at scale, structurally more diversified in defence through Maven and the Army enterprise deal, and still relatively concentrated in US markets, with slower progress in some international public-sector settings (for example, the UK border contract was not renewed). Maven Smart System has been designated a formal Pentagon programme of record, strengthening the defence platform entrenchment thesis. In early 2026, the stock declined approximately 26% from its all-time high amid broader AI disruption fears, illustrating the execution risk embedded in the premium valuation. <!-- F1, F6, F2 -->
 
 **I. Base Case Scenario: "Sustained AI Adoption & Operational Integration"**
 
@@ -26,7 +26,7 @@ As context for these scenarios, Palantir's Q3 2025 run rate places annual revenu
 * **Leading indicators as of 2025:**
   * US commercial growth above 100 percent year over year and rapid expansion in remaining deal value, consistent with or slightly ahead of the base case adoption path.
   * Defence platform entrenchment via the Army enterprise agreement and Maven Smart System expansion, stabilising government revenue growth in line with the base case narrative.
-* **Outcome:** Consistent strong double-digit revenue growth (e.g., potentially reaching $8-10 billion annually by mid-2030), gradually improving operating margins, and solidification as a key player in enterprise AI. This would require sustaining roughly high-teens to low-twenties compound annual revenue growth from the current 2025 guidance baseline.
+* **Outcome:** Consistent strong double-digit revenue growth (e.g., potentially reaching $8-10 billion annually by mid-2030), gradually improving operating margins, and solidification as a key player in enterprise AI. This would require sustaining roughly high-teens to low-twenties compound annual revenue growth from the FY2025 actual baseline of approximately $4.48 billion. <!-- F1 -->
 
 **II. Bull Case Scenario: "Dominant AI Operating System & Global Market Expansion"**
 
@@ -41,7 +41,7 @@ As context for these scenarios, Palantir's Q3 2025 run rate places annual revenu
   * NHS Federated Data Platform backlash and cost scrutiny as a template for how large headline projects can become contentious and politically fragile.
   * Ongoing criticisms around ICE, Israel and Gaza, and investor activism, which show ethical issues can escalate beyond social media to medical unions and asset managers.
   * AI capex cycle reversal: big tech AI infrastructure spending may exceed hundreds of billions per year and could be cut back sharply if returns disappoint.
-* **Outcome:** Revenue growth slows dramatically to single digits or stagnates (e.g., struggling to consistently stay above $5-6 billion annually by mid-2030). With 4.4 billion dollars in guidance already for 2025, this scenario would require a very sharp deceleration. Margin pressure increases, and GAAP profitability could become inconsistent. Investor confidence wanes, significantly impacting its valuation.
+* **Outcome:** Revenue growth slows dramatically to single digits or stagnates (e.g., struggling to consistently stay above $5-6 billion annually by mid-2030). With approximately $4.48 billion in FY2025 actual revenue, this scenario would require a very sharp deceleration. Margin pressure increases, and GAAP profitability could become inconsistent. Investor confidence wanes, significantly impacting its valuation. The early-2026 stock correction, driven partly by broader AI disruption fears, illustrates how quickly sentiment can shift when growth expectations are questioned. <!-- F1, F2 -->
 
 **Critical Variables Influencing Scenarios:**
 
