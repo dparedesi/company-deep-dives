@@ -1,0 +1,5 @@
+# Consistency flags: 00-frontmatter.md (October 2026)
+
+| 00-frontmatter.md | house view weights (55/30/15), re-based bands ($680 billion base, roughly $800 billion bull, roughly $160 bear), scorecard verdicts, and the $214.13 risk-reward line | written to match chapter 10's current text exactly; chapter 10 is being edited in parallel this cycle, so if its weights, bands, or verdict move, the frontmatter must follow |
+| 00-frontmatter.md | fiscal 2027 prints ($81.6 billion Q1, $96.2 billion Q2, $108.0 billion guide, $285.8 billion through three quarters, above $400 billion track) and the segment taxonomy (Hyperscale $48.7 billion, ACIE $40.3 billion, 45 percent of Data Center) | chapter 5 owns the full treatment of both; verify same value, unit, and period anchor after its edit lands |
+| 00-frontmatter.md | share figures (80 to 85 percent overall, below 75 percent inference, roughly 92 percent in 2023, China domestic 34 percent with Huawei at 28) | chapter 6 owns the competitive-share treatment; confirm no divergence after its edit, and that analyst-estimate attribution survives in both places |

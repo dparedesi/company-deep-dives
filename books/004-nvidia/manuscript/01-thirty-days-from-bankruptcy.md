@@ -218,9 +218,9 @@ The IPO in January 1999 provided an infusion of capital that allowed NVIDIA to a
 
 Fiscal 2001 saw revenue of $735 million and net income of $83 million. The GeForce line was established as the performance leader, and NVIDIA was gaining market share. The Xbox launched in November 2001, setting the stage for continued growth.
 
-Fiscal 2002 was a peak year for this early period. Revenue reached $1.47 billion, and net income was $95 million. NVIDIA was firmly established as the leader in discrete graphics. The company's market capitalization had grown significantly from its IPO, reflecting investor confidence in the company's position.
+Fiscal 2002 was a peak year for this early period. Revenue reached approximately $1.5 billion, and net income was $95 million. NVIDIA was firmly established as the leader in discrete graphics. The company's market capitalization had grown significantly from its IPO, reflecting investor confidence in the company's position.
 
-However, fiscal 2003 saw a decline. Revenue dropped to $1.09 billion, and net income fell to $61 million. Several factors contributed to this decline. The overall PC market was softening after the dot-com bust. Intel and AMD were improving their integrated graphics, reducing the demand for discrete graphics in some segments. And ATI was competing more effectively, winning back some market share.
+However, fiscal 2003 saw a decline. Revenue dropped to approximately $1.1 billion, and net income fell to $61 million. Several factors contributed to this decline. The overall PC market was softening after the dot-com bust. Intel and AMD were improving their integrated graphics, reducing the demand for discrete graphics in some segments. And ATI was competing more effectively, winning back some market share.
 
 This decline would have been alarming at most companies, but NVIDIA's culture, forged in the near-bankruptcy experience, viewed it as a call to action rather than a reason to panic. The company continued to invest in research and development, working on new architectures and technologies that would eventually restore growth.
 
@@ -314,7 +314,7 @@ One way NVIDIA maintains culture is through storytelling. The story of the thirt
 
 Another cultural mechanism is the quarterly reset process. Employees submit their five most important priorities for the quarter, which are reviewed by management. This ensures alignment and allows resources to be shifted quickly as priorities change. The process is more dynamic than traditional annual planning and reflects NVIDIA's need for strategic flexibility.
 
-The company's global presence has expanded significantly beyond Santa Clara. Israel hosts a major R&D center with over 4,500 employees, about 15% of the global workforce. This is primarily due to the 2019 acquisition of Mellanox Technologies, an Israeli networking company. NVIDIA has announced plans to expand the Israel center to 10,000 employees. The company also has research centers in Armenia and offices distributed globally.
+The company's global presence has expanded significantly beyond Santa Clara. Israel hosts a major R&D center with over 4,500 employees. This is primarily due to the 2019 acquisition of Mellanox Technologies, an Israeli networking company. NVIDIA has announced plans to expand the Israel center to 10,000 employees. The company also has research centers in Armenia and offices distributed globally.
 
 This growth and geographic expansion represents a dramatic transformation from the company that was thirty days from bankruptcy in 1997. But the culture of urgency, the willingness to make difficult pivots, and the focus on technical excellence have persisted. The spaceship buildings in Santa Clara house a very different company than the one that gathered at a Denny's in 1993, but the DNA remains recognizable.
 
@@ -348,7 +348,7 @@ By 2006, NVIDIA had recovered from its near-death experience a decade earlier. T
 
 But NVIDIA faced significant challenges. Integrated graphics from Intel and AMD were threatening the discrete graphics market. The console market had shifted toward custom integrated solutions from the console manufacturers themselves. The PC market was mature, with growth driven primarily by replacement cycles rather than new adoption.
 
-It was in this context that NVIDIA made what appeared to be a perplexing decision. The company would invest more than a billion dollars to develop CUDA, a general-purpose parallel computing platform that would allow GPUs to run applications that had nothing to do with graphics. There was no obvious customer demand for this capability. There was no clear revenue model. Wall Street analysts were baffled. Why was a profitable graphics company diverting resources to a market that might not exist?
+It was in this context that NVIDIA made what appeared to be a perplexing decision. The company would invest more than $1 billion to develop CUDA, a general-purpose parallel computing platform that would allow GPUs to run applications that had nothing to do with graphics. There was no obvious customer demand for this capability. There was no clear revenue model. Wall Street analysts were baffled. Why was a profitable graphics company diverting resources to a market that might not exist?
 
 The answer lay in Jensen Huang's strategic vision and the company's culture, forged in the crucible of near-bankruptcy. NVIDIA had survived because it was willing to make difficult pivots when the market dictated. The NV1 had failed because it misread where the industry was going. The RIVA 128 had succeeded because it aligned with industry standards. CUDA was a bet that computing was about to shift in a direction where massive parallelism would be essential.
 

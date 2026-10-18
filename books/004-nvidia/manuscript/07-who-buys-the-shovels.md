@@ -2,29 +2,29 @@
 
 NVIDIA's transformation from a gaming graphics company to the foundational infrastructure provider for the AI revolution is reflected in its customer base. The company that once sold GeForce cards to gamers now sells H100 and Blackwell GPUs to the world's most valuable companies. The customer roster includes every major hyperscaler, leading AI research labs, Fortune 500 enterprises, automotive OEMs, healthcare systems, and sovereign nations. This chapter maps the NVIDIA customer ecosystem, analyzing who buys, why they buy, and how their purchasing patterns shape NVIDIA's business.
 
-The customer data tells a clear story. NVIDIA's Data Center revenue reached 193.7 billion dollars in fiscal year 2026, up 68 percent year-over-year. This revenue is highly concentrated. A small number of hyperscalers reportedly account for 40 to 50 percent of total Data Center revenue. The top five customers, likely Microsoft, Meta, Google, Amazon, and Oracle, represent the majority of NVIDIA's highest-margin products. This concentration is both a strength and a vulnerability. It provides scale and predictability, but it creates dependency risk as these customers develop their own alternatives.
+The customer data tells a clear story. NVIDIA's Data Center revenue reached $193.7 billion in fiscal year 2026, up 68 percent year-over-year. The revenue is highly concentrated, and the concentration now has two layers. By end market, hyperscalers account for roughly 40 to 50 percent of Data Center revenue, on analyst estimates. By direct purchaser, three customers, largely ODMs and distributors rather than the end users themselves, took about 44 percent of first-half fiscal 2027 revenue, where a year earlier only two customers exceeded 10 percent, and five customers held 70 percent of accounts receivable at July 26, 2026. The remainder of the Data Center book is diversifying into what NVIDIA now reports as ACIE, for AI Clouds, Industrial and Enterprise, which reached 45 percent of Q2 fiscal 2027 Data Center revenue. This concentration is both a strength and a vulnerability. It provides scale and predictability, but it creates dependency risk as these customers develop their own alternatives.
 
 ## The Hyperscalers: Primary Customers and Potential Competitors
 
-The hyperscalers are NVIDIA's largest, most important, and most dangerous customer segment. Microsoft, Google, Amazon, Meta, and Oracle collectively represent the majority of NVIDIA's Data Center revenue. These companies have multiyear, multigenerational partnerships with NVIDIA. They also have the engineering resources and financial scale to develop custom accelerators that could reduce their dependence on NVIDIA. Understanding their purchasing patterns is essential to understanding NVIDIA's business.
+The hyperscalers are NVIDIA's largest, most important, and most dangerous customer segment. Microsoft, Google, Amazon, Meta, and Oracle collectively account for roughly 40 to 50 percent of Data Center revenue by end market, on analyst estimates, with the caveat that NVIDIA's direct-customer disclosures name intermediaries rather than end users. These companies have multiyear, multigenerational partnerships with NVIDIA. They also have the engineering resources and financial scale to develop custom accelerators that could reduce their dependence on NVIDIA. Understanding their purchasing patterns is essential to understanding NVIDIA's business.
 
 ### Microsoft: The OpenAI Partner
 
-Microsoft's relationship with NVIDIA is intertwined with its partnership with OpenAI. The two relationships form a strategic triangle: Microsoft Azure hosts OpenAI's GPT models on NVIDIA systems, while also building its own AI infrastructure using NVIDIA GPUs. This triangular relationship creates both stability and complexity for NVIDIA.
+Microsoft's relationship with NVIDIA is intertwined with its partnership with OpenAI. The two relationships once formed a tidy triangle: Azure hosted OpenAI's models exclusively on NVIDIA systems, while Microsoft built its own AI infrastructure on NVIDIA GPUs. Two restructurings have opened the triangle without dissolving it, which creates both stability and complexity for NVIDIA.
 
 #### The OpenAI connection
 
-The OpenAI partnership is foundational to Microsoft's AI strategy. Microsoft invested approximately 13 billion dollars in OpenAI beginning in 2023, giving Microsoft an exclusive partnership on OpenAI technologies and preferred access to OpenAI's models. Azure is the exclusive cloud provider for OpenAI, meaning that ChatGPT, GPT-4, and subsequent models run on Microsoft infrastructure.
+The OpenAI partnership is foundational to Microsoft's AI strategy. Microsoft invested approximately $13 billion in OpenAI beginning in 2019, when $1 billion made Azure OpenAI's training ground, and reaching the full amount by 2023. What Microsoft bought first was exclusivity; what it holds now is a large equity stake and a deep commercial tie. On January 21, 2025, Azure's status as OpenAI's exclusive cloud provider ended, replaced by a right of first refusal on new computing capacity. On October 28, 2025, even the right of first refusal was removed, and in the same restructuring OpenAI committed to purchase an incremental $250 billion of Azure services. Exclusivity is gone; the volume, paradoxically, went up.
 
-This arrangement creates enormous demand for NVIDIA GPUs. Training GPT-4 required thousands of H100 GPUs running for months. The inference infrastructure serving ChatGPT to hundreds of millions of users requires even more GPUs. Every time a user queries ChatGPT, that query processes on an NVIDIA GPU hosted in a Microsoft Azure data center.
+This arrangement still creates enormous demand for NVIDIA GPUs, but the demand no longer routes through one cloud. ChatGPT runs on Azure capacity alongside Oracle and CoreWeave infrastructure under the Stargate umbrella. Training GPT-4 took roughly 25,000 A100 GPUs running for 90 to 100 days, on the SemiAnalysis estimate, and the frontier runs since have been far larger. Every ChatGPT query still processes on NVIDIA GPUs; what changed is where, spread across three clouds rather than one.
 
-The scale of this deployment is staggering. OpenAI has been among the largest purchasers of NVIDIA GPUs globally. The training runs for GPT-4 and subsequent models represent some of the largest computing projects in history. Microsoft's infrastructure build-out to support OpenAI has cost tens of billions of dollars, with NVIDIA as the primary hardware vendor.
+The scale of this deployment is staggering. OpenAI has been among the largest purchasers of NVIDIA GPUs globally, and NVIDIA is now inside the loop as a financier: it committed about $30 billion of OpenAI equity inside the lab's reported $110 billion raise announced February 27, 2026, under a September 2025 letter of intent covering up to 10 gigawatts of AI factories, with the first gigawatt slated for the second half of 2026 on Vera Rubin. Microsoft's infrastructure build-out to support OpenAI has cost tens of billions of dollars, with NVIDIA as the primary hardware vendor. Sam Altman ruled out a 2026 IPO on September 12, 2026, calling the moment ill-advised amid AI safety concerns, so the lab's financing stays private and NVIDIA's anchor position stays in place.
 
 #### Azure AI infrastructure
 
 Beyond OpenAI, Microsoft Azure offers AI infrastructure services to external customers. Azure OpenAI Service allows enterprises to access GPT models through APIs. Azure Machine Learning provides a platform for building and deploying custom AI models. All of these services depend on NVIDIA infrastructure.
 
-Microsoft has committed to deploying Vera Rubin-based instances among the first wave of cloud providers. This commitment demonstrates the strategic importance of NVIDIA to Azure's competitiveness. Being first to offer the latest GPU technology is a differentiator in the cloud market, where performance differences of 20-30 percent can determine which provider wins large AI workloads.
+Microsoft committed to deploying Vera Rubin-based instances among the first wave of cloud providers, and by late July 2026 Vera Rubin racks were running in Azure alongside Google Cloud, Oracle Cloud Infrastructure, CoreWeave, and Nebius. This commitment demonstrates the strategic importance of NVIDIA to Azure's competitiveness. Being first to offer the latest GPU technology is a differentiator in the cloud market, where performance differences of 20 to 30 percent can determine which provider wins large AI workloads.
 
 The partnership spans multiple domains: AI infrastructure, cloud services, and physical AI initiatives. Microsoft and NVIDIA are collaborating on industrial digital twins through Microsoft's partnership with NVIDIA on Omniverse. The companies are integrating NVIDIA AI Enterprise with Azure to provide enterprise-grade AI software and support.
 
@@ -32,11 +32,11 @@ The partnership spans multiple domains: AI infrastructure, cloud services, and p
 
 Microsoft developed the Maia 100 accelerator as a custom AI chip for internal workloads. Announced in 2023, Maia represents Microsoft's effort to reduce dependence on NVIDIA for certain workloads. The chip powers Microsoft's own AI services, including Copilot offerings and Bing Chat.
 
-The strategic question is how Maia will affect NVIDIA purchasing. The evidence suggests a hybrid approach: Maia for known internal workloads, NVIDIA for frontier AI and external customer services. Maia is used internally for Microsoft's AI services, but Azure customers seeking top-tier performance still use NVIDIA-based instances.
+The strategic question is how Maia will affect NVIDIA purchasing. Through 2025 the evidence suggested a hybrid approach: Maia for known internal workloads, NVIDIA for frontier AI and external customer services. On October 12, 2026, the picture hardened. Microsoft said Maia 200 is deployed at scale, unveiled the dataflow-based Maia 300, and committed to multi-gigawatt Maia deployments starting 2027 that make Maia the primary inference system for Microsoft's own products and services. First-party inference is diverting to Microsoft silicon even as training and third-party Azure workloads stay on NVIDIA racks; chapter 6 carries the full detail.
 
 This pattern reflects a broader trend among hyperscalers. Custom silicon targets stable, well-understood workloads where the requirements are predictable. NVIDIA GPUs remain essential for cutting-edge training and experimental workloads where performance matters more than cost optimization.
 
-Microsoft's AI infrastructure spending exceeds 10 billion dollars annually as of 2025. Even if Maia captures a portion of this spending, NVIDIA's share likely remains in the billions annually. The relationship is symbiotic: Microsoft needs NVIDIA's latest GPUs for competitive AI services, while NVIDIA benefits from Azure's massive scale and OpenAI partnership.
+Microsoft alone invested about $80 billion in AI-enabled data centers in fiscal 2025. Even as Maia captures a growing portion of inference, the NVIDIA portion of Microsoft's build-out remains one of the largest single customer relationships in technology. The relationship is symbiotic: Microsoft needs NVIDIA's latest GPUs for competitive AI services, while NVIDIA benefits from Azure's massive scale and its remaining OpenAI business.
 
 #### Purchase scale and patterns
 
@@ -44,17 +44,17 @@ Microsoft's NVIDIA purchasing is measured in billions of dollars annually. The c
 
 The purchase pattern includes H100 and H200 GPUs for current deployments, Blackwell GPUs for next-generation infrastructure, and commitments to purchase Rubin-based systems when available. Microsoft's infrastructure build-out is multi-generational, locking in demand for years.
 
-The strategic importance of this relationship cannot be overstated. Microsoft is one of the world's largest companies by market capitalization, with nearly 100 billion dollars in annual revenue. Its AI infrastructure spending represents a significant portion of NVIDIA's revenue. Losing Microsoft as a customer would be material. Maintaining the relationship requires NVIDIA to keep Microsoft satisfied with pricing, allocation, and technology roadmaps.
+The strategic importance of this relationship cannot be overstated. Microsoft is one of the world's largest companies by market capitalization, with $281.7 billion in revenue in fiscal 2025, tracking above $320 billion in fiscal 2026, and Azure alone past $75 billion. Its AI infrastructure spending represents a significant portion of NVIDIA's revenue. Losing Microsoft as a customer would be material. Maintaining the relationship requires NVIDIA to keep Microsoft satisfied with pricing, allocation, and technology roadmaps.
 
 ### Meta: The Multi-generational Commitment
 
-Meta represents perhaps NVIDIA's most important hyperscaler relationship. In November 2024, the companies announced a multiyear, multigenerational strategic partnership. The scope is breathtaking: Meta will deploy NVIDIA CPUs, networking, and millions of Blackwell and Rubin GPUs across on-premises, cloud, and AI infrastructure. The partnership covers multiple GPU generations, locking in demand for years.
+Meta represents perhaps NVIDIA's most important hyperscaler relationship. On February 17, 2026, the companies announced a multiyear, multigenerational strategic partnership. The scope is breathtaking: Meta will deploy NVIDIA CPUs, networking, and millions of Blackwell and Rubin GPUs across on-premises, cloud, and AI infrastructure. The partnership covers multiple GPU generations, locking in demand for years.
 
 #### The Llama training imperative
 
 Meta's partnership with NVIDIA is driven by its AI research ambitions. The company trains massive models like Llama, which reached 405 billion parameters in 2024. It runs AI inference across Facebook, Instagram, WhatsApp, and emerging products like AI glasses and Ray-Ban Meta smart glasses. The computational requirements are enormous.
 
-Training Llama 3 405B required thousands of GPUs running for months. The training cost exceeded 100 million dollars in compute alone. Inference for Meta's AI features across billions of users requires even more infrastructure. Every AI-generated sticker, every AI-powered recommendation, every AI assistant feature depends on GPU compute.
+Training Llama 3 405B took thousands of GPUs running for months. Meta's own disclosure puts the run at 30.84 million H100 GPU-hours, which at prevailing rates of roughly $2 to $3 per GPU-hour implies a compute bill of roughly $60 million to $95 million. Inference for Meta's AI features across billions of users requires even more infrastructure. Every AI-generated sticker, every AI-powered recommendation, every AI assistant feature depends on GPU compute.
 
 By partnering deeply with NVIDIA, Meta ensures priority access to the latest GPU technology. In a supply-constrained market where H100 GPUs were in short supply, having a strategic partnership guaranteed allocation. This allocation advantage is strategically significant because AI capabilities have become competitive differentiators for Meta's products.
 
@@ -68,17 +68,17 @@ Meta's on-premises strategy reflects several factors: data privacy concerns for 
 
 Meta developed the Meta Training and Inference Accelerator (MTIA) as a custom silicon solution. MTIA targets recommendation systems and inference workloads, particularly for Facebook and Instagram's content ranking algorithms. These workloads are stable, well-understood, and don't require cutting-edge GPU performance.
 
-Meta has publicly stated that MTIA will not replace NVIDIA for cutting-edge training. This explicit statement validates NVIDIA's continued relevance even to customers developing custom accelerators. The division of labor is clear: custom silicon for internal, stable workloads, NVIDIA for frontier AI research and experimental work.
+Meta has publicly stated that MTIA will not replace NVIDIA for cutting-edge training. This explicit statement validates NVIDIA's continued relevance even to customers developing custom accelerators. The division of labor is clear: custom silicon for internal, stable workloads, NVIDIA for frontier AI research and experimental work. The custom side is nonetheless scaling. Meta detailed a four-chip MTIA family at Hot Chips 2026 and is building toward roughly 1 gigawatt of Broadcom-designed MTIA deployments inside 2026 capex guidance of $115 to $135 billion, keeping Meta a top NVIDIA buyer for training while recommendation serving shifts inward (chapter 6 carries the architecture detail).
 
 This coexistence model is becoming standard across hyperscalers. Rather than choosing between custom silicon and NVIDIA GPUs, companies are using both. Custom silicon handles 30-40% of workloads where requirements are predictable. NVIDIA GPUs handle 60-70% of workloads where performance matters more than cost.
 
 #### Strategic partnership details
 
-The November 2024 partnership announcement included several specific commitments:
+The February 2026 partnership announcement included several specific commitments:
 
-**Millions of GPUs:** Meta will purchase millions of Blackwell and Rubin GPUs over multiple years. The precise dollar value was not disclosed, but the commitment likely exceeds 10 billion dollars based on typical GPU pricing and the scale of "millions" of units.
+**Millions of GPUs:** Meta will purchase millions of Blackwell and Rubin GPUs over multiple years. The precise dollar value was not disclosed, but millions of flagship GPUs alongside CPUs and networking imply several tens of billions of dollars, an estimate until either company names the number.
 
-**CPUs and networking:** Meta will also purchase NVIDIA Grace CPUs and networking products. This full-stack approach demonstrates the value of the Mellanox acquisition. By selling CPUs, networking, and GPUs as an integrated solution, NVIDIA increases its attach rate per deployment.
+**CPUs and networking:** Meta will also purchase NVIDIA Grace CPUs and networking products, including Spectrum-X Ethernet integrated into AI-optimized data centers. This full-stack approach demonstrates the value of the Mellanox acquisition. By selling CPUs, networking, and GPUs as an integrated solution, NVIDIA increases its attach rate per deployment.
 
 **On-premises, cloud, and edge:** The partnership spans deployment models from on-premises data centers to cloud services to edge computing. This breadth reflects Meta's diverse infrastructure needs across its product portfolio.
 
@@ -88,15 +88,15 @@ From NVIDIA's perspective, the Meta partnership represents the ideal customer re
 
 ### Google Cloud: The TPU Coexistence
 
-Google presents an interesting case study in the coexistence of custom silicon and NVIDIA GPUs. The company has been developing TPUs (Tensor Processing Units) since 2016 and uses them extensively for internal workloads. Google Search, Gmail, YouTube, and Google Bard all run on TPUs. The TPU v5 and v5p generations are competitive with NVIDIA H100 for specific workloads. Despite this internal TPU investment, Google Cloud remains a major NVIDIA customer.
+Google presents an interesting case study in the coexistence of custom silicon and NVIDIA GPUs. The company has been developing TPUs (Tensor Processing Units) since 2016 and uses them extensively for internal workloads. Google Search, Gmail, YouTube, and Gemini all run on TPUs. The TPU v5 and v5p generations are competitive with NVIDIA H100 for specific workloads. Despite this internal TPU investment, Google Cloud remains a major NVIDIA customer.
 
 #### TPU architecture and positioning
 
 Google's TPU is a custom accelerator designed specifically for tensor operations, which are the mathematical operations at the heart of deep learning. Unlike NVIDIA's GPUs, which are general-purpose parallel processors, TPUs are specialized for machine learning. This specialization allows TPUs to be highly efficient for Google's specific workload patterns.
 
-TPU development has progressed through multiple generations: TPU v1, v2, v3, v4, and v5/v5p. Each generation improved performance, memory bandwidth, and interconnect technology. The TPU v5 Pod, which connects thousands of TPUs with high-speed interconnects, can train large language models competitively with NVIDIA-based clusters.
+TPU development has progressed through multiple generations: TPU v1, v2, v3, v4, and v5/v5p. Each generation improved performance, memory bandwidth, and interconnect technology. The TPU v5 Pod, which connects thousands of TPUs with high-speed interconnects, can train large language models competitively with NVIDIA-based clusters. The cadence has continued: Ironwood, the seventh TPU generation, reached general availability in April 2026. Anthropic, meanwhile, signed what it called its largest compute commitment yet with Google and Broadcom for multiple gigawatts of next-generation TPU capacity starting 2027, on top of an October 2025 agreement for up to one million TPUs; chapter 6 carries the analysis.
 
-Google uses TPUs internally for its core products. Google Search ranking models train and run on TPUs. YouTube recommendation algorithms use TPUs. Gmail's spam filtering and Smart Reply features depend on TPUs. Google Bard and subsequent AI models train on TPU Pods. This internal use creates a massive installed base of TPUs that provides economies of scale.
+Google uses TPUs internally for its core products. Google Search ranking models train and run on TPUs. YouTube recommendation algorithms use TPUs. Gmail's spam filtering and Smart Reply features depend on TPUs. Gemini and subsequent AI models train on TPU Pods. This internal use creates a massive installed base of TPUs that provides economies of scale.
 
 #### Why Google Cloud needs NVIDIA
 
@@ -112,7 +112,7 @@ Despite its TPU investment, Google Cloud remains a major NVIDIA customer for sev
 
 #### Partnership scope
 
-Google Cloud is among the first cloud providers to deploy Vera Rubin-based instances. This commitment demonstrates Google's continued investment in NVIDIA infrastructure despite its TPU capabilities. Being first to offer Rubin GPUs is a competitive differentiator for Google Cloud in the cloud market.
+Google Cloud is among the first cloud providers to deploy Vera Rubin-based instances, and it is bringing Vera Rubin-powered A5X instances to the platform. This commitment demonstrates Google's continued investment in NVIDIA infrastructure despite its TPU capabilities. Being first to offer Rubin GPUs is a competitive differentiator for Google Cloud in the cloud market.
 
 The partnership includes DGX Cloud collaboration. DGX Cloud is NVIDIA's managed AI supercomputer service offered through cloud providers. Google Cloud hosts DGX Cloud infrastructure, providing customers with turnkey access to NVIDIA-optimized AI supercomputers. This service simplifies AI infrastructure deployment for enterprises.
 
@@ -128,7 +128,7 @@ The risk is that TPUs improve to the point where they match NVIDIA GPUs for gene
 
 ### Amazon Web Services: The Cost Optimizer
 
-AWS has perhaps the most aggressive custom silicon strategy among hyperscalers. Trainium for training and Inferentia for inference represent Amazon's effort to reduce NVIDIA dependence. Trainium 2, announced at re:Invent 2024, targets 2025 deployment. The chips are tightly integrated with AWS ecosystem, offering lower cost than NVIDIA for specific workloads. Yet AWS remains a major NVIDIA customer, demonstrating that even the most aggressive in-house silicon efforts cannot fully displace NVIDIA.
+AWS has perhaps the most aggressive custom silicon strategy among hyperscalers. Trainium for training and Inferentia for inference represent Amazon's effort to reduce NVIDIA dependence. Trainium2, announced at re:Invent in November 2023, reached general availability in December 2024. The chips are tightly integrated with the AWS ecosystem, offering lower cost than NVIDIA for specific workloads. Yet AWS remains a major NVIDIA customer, demonstrating that even the most aggressive in-house silicon efforts cannot fully displace NVIDIA.
 
 #### Trainium and Inferentia strategy
 
@@ -138,7 +138,7 @@ Amazon's custom silicon approach targets both training and inference workloads:
 
 **Trainium:** Announced in 2020 and deployed in 2023, Trainium targets training workloads. Trainium accelerators are designed specifically for deep learning training, offering performance competitive with NVIDIA GPUs for certain workloads at lower cost. Trainium is tightly integrated with AWS's machine learning ecosystem, including SageMaker for model development and deployment.
 
-**Trainium 2:** Announced at re:Invent 2024, Trainium 2 represents a significant performance improvement. The chip targets 2025 deployment and promises to be competitive with NVIDIA's H100 for specific workloads. Trainium 2 demonstrates Amazon's commitment to custom silicon despite the massive investment required.
+**Trainium2:** Announced at re:Invent in November 2023 and generally available from December 2024, Trainium2 delivers a significant performance improvement and is competitive with NVIDIA's H100 for specific workloads. Project Rainier, the Anthropic buildout, put roughly 500,000 Trainium2 chips live by October 2025. Trainium2 demonstrates Amazon's commitment to custom silicon despite the massive investment required.
 
 The strategic rationale for Trainium and Inferentia is cost optimization. AWS operates on thin margins relative to other Amazon businesses. Reducing the cost of infrastructure through custom silicon improves AWS profitability. Custom chips also give AWS control over its technology stack, reducing dependence on external suppliers.
 
@@ -156,7 +156,7 @@ Despite its custom silicon investments, AWS remains a major NVIDIA customer for 
 
 #### Partnership evolution
 
-The expanded AWS partnership announced in Q4 fiscal 2026 includes new technology integrations across interconnect technology, cloud infrastructure, open models, and physical AI. Amazon is deploying Vera Rubin-based instances among the first wave of cloud providers. This continued commitment demonstrates that custom silicon and NVIDIA GPUs will coexist within AWS.
+The expanded AWS partnership announced in Q4 fiscal 2026 includes new technology integrations across interconnect technology, cloud infrastructure, open models, and physical AI. Amazon is deploying Vera Rubin-based instances among the first wave of cloud providers. The commitment then escalated rather than settled: on August 26, 2026, AWS said it will deploy 2 million additional Blackwell Ultra, Rubin, and Rubin Ultra GPUs across its infrastructure in 2027 and 2028, plus Vera CPUs, advanced networking, and the physical AI stack for its warehouse robots, an expansion TechCrunch reported roughly triples Amazon's standing order and makes AWS NVIDIA's largest disclosed forward GPU commitment. On the custom-silicon side, Amazon added $5 billion to Anthropic in April 2026 for a total $13 billion investment, with Anthropic committing $100 billion to AWS, and Project Rainier is scaling beyond a million Trainium2 chips toward 5 gigawatts (chapter 6 carries the detail). Both things are true at once: Trainium is scaling, and so is the NVIDIA order book.
 
 The AWS strategy is tiered: Trainium and Inferentia for price-sensitive workloads, NVIDIA for performance-sensitive workloads. This tiered approach allows AWS to optimize costs where possible while still offering top-tier performance for customers who need it.
 
@@ -170,7 +170,7 @@ The key risk is that Trainium improves to the point where it matches NVIDIA GPUs
 
 ### Oracle Cloud Infrastructure: The Pure-Play Partner
 
-Oracle represents the purest hyperscaler partnership model. The company has no significant custom silicon effort. Instead, Oracle Cloud Infrastructure is all-in on NVIDIA. OCI is among the first to deploy Vera Rubin-based instances. The company has strategic collaboration for AI workloads and participates in DGX Cloud partnerships. Oracle's strategy is differentiation through rapid deployment of latest NVIDIA technology.
+Oracle represents the purest hyperscaler partnership model on the accelerator side. Oracle owns Ampere, a CPU designer, but runs no custom AI accelerator program. Instead, Oracle Cloud Infrastructure is all-in on NVIDIA. OCI is among the first to deploy Vera Rubin-based instances, with racks running since late July 2026. The company has strategic collaboration for AI workloads and participates in DGX Cloud partnerships. Oracle's strategy is differentiation through rapid deployment of latest NVIDIA technology.
 
 #### Oracle's AI infrastructure strategy
 
@@ -198,7 +198,7 @@ From NVIDIA's perspective, Oracle is an ideal customer. The company has no custo
 
 The risk is that Oracle remains a smaller cloud provider relative to larger hyperscalers. OCI's market share in cloud computing is in the single digits, far below AWS, Microsoft Azure, and Google Cloud. This limits Oracle's total purchasing power relative to larger competitors.
 
-However, Oracle's focused strategy means that NVIDIA's share of Oracle's AI infrastructure spending is near 100%. Every dollar Oracle spends on AI infrastructure likely goes to NVIDIA. This concentration within Oracle makes the relationship strategically important even if Oracle's total spend is less than larger hyperscalers.
+However, Oracle's focused strategy means that NVIDIA's share of Oracle's AI infrastructure spending runs close to 100 percent. One qualification arrived in 2026: under its second-supplier push, Oracle confirmed a 50,000-GPU deployment of AMD's MI450 starting in the third quarter of 2026, its first large non-NVIDIA accelerator commitment (chapter 6 carries the detail). The concentration within Oracle still makes the relationship strategically important even if Oracle's total spend is less than larger hyperscalers.
 
 #### Partnership value
 
@@ -210,7 +210,7 @@ The partnership also validates NVIDIA's technology leadership. Oracle's choice t
 
 The hyperscaler customer segment presents both opportunity and risk. The opportunity is scale. These customers purchase tens of thousands of GPUs annually, generating billions in revenue. Their AI capex continues to accelerate, driving NVIDIA growth. Multi-generational partnerships create visibility and predictability.
 
-The risk is vertical integration. All major hyperscalers except Oracle are developing custom accelerators. The question is not whether they will reduce NVIDIA purchasing, but by how much. The current pattern suggests a hybrid future rather than total displacement.
+The risk is vertical integration, and it now has a supplier with reported numbers. All major hyperscalers except Oracle are developing custom accelerators, and six customers, Google, Meta, OpenAI, Anthropic, ByteDance and Fujitsu, now design AI chips through Broadcom's XPU program, which booked $16.7 billion of AI semiconductor revenue in a single quarter, up 221 percent year over year (chapter 6 carries the analysis). The question is not whether they will reduce NVIDIA purchasing, but by how much. The current pattern suggests a hybrid future rather than total displacement.
 
 #### The hybrid model
 
@@ -234,7 +234,7 @@ Beyond the structural shift to custom silicon, hyperscalers present demand timin
 
 **Competitive dynamics:** Hyperscalers may reduce spending if competitors pull back. If one hyperscaler moderates AI capex, others may follow to avoid over-investing relative to competitors.
 
-These demand timing risks create volatility and uncertainty. NVIDIA's revenue is highly concentrated among a small number of customers whose spending decisions are outside NVIDIA's control. A moderation by even one or two hyperscalers would materially impact NVIDIA's revenue growth.
+These demand timing risks create volatility and uncertainty, and power has become the physical gate between hyperscaler orders and GPU shipments: on June 18, 2026, FERC ordered all six regional grid operators to reform their tariffs for data centers and other large loads within 60 days, the strongest federal action yet on the bottleneck. NVIDIA's revenue is highly concentrated among a small number of customers whose spending decisions are outside NVIDIA's control. A moderation by even one or two hyperscalers would materially impact NVIDIA's revenue growth.
 
 #### Strategic mitigation
 
@@ -254,15 +254,15 @@ The most likely outcome is gradual diversification rather than sudden disruption
 
 ## AI Native Companies: The Frontier Model Builders
 
-The AI native companies represent NVIDIA's most strategically important customer segment after hyperscalers. These companies, including OpenAI, Anthropic, xAI, and others, are building the frontier AI models that define the state of the art. Their computational requirements are enormous and growing. Their purchasing decisions shape which models become competitive and which companies lead in AI capabilities.
+The AI native companies represent NVIDIA's most strategically important customer segment after hyperscalers. These companies, including OpenAI, Anthropic, xAI, Safe Superintelligence and others, are building the frontier AI models that define the state of the art. Their computational requirements are enormous and growing, and NVIDIA is no longer only their supplier. CFO Colette Kress told the Q2 fiscal 2027 call that NVIDIA has invested nearly $50 billion across the frontier AI labs: $30 billion into OpenAI, up to $10 billion into Anthropic, and $5 billion into Safe Superintelligence, whose July 27, 2026 partnership delivers Vera Rubin systems that expand its compute by an order of magnitude. NVIDIA is supplier and financier to every major US lab at once. The demand side has broadened the same way. Huang framed it on the same call: "this time last year, one lab alone was driving the buildout; today, we have a golden age of new AI labs and startups, multiple frontier labs scaling in parallel, a thriving open-model ecosystem and physical AI coming online." DeepSeek's V4 release on April 24, 2026, a 1.6-trillion-parameter open-weight model, deepened the open ecosystem that runs on NVIDIA, and management said it expects Anthropic and OpenAI to become the largest technology companies in history. Their purchasing decisions shape which models become competitive and which companies lead in AI capabilities.
 
 ### OpenAI: The ChatGPT Infrastructure
 
-OpenAI's relationship with NVIDIA is foundational to the generative AI boom. ChatGPT, which launched in November 2022 and triggered the current AI wave, runs entirely on NVIDIA infrastructure. The historical partnership dates back to GPT-3 and earlier models. OpenAI has been among the largest purchasers of NVIDIA GPUs for AI research.
+OpenAI's relationship with NVIDIA is foundational to the generative AI boom. ChatGPT, which launched in November 2022 and triggered the current AI wave, runs on NVIDIA GPUs across Azure, Oracle and CoreWeave capacity. The historical partnership dates back to GPT-3 and earlier models. OpenAI has been among the largest purchasers of NVIDIA GPUs for AI research.
 
 #### Training infrastructure scale
 
-Training GPT-4 required an enormous compute infrastructure. While exact specifications were not disclosed, industry analysis suggests that training GPT-4 required thousands of GPUs running for several months. The compute cost exceeded 100 million dollars, primarily for GPU time and electricity. This training run was one of the largest computing projects in history.
+Training GPT-4 required an enormous compute infrastructure. OpenAI never disclosed the specifications, but the best public estimate, from SemiAnalysis, puts the run at roughly 25,000 A100 GPUs for 90 to 100 days, a compute bill above $100 million for GPU time and electricity. This training run was one of the largest computing projects in history, and every successor run has been larger.
 
 The infrastructure required includes not just GPUs but also:
 
@@ -274,7 +274,7 @@ The infrastructure required includes not just GPUs but also:
 
 #### Inference infrastructure
 
-Inference infrastructure serving ChatGPT to hundreds of millions of users requires even more GPUs than training. Each ChatGPT query requires matrix operations that consume GPU compute. With over 100 million weekly active users, the cumulative inference demand is enormous.
+Inference infrastructure serving ChatGPT requires even more GPUs than training. Each ChatGPT query requires matrix operations that consume GPU compute. ChatGPT passed 800 million weekly active users by October 2025, when Sam Altman announced the figure at DevDay, eight times the base of two years earlier. The cumulative inference demand is enormous.
 
 OpenAI operates multiple inference clusters distributed globally to provide low-latency responses. These clusters run 24/7, consuming substantial electricity and requiring continuous maintenance. The inference infrastructure cost likely exceeds the training cost within months of deployment.
 
@@ -286,7 +286,7 @@ The OpenAI-NVIDIA partnership is symbiotic but complex. OpenAI needs NVIDIA's la
 
 NVIDIA benefits from OpenAI's success. Every ChatGPT announcement reinforces NVIDIA's position as the standard for AI development. When users marvel at ChatGPT's capabilities, they are indirectly seeing NVIDIA's technology in action. OpenAI's success drives demand for AI infrastructure, which benefits NVIDIA.
 
-However, the relationship adds complexity through Microsoft's involvement. Microsoft is both OpenAI's exclusive cloud provider and a major NVIDIA customer. Microsoft's 13 billion dollar investment in OpenAI creates a triangular relationship. Microsoft provides Azure infrastructure that runs NVIDIA GPUs to host OpenAI models. This arrangement benefits both NVIDIA (through Azure GPU purchases) and OpenAI (through Azure infrastructure and Microsoft capital).
+However, the relationship adds complexity through Microsoft's involvement. Microsoft is OpenAI's largest cloud provider and a major NVIDIA customer, though no longer its exclusive one. Microsoft's $13 billion investment in OpenAI creates a triangular relationship. Microsoft provides Azure infrastructure that runs NVIDIA GPUs to host OpenAI models. This arrangement benefits both NVIDIA (through Azure GPU purchases) and OpenAI (through Azure infrastructure and Microsoft capital).
 
 #### Strategic importance
 
@@ -294,7 +294,7 @@ OpenAI is strategically important to NVIDIA for several reasons:
 
 **Technology leadership:** OpenAI defines the state of the art in AI capabilities. GPT-4 set benchmarks that competitors race to match. By powering OpenAI, NVIDIA powers the frontier of AI. This leadership position reinforces NVIDIA's brand and technology credibility.
 
-**Competitive signaling:** Other AI companies observe OpenAI's infrastructure choices. If OpenAI uses NVIDIA GPUs exclusively, this signals that NVIDIA is the standard for frontier AI research. This influences other companies' infrastructure decisions.
+**Competitive signaling:** Other AI companies observe OpenAI's infrastructure choices. When OpenAI anchors its largest buildouts on NVIDIA GPUs, it signals that NVIDIA remains the standard for frontier training, even as the lab also books AMD and Trainium capacity for other workloads. This influences other companies' infrastructure decisions.
 
 **Product feedback:** OpenAI's extreme use cases provide feedback that helps NVIDIA improve its products. The challenges of training trillion-parameter models at scale push NVIDIA's technology forward. Solutions developed for OpenAI benefit all customers.
 
@@ -302,7 +302,7 @@ OpenAI is strategically important to NVIDIA for several reasons:
 
 ### Anthropic: The Claude Partnership
 
-NVIDIA announced a strategic partnership with Anthropic that combines investment and deep technology collaboration. Anthropic scales its Claude model on Microsoft Azure using NVIDIA systems. The multi-generational infrastructure commitment ensures Anthropic has access to cutting-edge GPUs for model development.
+NVIDIA's Anthropic relationship now stacks three layers. The November 2025 arrangement pairs an NVIDIA investment of up to $10 billion with Anthropic's commitment to purchase $30 billion of NVIDIA systems deployed on Microsoft Azure, and on June 29, 2026 Anthropic's models went live on GB300 Blackwell Ultra racks in Azure. On September 11, 2026, Reuters reported NVIDIA is in talks to anchor up to $10 billion of Anthropic's IPO at a reported $2 trillion to $2.3 trillion valuation, a listing that could rank as the largest in history. Anthropic scales Claude across AWS, Google and Azure infrastructure, and its run-rate revenue passed $30 billion in 2026. The multi-generational infrastructure commitment ensures Anthropic has access to cutting-edge GPUs for model development.
 
 #### Constitutional AI differentiation
 
@@ -314,7 +314,7 @@ NVIDIA's partnership with Anthropic is strategically important because it positi
 
 Anthropic's Claude models rival GPT-4 in capability and thus require comparable infrastructure. Training Claude 3 (and subsequent versions) required thousands of GPUs running for months. Inference infrastructure serving Claude through APIs and partnerships (including with Amazon and Google) requires substantial GPU deployment.
 
-Anthropic has raised billions of dollars from investors including Amazon, Google, and Spark Capital. Much of this capital funds GPU purchases from NVIDIA. As Anthropic scales its models and expands its API business, its infrastructure requirements continue growing.
+Anthropic has raised tens of billions of dollars from investors including Amazon, whose April 2026 top-up took its total to $13 billion, and Google. Much of this capital funds compute, split across NVIDIA GPUs, AWS Trainium and Google TPUs. As Anthropic scales its models and expands its API business, its infrastructure requirements continue growing.
 
 #### Partnership value
 
@@ -332,9 +332,9 @@ xAI, founded by Elon Musk in 2023, operates one of the world's largest GPU super
 
 #### The Memphis supercomputer
 
-xAI's primary AI supercomputer, located in Memphis, Tennessee, contains over 100,000 GPUs (a mix of H100 and other NVIDIA products). This makes it one of the largest AI supercomputers in existence. The supercomputer was built in record time, demonstrating the urgency of AI infrastructure competition.
+xAI's primary AI supercomputer, Colossus, located in Memphis, Tennessee, has outgrown every earlier description of it. What held 100,000 GPUs in 2024 had reached roughly 555,000 GPUs and 2 gigawatts across three Memphis buildings by January 2026, and by late September 2026 xAI had deployed about 660,000 NVIDIA Blackwell GPUs against a stated roadmap of 1.44 million. A dedicated successor campus, Colossus 2, is under construction at more than a gigawatt. This makes it one of the largest AI supercomputers in existence, built in record time, demonstrating the urgency of AI infrastructure competition.
 
-The scale of xAI's infrastructure is staggering. 100,000 GPUs at roughly 30,000 dollars each represents a 3 billion dollar hardware investment, not counting networking, cooling, power, and facility costs. The electricity consumption rivals that of small cities. This is the scale required to train frontier AI models in 2024-2026.
+The scale of xAI's infrastructure is staggering. The original 100,000-GPU cluster represented roughly $3 billion of hardware at 2024 prices, before networking, cooling, power, and facility costs; a 660,000-GPU Blackwell fleet runs to tens of billions. The electricity consumption rivals that of small cities. This is the scale required to train frontier AI models in 2026.
 
 #### The Grok model
 
@@ -346,11 +346,11 @@ xAI's competitive positioning is distinctive. Grok is integrated with X (formerl
 
 Elon Musk's involvement creates unique dynamics. Musk co-founded OpenAI before leaving due to strategic disagreements. He has been critical of OpenAI's transition from nonprofit to for-profit and its partnership with Microsoft. His founding of xAI represents direct competition with his former company.
 
-For NVIDIA, xAI represents both opportunity and complexity. The opportunity is enormous infrastructure spending. xAI has raised billions of dollars and invested heavily in NVIDIA GPUs. The complexity is that Musk has criticized NVIDIA's pricing and has suggested he may develop alternative infrastructure. However, given NVIDIA's technology leadership, xAI remains dependent on NVIDIA GPUs for the foreseeable future.
+For NVIDIA, xAI represents both opportunity and complexity. The opportunity is enormous infrastructure spending. xAI has raised billions of dollars and invested heavily in NVIDIA GPUs. The complexity is that Musk has criticized NVIDIA's pricing and has suggested he may develop alternative infrastructure. However, given NVIDIA's technology leadership, xAI remains dependent on NVIDIA GPUs for the foreseeable future. One more Musk-linked name appears in NVIDIA's Q2 fiscal 2027 release: SpaceXAI, listed as deploying NVIDIA Vera CPUs for its next generation of agentic applications. The press release is the primary source; the entity's structure has not been confirmed, so the release language is all that can be stated.
 
 ### Inference Providers: The Cost Optimization Layer
 
-A new category of AI company has emerged focused on efficient inference. Baseten, DeepInfra, Fireworks AI, and Together AI are leading inference providers achieving significant cost reductions using NVIDIA Blackwell. NVIDIA revealed that these providers are achieving 10x cost reduction with open-source models on Blackwell. This cost efficiency is critical for making AI services economically viable at scale.
+A new category of AI company has emerged focused on efficient inference. Baseten, DeepInfra, Fireworks AI, and Together AI are leading inference providers achieving significant cost reductions using NVIDIA Blackwell. NVIDIA revealed that these providers are cutting AI costs by up to 10x with open-source models on Blackwell. This cost efficiency is critical for making AI services economically viable at scale.
 
 #### The inference economics challenge
 
@@ -360,7 +360,7 @@ The economics challenge is that inference must be extremely cost-efficient to be
 
 #### Blackwell efficiency improvements
 
-NVIDIA's Blackwell architecture delivers not just training performance but inference efficiency. The 10x cost reduction that inference providers are achieving comes from several Blackwell improvements:
+NVIDIA's Blackwell architecture delivers not just training performance but inference efficiency. The up-to-10x cost reduction that inference providers are achieving comes from several Blackwell improvements:
 
 **Higher performance per dollar:** Blackwell GPUs process more tokens per dollar than previous generations. This reduces the number of GPUs required for a given inference workload.
 
@@ -424,7 +424,7 @@ NVIDIA's partnerships with Indian SIs create a channel into global enterprise ma
 
 **Infosys:** Infosys Topaz is an AI-first set of services using NVIDIA platforms. Infosys has trained thousands of employees on NVIDIA AI technologies. The partnership gives NVIDIA access to Infosys's global client base, which includes many Fortune 500 companies.
 
-**Wipro:** Wipro's ai360 platform leverages NVIDIA AI infrastructure. Wiper has developed industry-specific AI solutions for banking, healthcare, and manufacturing using NVIDIA GPUs. These solutions can be deployed across Wipro's client base.
+**Wipro:** Wipro's ai360 platform leverages NVIDIA AI infrastructure. Wipro has developed industry-specific AI solutions for banking, healthcare, and manufacturing using NVIDIA GPUs. These solutions can be deployed across Wipro's client base.
 
 **Tech Mahindra:** Tech Mahindra's AI partnerships with NVIDIA focus on telecommunications and manufacturing. The company develops AI solutions for 5G network optimization, factory automation, and other specialized use cases.
 
@@ -530,7 +530,7 @@ The Eli Lilly partnership demonstrates how NVIDIA's technology can create value 
 
 ## Automotive and Robotics: The Physical AI Frontier
 
-NVIDIA's automotive business reached 604 million dollars in Q4 fiscal 2026, up 2 percent quarter-over-quarter and 6 percent year-over-year. Full-year automotive revenue was 2.3 billion dollars, up 39 percent year-over-year. This growth is driven by adoption of NVIDIA self-driving platforms. But automotive is just one component of NVIDIA's physical AI strategy, which extends to robotics, industrial automation, and autonomous machines.
+NVIDIA's automotive business reached $604 million in Q4 fiscal 2026, up 2 percent quarter-over-quarter and 6 percent year-over-year. Full-year automotive revenue was $2.3 billion, up 39 percent year-over-year. This growth is driven by adoption of NVIDIA self-driving platforms. But automotive is just one component of NVIDIA's physical AI strategy, which extends to robotics, industrial automation, and autonomous machines.
 
 ### Mercedes-Benz: Production Deployment
 
@@ -568,9 +568,9 @@ NVIDIA has partnered with major Tier 1 automotive suppliers who build components
 
 **Bosch:** The world's largest automotive supplier, Bosch develops components for virtually every major automaker. Bosch's partnership with NVIDIA covers sensors, computers, and software for autonomous driving.
 
-**Astrom (formerly Honda-Keihin):** This joint venture between Honda and Keihin develops automotive electronics. Its partnership with NVIDIA focuses on autonomous driving systems.
+**Astemo:** Hitachi Astemo, formed in 2021 from Hitachi Automotive Systems together with the Honda-affiliated suppliers Keihin, Showa, and Nissin Kogyo, develops automotive electronics. Its partnership with NVIDIA focuses on autonomous driving systems, and the current DRIVE Hyperion partner list also names AUMOVIO and Arbe.
 
-These Tier 1 supplier partnerships create reach across the automotive industry. Magna, ZF, Bosch, and Astrom sell to dozens of OEMs worldwide. By partnering with these suppliers, NVIDIA ensures its technology is available throughout the automotive ecosystem.
+These Tier 1 supplier partnerships create reach across the automotive industry. Magna, ZF, Bosch, and Astemo sell to dozens of OEMs worldwide. By partnering with these suppliers, NVIDIA ensures its technology is available throughout the automotive ecosystem.
 
 #### Sensor partners
 
@@ -656,6 +656,8 @@ Several factors drive sovereign AI initiatives:
 
 NVIDIA is uniquely positioned to serve sovereign AI projects. The company has the technology stack, the neutral positioning (not American, Chinese, or European in the way that hyperscalers are), and the scale to deploy national AI infrastructure. Sovereign AI projects often involve building AI supercomputers, training national language models, and developing AI applications for government services. These are multi-year, multi-billion dollar initiatives.
 
+The 2026 buildout turned the thesis into a map spanning six continents. Korea is building at gigawatt scale with SK Telecom, NAVER and Brookfield, including the GAK Sejong AI factory expanding from 55 to 200 megawatts. Japan launched what NVIDIA calls the world's first national AI infrastructure with government and industry. A six-country MeetKai rollout on September 25, 2026 carried the stack to Brazil, Ukraine, Pakistan, Kazakhstan, Uzbekistan and Bangladesh, while Cassava in Africa and Claro in South America brought NVIDIA AI Clouds to six continents by May 2026. Europe has a record 35 NVIDIA AI supercomputers in development, and Bloomberg reported on October 13, 2026 that Huang plans $2 billion of European AI deals in the coming week. One tracker estimates sovereign revenue exceeded $30 billion in fiscal 2026, triple the prior year; that figure is secondary and unconfirmed against a primary disclosure, while the confirmed baseline from NVIDIA's CFO, stated in August 2025, is more than $20 billion of sovereign revenue in fiscal 2026.
+
 ### India: The Strategic Growth Market
 
 India represents one of the most important sovereign AI opportunities. The country has a large technology workforce, a growing AI startup ecosystem, and government support for digital infrastructure. India's large English-speaking population and democratic institutions make it a natural partner for Western AI companies.
@@ -722,7 +724,7 @@ NVIDIA's infrastructure helps companies comply with these regulations through:
 
 European countries including France, Germany, and the Nordic countries have announced sovereign AI initiatives:
 
-**France:** France has committed 1.5 billion euros to AI research and infrastructure. The French government is working with NVIDIA and other companies to build AI supercomputers. France's Mistral AI is a leading European AI company that trains models on NVIDIA infrastructure.
+**France:** France 2030 has committed about 2.5 billion euros of public money to AI, and at the February 2025 Paris AI Action Summit President Macron announced 109 billion euros of private AI investment commitments. The French government is working with NVIDIA and other companies to build AI supercomputers. France's Mistral AI is a leading European AI company that trains models on NVIDIA infrastructure.
 
 **Germany:** Germany's AI strategy focuses on industrial applications. German companies including Siemens, Bosch, and SAP are investing in AI. NVIDIA's partnerships with these companies create a channel into the German market.
 
@@ -832,11 +834,11 @@ NVIDIA's full-stack approach extends to networking. The company provides both In
 
 ### CoreWeave and Specialized AI Cloud Providers
 
-NVIDIA strengthened collaboration with CoreWeave to accelerate the buildout of more than 5 gigawatts of AI factories by 2030. CoreWeave is a specialized cloud provider for GPU workloads. Unlike general-purpose hyperscalers, CoreWeave focuses exclusively on GPU-accelerated computing. This specialization allows the company to optimize its infrastructure for AI workloads.
+On January 26, 2026, NVIDIA strengthened collaboration with CoreWeave to accelerate the buildout of more than 5 gigawatts of AI factories by 2030, and in the same announcement invested $2 billion in CoreWeave Class A stock at $87.20 per share. CoreWeave is a specialized cloud provider for GPU workloads. Unlike general-purpose hyperscalers, CoreWeave focuses exclusively on GPU-accelerated computing. This specialization allows the company to optimize its infrastructure for AI workloads.
 
 #### Specialized provider advantages
 
-Specialized GPU cloud providers like CoreWeave, Lambda Labs, and Voltage Park have advantages over general-purpose hyperscalers:
+Specialized GPU cloud providers like CoreWeave, Lambda, Nebius, Crusoe, and Voltage Park have advantages over general-purpose hyperscalers:
 
 **Optimization:** Everything about these providers is optimized for GPU workloads. The facility design, power distribution, cooling systems, and software stack are all designed for GPUs rather than general-purpose computing.
 
@@ -848,11 +850,17 @@ Specialized GPU cloud providers like CoreWeave, Lambda Labs, and Voltage Park ha
 
 #### Strategic value
 
-For NVIDIA, specialized providers create alternative channels for NVIDIA GPUs. This reduces customer concentration risk among the top five hyperscalers. If Microsoft Azure, Google Cloud, or AWS reduces NVIDIA purchasing, CoreWeave and similar providers can absorb some of that demand.
+For NVIDIA, specialized providers create alternative channels for NVIDIA GPUs. This reduces customer concentration risk among the top five hyperscalers. If Microsoft Azure, Google Cloud, or AWS reduces NVIDIA purchasing, CoreWeave and similar providers can absorb some of that demand. The channel already carries hyperscaler and lab volume: CoreWeave's contracted end customers include OpenAI at about $22.4 billion and Meta at $14.2 billion under its September 2025 deal, and Microsoft accounted for roughly 62 percent of CoreWeave's 2024 revenue.
 
-The CoreWeave partnership is strategically important. CoreWeave has raised billions in capital to build GPU infrastructure. The company is one of the fastest-growing cloud providers, with revenue growing over 1,000% year-over-year. This growth creates additional demand for NVIDIA GPUs.
+The CoreWeave partnership is strategically important, and the growth is real even after the quadruple-digit era ended. CoreWeave's fiscal 2025 revenue was $5.1 billion, up about 168 percent, which the company says made it the fastest cloud in history to reach $5 billion in annual revenue, and the fourth quarter of 2025 printed roughly $1.6 billion, up 110 percent. By mid-2026 it carried roughly $99 billion of signed contracts, and the second quarter of 2026 posted $2.6 billion of revenue, up 112 percent, with Anthropic building frontier models on its infrastructure. This growth creates additional demand for NVIDIA GPUs.
 
-The 5-gigawatt target by 2030 is enormous. A typical data center might have 50-100 megawatts of power capacity. 5 gigawatts is 50-100 large data centers dedicated to AI. This commitment demonstrates the scale of AI infrastructure build-out and CoreWeave's ambition to capture a meaningful portion of this market.
+The financing behind that growth is the stress point. CoreWeave's total debt reached $35 billion as of June 30, 2026, carrying quarterly net interest of $640 million, more than double a year earlier, against a $104 billion backlog. Its shares and bonds slid sharply on October 14 and 15, 2026, and the same week Gartner forecast that about 80 percent of neoclouds could shut down by 2030. NVIDIA touches this stress directly, through its equity stake and its capacity purchase commitments.
+
+The 5-gigawatt target by 2030 is enormous. A typical data center might have 50 to 100 megawatts of power capacity. 5 gigawatts is 50 to 100 large data centers dedicated to AI. This commitment demonstrates the scale of AI infrastructure build-out and CoreWeave's ambition to capture a meaningful portion of this market.
+
+The roster behind CoreWeave is widening. NVIDIA's May 31, 2026 ecosystem post names CoreWeave, Crusoe, Lambda, Nebius, Vultr and YTL as Exemplar Cloud partners; Lambda is borrowing specifically to buy NVIDIA GPUs it will lease to Microsoft; and Thinking Machines Lab signed a $65 million annual inference deal with Crusoe on September 23, 2026. The layer's installed capacity is set to exit 2026 at 8 gigawatts, up from about 3 gigawatts at the end of 2025.
+
+One member of this ecosystem arrived by an unusual door. On December 24, 2025, NVIDIA struck a non-exclusive inference technology licensing agreement with Groq, reported at roughly $20 billion and structured, per filings and reporting, as a $17 billion license plus a $3 billion stock pool, and hired founder Jonathan Ross and president Sunny Madra, a structure the Justice Department opened a formal probe into on September 9, 2026 (chapter 8 carries the detail). Groq now operates as an NVIDIA Cloud Partner, running 13 data centers that scale from 54 megawatts past 200 megawatts, and it closed a $350 million Series A on August 17, 2026 at a $3.5 billion valuation with planned NVIDIA participation. The scrappy inference challenger became an NVIDIA channel.
 
 ### BlueField DPUs and Inference Context Memory
 
@@ -910,17 +918,19 @@ The mitigating factors include NVIDIA's performance leadership, CUDA ecosystem m
 
 ## Regional Customer Distribution
 
-NVIDIA's customer base is global but concentrated in certain regions. North America represents 45 to 50 percent of demand, driven by hyperscaler presence and AI company concentration. Asia-Pacific outside China represents 10 to 15 percent, with India as a growth market and Japan, Southeast Asia, and Australia as established markets. Europe, Middle East, and Africa account for 15 to 20 percent, with sovereign AI initiatives and automotive partnerships driving demand.
+NVIDIA's customer base is global, and the only geography NVIDIA discloses is ship-to. In fiscal 2025 the United States took about 47 percent of revenue, Singapore about 18 percent, Taiwan about 16 percent, and China 13 percent, with the caveat that Singapore and Taiwan are inflated by manufacturing intermediaries that take delivery before final deployment. The effective center of gravity sits firmer in North America than the ship-to numbers suggest, driven by hyperscaler and AI company concentration, while India is the growth market and Japan, Southeast Asia, and Australia are established. Sovereign initiatives and automotive partnerships spread demand across Europe, the Middle East, Africa, and South America.
 
 ### China: The Constrained Market
 
-China represents 20 to 25 percent of global AI accelerator demand, but NVIDIA's ability to serve this market is constrained by export restrictions. The October 2022 restrictions banned A100 and H100 sales. The October 2023 restrictions banned A800, H800, L40S, and RTX 4090 sales. The H20 chip introduced in 2024 was a compromised product with reduced capabilities. In 2025, China directed domestic companies against purchasing H20, and NVIDIA halted production.
+China once represented as much as a quarter of NVIDIA's Data Center business; today NVIDIA's sales into China are effectively zero. The October 2022 restrictions banned A100 and H100 sales, the October 2023 restrictions banned A800, H800, L40S, and RTX 4090 sales, and the H20, introduced in 2024 as a compliant compromise, died in 2025 when Beijing directed domestic companies against purchasing it and NVIDIA halted production. Every fiscal 2027 outlook since has assumed zero China Data Center compute, and Jensen Huang said in May 2026 that NVIDIA's share of China's AI accelerator market has fallen to zero.
 
-The net effect is that China's AI accelerator market is shifting to domestic alternatives, primarily Huawei Ascend. This represents a permanent loss of 15 to 20 percent of NVIDIA's potential revenue. The company may maintain some presence with compliant products, but the days of selling cutting-edge GPUs to China are likely over.
+Two metrics must be kept apart, because they measure different things. NVIDIA's sales into China are near zero under current policy. NVIDIA's share of China's domestic AI chip purchases is still 34 percent, with Huawei at 28 percent, per IDC unit data for the first half of 2026, down from 55 percent for NVIDIA in 2025. Both numbers describe the same closed door from opposite sides.
+
+The 2026 policy sequence explains the strangeness. In January 2026 Washington created a case-by-case licensing regime that pairs approvals with a 25 percent cut of China sale revenue to the US government, and on May 14, 2026 it cleared H200 sales to ten Chinese firms, including Alibaba, Tencent and ByteDance. Commerce Under Secretary Jeffrey Kessler then testified to Congress on July 14, 2026 that very few H200s had actually shipped against roughly $10 billion of approved licenses, because Beijing gates every delivery through NDRC approval that forces buyers to justify why domestic chips will not do. The first meaningful deliveries landed in August 2026 at about 10,000 chips each for ByteDance and Tencent, 13 percent of the 75,000-per-buyer ceiling. Meanwhile several hundred thousand China-staged H200s sit in inventory as an overhang, and Chinese firms have ordered more than 2 million H200s for 2026 against roughly 700,000 units of NVIDIA inventory, demand big enough that NVIDIA has discussed restarting Hopper production with TSMC. Huang now describes a roughly $50 billion China market NVIDIA cannot serve, one that Huawei and the domestic stack are inheriting.
 
 ### North America: The Core Market
 
-North America remains NVIDIA's core market. The hyperscalers are all headquartered in the United States. The leading AI companies are primarily American. The enterprise AI adoption wave is strongest in the United States. Government partnerships, such as the U.S. Department of Energy Genesis Mission, create additional demand. North America's share of NVIDIA revenue may increase as China declines.
+North America remains NVIDIA's core market. The hyperscalers are all headquartered in the United States. The leading AI companies are primarily American. The enterprise AI adoption wave is strongest in the United States. Government partnerships, such as the U.S. Department of Energy Genesis Mission, create additional demand. North America's share of NVIDIA revenue may increase further with China effectively closed.
 
 ## Customer Contract Structure
 
@@ -931,6 +941,8 @@ NVIDIA has multiyear, multigenerational agreements with major customers. The Met
 While NVIDIA does not publicly disclose specific numbers, the company's largest customers have significant forward purchase commitments for GPU deployments. These commitments take various forms, including supply agreements, capacity reservations, and roadmap collaboration. The company's backlog and visibility benefit from these long-term relationships.
 
 The strategic importance of these commitments cannot be overstated. In a market where GPU supply has been constrained, having a guaranteed allocation is valuable. Customers willing to make multiyear commitments get priority access to the latest GPUs. This creates a virtuous cycle: the best customers get the best GPUs, which makes them more competitive, which increases their purchasing power, which reinforces their priority status.
+
+The supplier's own position in these contracts is changing shape. NVIDIA has begun acting as tenant, financier, and capacity operator rather than only vendor: the Financial Times identified NVIDIA as the investment-grade tenant behind two 15-year leases covering 704 megawatts at Hut 8's Beacon Point campus in Texas, worth $19.6 billion at base and up to $50.2 billion with all renewals exercised, and NVIDIA separately confirmed it secured land, power, and shell capacity with SB Energy in Ohio to host its own compute. NVIDIA has neither confirmed nor denied the lease identification. Chapter 4 unpacks the mechanism; the point for the customer map is that the line between who sells compute and who buys it has started to blur.
 
 ## The Customer Concentration Risk
 
@@ -946,7 +958,7 @@ The current evidence suggests a hybrid approach rather than full displacement. H
 
 NVIDIA is gradually diversifying its customer base. Enterprise AI adoption is creating a new customer segment beyond hyperscalers. Sovereign AI projects are creating national-scale customers. Automotive and healthcare verticals are scaling. Regional diversification into India, Japan, and international markets reduces concentration in any single geography.
 
-The diversification is real but gradual. Hyperscalers will remain the largest customer segment for the foreseeable future. The question is whether their share of NVIDIA revenue will decline from 50 percent to perhaps 35 to 40 percent as other segments grow. This is a plausible outcome over the next five years.
+The diversification is real but gradual. Hyperscalers will remain the largest customer segment for the foreseeable future. The question is whether their roughly 40 to 50 percent end-market share of Data Center revenue declines toward 35 percent as other segments grow. This is a plausible outcome over the next five years.
 
 ## Use Case Evolution: From Training to Inference to Agents
 
@@ -954,7 +966,7 @@ The use cases driving NVIDIA GPU demand are evolving. The initial wave was AI tr
 
 ### Generative AI and LLM Training
 
-Training foundation models remains the primary use case for NVIDIA's highest-end GPUs. GPT-4, Llama 3, Claude 3, and other frontier models required tens of thousands of GPUs running for months. The training cost for GPT-4 was estimated at over 100 million dollars in compute. The training cost for Llama 3 405B was similarly enormous. These training runs create demand for H100, H200, and Blackwell GPUs.
+Training foundation models remains the primary use case for NVIDIA's highest-end GPUs. GPT-4, Llama 3, Claude 3, and other frontier models required tens of thousands of GPUs running for months. The training cost for GPT-4 was estimated at over $100 million in compute, and Llama 3 405B cost roughly $60 million to $95 million on Meta's GPU-hours disclosure. These training runs create demand for H100, H200, and Blackwell GPUs.
 
 ### Inference Scaling
 
@@ -972,9 +984,9 @@ Physical AI for robotics and autonomous machines is a distinct use case with dif
 
 NVIDIA's customer ecosystem is the foundation of its business model. The company sells to the world's most valuable organizations, from hyperscalers with trillion-dollar market caps to sovereign nations with multi-billion dollar AI initiatives. The customer relationships are deep, multi-generational, and strategically significant.
 
-The strength of the customer ecosystem is evident in the financial results. Data Center revenue of 193.7 billion dollars in fiscal 2026 demonstrates the scale of customer demand. The growth rate of 68 percent year-over-year demonstrates the momentum. The gross margins above 75 percent demonstrate the pricing power that comes from customer dependency.
+The strength of the customer ecosystem is evident in the financial results. Data Center revenue of $193.7 billion in fiscal 2026 demonstrates the scale of customer demand. The growth rate of 68 percent year-over-year demonstrates the momentum. Gross margin near 71 percent for fiscal 2026, exiting at 75 percent in the fourth quarter, demonstrates the pricing power that comes from customer dependency.
 
-The vulnerability is equally evident. Customer concentration among a small number of hyperscalers creates dependency. Those customers are developing custom alternatives. China, a major market, is effectively lost due to export restrictions. Enterprise AI adoption, while promising, is still early compared to hyperscaler demand.
+The vulnerability is equally evident. Customer concentration among a small number of hyperscalers creates dependency. Those customers are developing custom alternatives. China, a major market, now contributes effectively zero under current policy. Enterprise AI adoption, while promising, is still early compared to hyperscaler demand.
 
 The most likely outcome is gradual diversification rather than sudden disruption. Hyperscalers will remain the largest customer segment but will reduce their relative share as enterprises, sovereign AI projects, and vertical markets grow. Custom silicon will capture some workloads but NVIDIA will retain the cutting-edge training segment where margins are highest. China will transition to domestic alternatives, but North America, India, Europe, and other markets will compensate.
 

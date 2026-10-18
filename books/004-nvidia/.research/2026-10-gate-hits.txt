@@ -1,0 +1,204 @@
+❌ nvidia: 229 gate hit(s) across 12 files
+   manuscript/00-frontmatter.md:3: banned phrase (exceptionally comprehensive): This book offers an exceptionally comprehensive and in-depth analysis of NVIDIA Corporation, moving 
+   manuscript/00-frontmatter.md:3: banned phrase (novel insights): This book offers an exceptionally comprehensive and in-depth analysis of NVIDIA Corporation, moving 
+   manuscript/00-frontmatter.md:3: banned phrase (moving beyond readily available summaries): This book offers an exceptionally comprehensive and in-depth analysis of NVIDIA Corporation, moving 
+   manuscript/00-frontmatter.md:7: banned phrase (key findings & core conclusions): **Key Findings & Core Conclusions**
+   manuscript/00-frontmatter.md:11: HTML comment: * **The CUDA Moat (see Chapters 2-3):** NVIDIA's competitive advantage rests on CUDA, a proprietary 
+   manuscript/00-frontmatter.md:11: spelled-out money: * **The CUDA Moat (see Chapters 2-3):** NVIDIA's competitive advantage rests on CUDA, a proprietary 
+   manuscript/00-frontmatter.md:12: HTML comment: * **Financial Ascent and Market Dominance (see Chapters 5-6):** NVIDIA holds 92% of the discrete GPU
+   manuscript/00-frontmatter.md:12: spelled-out money: * **Financial Ascent and Market Dominance (see Chapters 5-6):** NVIDIA holds 92% of the discrete GPU
+   manuscript/00-frontmatter.md:12: two-decimal aggregate in the billions: * **Financial Ascent and Market Dominance (see Chapters 5-6):** NVIDIA holds 92% of the discrete GPU
+   manuscript/00-frontmatter.md:13: HTML comment: * **Competitive Landscape (see Chapter 6):** NVIDIA faces credible threats from multiple directions.
+   manuscript/00-frontmatter.md:14: HTML comment: * **Customer Ecosystem (see Chapter 7):** NVIDIA's customer base has transformed from gamers and PC 
+   manuscript/00-frontmatter.md:15: HTML comment: * **Risk Factors (see Chapter 8):** NVIDIA's dominance attracts significant regulatory scrutiny. US 
+   manuscript/00-frontmatter.md:17: banned phrase (unprecedented insight): **Unprecedented Insight: The "Full-Stack AI Infrastructure" Thesis**
+   manuscript/00-frontmatter.md:19: banned phrase (synergistic triad): This analysis culminates in a thesis that reframes NVIDIA's role: it is not merely a chip company, b
+   manuscript/00-frontmatter.md:27: HTML comment: This full-stack positioning explains why NVIDIA maintains 80%+ market share despite well-funded comp
+   manuscript/00-frontmatter.md:31: spelled-out money: NVIDIA's trajectory over the next five years hinges on a small set of critical variables (scenario d
+   manuscript/00-frontmatter.md:33: spelled-out money: In a Base Case scenario, NVIDIA maintains 60-70% market share through 2027 as AMD/Intel/custom silic
+   manuscript/00-frontmatter.md:35: spelled-out money: In a Bull Case, AI demand accelerates beyond expectations, NVIDIA maintains 70%+ share, sovereign AI
+   manuscript/00-frontmatter.md:37: HTML comment: In a Bear Case, AI infrastructure spending plateaus after 2026, hyperscaler custom chips substitute 
+   manuscript/00-frontmatter.md:37: spelled-out money: In a Bear Case, AI infrastructure spending plateaus after 2026, hyperscaler custom chips substitute 
+   manuscript/00-frontmatter.md:39: HTML comment: The most critical variable to watch: can CUDA maintain its ecosystem lock-in, or will open alternati
+   manuscript/01-thirty-days-from-bankruptcy.md:221: two-decimal aggregate in the billions: Fiscal 2002 was a peak year for this early period. Revenue reached $1.47 billion, and net income was
+   manuscript/01-thirty-days-from-bankruptcy.md:223: two-decimal aggregate in the billions: However, fiscal 2003 saw a decline. Revenue dropped to $1.09 billion, and net income fell to $61 mil
+   manuscript/01-thirty-days-from-bankruptcy.md:351: spelled-out money: It was in this context that NVIDIA made what appeared to be a perplexing decision. The company would
+   manuscript/02-the-billion-dollar-bet.md:13: spelled-out money: The project would become CUDA, which originally stood for Compute Unified Device Architecture. It wa
+   manuscript/02-the-billion-dollar-bet.md:53: spelled-out money: The skepticism was understandable from a traditional business perspective. Companies are supposed to
+   manuscript/02-the-billion-dollar-bet.md:445: spelled-out money: The CUDA story offers several lessons about strategic innovation and technology leadership. First, s
+   manuscript/05-financial-ascent.md:3: spelled-out money: NVIDIA's financial ascent is unprecedented in corporate history. The journey from 5 billion dollars 
+   manuscript/05-financial-ascent.md:13: spelled-out money: In fiscal 2016, NVIDIA generated 5.01 billion dollars in revenue. This period represented the compan
+   manuscript/05-financial-ascent.md:13: two-decimal aggregate in the billions: In fiscal 2016, NVIDIA generated 5.01 billion dollars in revenue. This period represented the compan
+   manuscript/05-financial-ascent.md:15: spelled-out money: Fiscal 2017 delivered 6.91 billion dollars in revenue, representing 38% year-over-year growth. This 
+   manuscript/05-financial-ascent.md:15: two-decimal aggregate in the billions: Fiscal 2017 delivered 6.91 billion dollars in revenue, representing 38% year-over-year growth. This 
+   manuscript/05-financial-ascent.md:17: spelled-out money: Fiscal 2018 reached 9.71 billion dollars, up 41% from the prior year. The crypto mining boom peaked 
+   manuscript/05-financial-ascent.md:17: two-decimal aggregate in the billions: Fiscal 2018 reached 9.71 billion dollars, up 41% from the prior year. The crypto mining boom peaked 
+   manuscript/05-financial-ascent.md:19: spelled-out money: Fiscal 2019 achieved 11.72 billion dollars in revenue, a 21% increase that marked a deceleration fro
+   manuscript/05-financial-ascent.md:19: two-decimal aggregate in the billions: Fiscal 2019 achieved 11.72 billion dollars in revenue, a 21% increase that marked a deceleration fro
+   manuscript/05-financial-ascent.md:23: spelled-out money: Fiscal 2020 saw revenue decline to 10.92 billion dollars, a 7% drop from the prior year. This contra
+   manuscript/05-financial-ascent.md:23: two-decimal aggregate in the billions: Fiscal 2020 saw revenue decline to 10.92 billion dollars, a 7% drop from the prior year. This contra
+   manuscript/05-financial-ascent.md:31: spelled-out money: Fiscal 2021 delivered 16.68 billion dollars in revenue, a staggering 53% increase that marked the be
+   manuscript/05-financial-ascent.md:31: two-decimal aggregate in the billions: Fiscal 2021 delivered 16.68 billion dollars in revenue, a staggering 53% increase that marked the be
+   manuscript/05-financial-ascent.md:39: spelled-out money: Fiscal 2022 reached 26.91 billion dollars in revenue, up 61% from fiscal 2021. This year marked a cr
+   manuscript/05-financial-ascent.md:39: two-decimal aggregate in the billions: Fiscal 2022 reached 26.91 billion dollars in revenue, up 61% from fiscal 2021. This year marked a cr
+   manuscript/05-financial-ascent.md:41: spelled-out money: The Mellanox acquisition proved its value as data center customers sought complete systems rather th
+   manuscript/05-financial-ascent.md:45: two-decimal aggregate in the billions: The ARM acquisition attempt, announced in September 2020 and ultimately called off in February 2022,
+   manuscript/05-financial-ascent.md:49: spelled-out money: Fiscal 2023 delivered 26.97 billion dollars in revenue, essentially flat with the prior year at 0.2%
+   manuscript/05-financial-ascent.md:49: two-decimal aggregate in the billions: Fiscal 2023 delivered 26.97 billion dollars in revenue, essentially flat with the prior year at 0.2%
+   manuscript/05-financial-ascent.md:57: spelled-out money: Fiscal 2024 produced 60.92 billion dollars in revenue, a 126% year-over-year increase that marked NV
+   manuscript/05-financial-ascent.md:57: two-decimal aggregate in the billions: Fiscal 2024 produced 60.92 billion dollars in revenue, a 126% year-over-year increase that marked NV
+   manuscript/05-financial-ascent.md:59: spelled-out money: The quarterly progression tells the story vividly. The first quarter of fiscal 2024 (Q1 FY24, ended 
+   manuscript/05-financial-ascent.md:59: two-decimal aggregate in the billions: The quarterly progression tells the story vividly. The first quarter of fiscal 2024 (Q1 FY24, ended 
+   manuscript/05-financial-ascent.md:61: spelled-out money: Data center revenue drove this growth. In fiscal 2024, data center revenue reached approximately 47.
+   manuscript/05-financial-ascent.md:69: spelled-out money: Fiscal 2025 reached 130.50 billion dollars in revenue, up 114% from the already extraordinary fiscal
+   manuscript/05-financial-ascent.md:69: two-decimal aggregate in the billions: Fiscal 2025 reached 130.50 billion dollars in revenue, up 114% from the already extraordinary fiscal
+   manuscript/05-financial-ascent.md:71: spelled-out money: The quarterly progression showed consistent acceleration rather than a single spike. Q1 FY25 deliver
+   manuscript/05-financial-ascent.md:73: spelled-out money: Data center revenue in fiscal 2025 reached an estimated 115 billion dollars, representing roughly 90
+   manuscript/05-financial-ascent.md:77: spelled-out money: The scale of purchasing was unprecedented. Individual customers were placing orders worth hundreds o
+   manuscript/05-financial-ascent.md:81: spelled-out money: Fiscal 2026 delivered 215.94 billion dollars in revenue, up 65% from fiscal 2025. While the growth r
+   manuscript/05-financial-ascent.md:81: two-decimal aggregate in the billions: Fiscal 2026 delivered 215.94 billion dollars in revenue, up 65% from fiscal 2025. While the growth r
+   manuscript/05-financial-ascent.md:83: spelled-out money: The fourth quarter of fiscal 2026 alone generated 68.1 billion dollars in revenue. This single quart
+   manuscript/05-financial-ascent.md:87: spelled-out money: Net income for fiscal 2026 reached 120.07 billion dollars, representing a 55.6% net margin. This lev
+   manuscript/05-financial-ascent.md:87: two-decimal aggregate in the billions: Net income for fiscal 2026 reached 120.07 billion dollars, representing a 55.6% net margin. This lev
+   manuscript/05-financial-ascent.md:99: spelled-out money: The financial impact was significant. In fiscal 2018, NVIDIA's revenue grew 41% to 9.71 billion doll
+   manuscript/05-financial-ascent.md:99: two-decimal aggregate in the billions: The financial impact was significant. In fiscal 2018, NVIDIA's revenue grew 41% to 9.71 billion doll
+   manuscript/05-financial-ascent.md:123: spelled-out money: NVIDIA settled the charges for 5.5 million dollars without admitting or denying the findings. Jensen
+   manuscript/05-financial-ascent.md:189: spelled-out money: NVIDIA's third quarter of fiscal 2024 earnings call in August 2023 marked the moment when Wall Stree
+   manuscript/05-financial-ascent.md:189: two-decimal aggregate in the billions: NVIDIA's third quarter of fiscal 2024 earnings call in August 2023 marked the moment when Wall Stree
+   manuscript/05-financial-ascent.md:193: spelled-out money: The guidance for the next quarter called for 16 billion dollars in revenue, plus or minus 2%. This r
+   manuscript/05-financial-ascent.md:199: spelled-out money: NVIDIA's fourth quarter of fiscal 2024 earnings in February 2024 reported 22.1 billion dollars in re
+   manuscript/05-financial-ascent.md:199: two-decimal aggregate in the billions: NVIDIA's fourth quarter of fiscal 2024 earnings in February 2024 reported 22.1 billion dollars in re
+   manuscript/05-financial-ascent.md:203: spelled-out money: The guidance for Q1 FY2025 called for 24 billion dollars in revenue, plus or minus 2%. This represen
+   manuscript/05-financial-ascent.md:209: spelled-out money: Q1 FY2025 earnings delivered 26.0 billion dollars in revenue, up 262% from the prior year and 18% se
+   manuscript/05-financial-ascent.md:215: spelled-out money: Guidance for Q2 FY2025 called for 28 billion dollars in revenue, plus or minus 2%. This represented 
+   manuscript/05-financial-ascent.md:219: spelled-out money: Q2 FY2025 earnings reported 30.0 billion dollars in revenue, up 122% from the prior year and 15% seq
+   manuscript/05-financial-ascent.md:225: spelled-out money: Guidance for Q3 FY2025 called for 32.5 billion dollars in revenue, plus or minus 2%. This represente
+   manuscript/05-financial-ascent.md:229: spelled-out money: Q3 FY2025 earnings delivered 35.1 billion dollars in revenue, up 94% from the prior year and 17% seq
+   manuscript/05-financial-ascent.md:235: spelled-out money: Guidance for Q4 FY2025 called for 37.5 billion dollars in revenue, plus or minus 2%. While the seque
+   manuscript/05-financial-ascent.md:239: spelled-out money: Q4 FY2025 earnings reported 39.3 billion dollars in revenue, bringing full-year fiscal 2025 revenue 
+   manuscript/05-financial-ascent.md:239: two-decimal aggregate in the billions: Q4 FY2025 earnings reported 39.3 billion dollars in revenue, bringing full-year fiscal 2025 revenue 
+   manuscript/05-financial-ascent.md:243: spelled-out money: The quarter marked the first significant shipments of Blackwell products. The transition from Hopper
+   manuscript/05-financial-ascent.md:245: spelled-out money: Guidance for Q1 FY2026 called for 43 billion dollars in revenue, plus or minus 2%. This represented 
+   manuscript/05-financial-ascent.md:249: spelled-out money: Q1 FY2026 earnings delivered 26.0 billion dollars in revenue, up 262% from the prior year. Data cent
+   manuscript/05-financial-ascent.md:257: spelled-out money: Q4 FY2026 earnings reported 68.1 billion dollars in revenue for the quarter, bringing full-year fisc
+   manuscript/05-financial-ascent.md:257: two-decimal aggregate in the billions: Q4 FY2026 earnings reported 68.1 billion dollars in revenue for the quarter, bringing full-year fisc
+   manuscript/05-financial-ascent.md:259: spelled-out money: The most significant aspect of this quarter was that numbers that would have been shocking two years
+   manuscript/05-financial-ascent.md:339: spelled-out money: Compute & Networking has evolved from a minor segment to NVIDIA's primary business. In fiscal 2020, 
+   manuscript/05-financial-ascent.md:341: spelled-out money: By fiscal 2025, Compute & Networking reached 116.2 billion dollars in revenue, representing 89% of t
+   manuscript/05-financial-ascent.md:345: spelled-out money: **Data center GPUs:** This is the largest and fastest-growing component. H100, H200, B100, B200, and
+   manuscript/05-financial-ascent.md:349: spelled-out money: **Automotive:** DRIVE platform for autonomous vehicles and advanced driver assistance systems. Autom
+   manuscript/05-financial-ascent.md:355: spelled-out money: Graphics has transformed from NVIDIA's dominant segment to a minority business. In fiscal 2020, Grap
+   manuscript/05-financial-ascent.md:357: spelled-out money: By fiscal 2025, Graphics reached 14.3 billion dollars in revenue, representing only 11% of total rev
+   manuscript/05-financial-ascent.md:373: spelled-out money: **Fiscal 2020: ~3 billion dollars.** Data center was a secondary business focused on traditional hig
+   manuscript/05-financial-ascent.md:375: spelled-out money: **Fiscal 2021: ~4.8 billion dollars.** The pandemic accelerated cloud infrastructure spending. AI wo
+   manuscript/05-financial-ascent.md:377: spelled-out money: **Fiscal 2022: ~10.6 billion dollars.** Data center revenue doubled as AI adoption accelerated. Majo
+   manuscript/05-financial-ascent.md:379: spelled-out money: **Fiscal 2023: ~15 billion dollars.** Continued growth despite overall company revenue stagnation. T
+   manuscript/05-financial-ascent.md:381: spelled-out money: **Fiscal 2024: ~47.5 billion dollars.** The ChatGPT effect. Revenue tripled as hyperscalers raced to
+   manuscript/05-financial-ascent.md:383: spelled-out money: **Fiscal 2025: ~115 billion dollars.** Data center revenue more than doubled again. H200 GPUs with e
+   manuscript/05-financial-ascent.md:385: spelled-out money: **Fiscal 2026 Q4: 62.3 billion dollars.** A single quarter of data center revenue that exceeded the 
+   manuscript/05-financial-ascent.md:403: spelled-out money: Gaming revenue was approximately 2.7 billion dollars in fiscal 2020. By fiscal 2025, gaming reached 
+   manuscript/05-financial-ascent.md:421: spelled-out money: Automotive represents NVIDIA's long-term bet on autonomous vehicles. The DRIVE platform combines har
+   manuscript/05-financial-ascent.md:435: spelled-out money: **United States: 61.3 billion dollars (46.9%)**. The United States is NVIDIA's largest market for se
+   manuscript/05-financial-ascent.md:437: spelled-out money: **Singapore: 23.7 billion dollars (18.2%)**. Singapore's high revenue share reflects supply chain re
+   manuscript/05-financial-ascent.md:439: spelled-out money: **Taiwan: 20.6 billion dollars (15.8%)**. Taiwan's revenue similarly reflects supply chain relations
+   manuscript/05-financial-ascent.md:441: spelled-out money: **China: 17.1 billion dollars (13.1%)**. China represents a major end market for NVIDIA products, bu
+   manuscript/05-financial-ascent.md:443: spelled-out money: **Other countries: 7.9 billion dollars (6.0%)**. This category includes Europe, Japan, India, Southe
+   manuscript/05-financial-ascent.md:459: spelled-out money: **July 2025:** NVIDIA ordered 300,000 H20 chips from TSMC for the Chinese market. This order, worth 
+   manuscript/05-financial-ascent.md:497: spelled-out money: NVIDIA's stock market performance defies historical precedent. The company's ascent from 100 billion
+   manuscript/05-financial-ascent.md:499: spelled-out money: ### The journey to 1 trillion dollars (January 2021 to May 2023)
+   manuscript/05-financial-ascent.md:501: spelled-out money: NVIDIA's market capitalization first crossed 100 billion dollars in January 2021, driven by the pand
+   manuscript/05-financial-ascent.md:503: spelled-out money: The journey from 100 billion to 1 trillion dollars took approximately two years and four months. The
+   manuscript/05-financial-ascent.md:505: spelled-out money: NVIDIA reached 1 trillion dollars in market capitalization on May 30, 2023, becoming the first semic
+   manuscript/05-financial-ascent.md:507: spelled-out money: ### The fastest 1 trillion to 2 trillion dollars (May 2023 to March 1, 2024)
+   manuscript/05-financial-ascent.md:509: spelled-out money: The ascent from 1 trillion to 2 trillion dollars in market capitalization took only 180 days, reachi
+   manuscript/05-financial-ascent.md:511: spelled-out money: This acceleration reflected the momentum in AI adoption. In the third quarter of fiscal 2024 (report
+   manuscript/05-financial-ascent.md:511: two-decimal aggregate in the billions: This acceleration reflected the momentum in AI adoption. In the third quarter of fiscal 2024 (report
+   manuscript/05-financial-ascent.md:515: spelled-out money: ### From 2 trillion to 3 trillion dollars (March 1 to June 18, 2024)
+   manuscript/05-financial-ascent.md:517: spelled-out money: The climb from 2 trillion to 3 trillion dollars took approximately 105 days, reaching 3 trillion on 
+   manuscript/05-financial-ascent.md:519: spelled-out money: Fiscal 2024 results, reported in February 2024, showed 60.92 billion dollars in annual revenue, up 1
+   manuscript/05-financial-ascent.md:519: two-decimal aggregate in the billions: Fiscal 2024 results, reported in February 2024, showed 60.92 billion dollars in annual revenue, up 1
+   manuscript/05-financial-ascent.md:523: spelled-out money: ### From 3 trillion to 4 trillion dollars (June 2024 to July 10, 2025)
+   manuscript/05-financial-ascent.md:525: spelled-out money: The journey from 3 trillion to 4 trillion dollars took about 13 months, reaching 4 trillion on July 
+   manuscript/05-financial-ascent.md:527: spelled-out money: Fiscal 2025 results, reported in February 2025, showed 130.50 billion dollars in annual revenue, up 
+   manuscript/05-financial-ascent.md:527: two-decimal aggregate in the billions: Fiscal 2025 results, reported in February 2025, showed 130.50 billion dollars in annual revenue, up 
+   manuscript/05-financial-ascent.md:529: spelled-out money: During this period, NVIDIA briefly surpassed Apple and Microsoft to become the most valuable company
+   manuscript/05-financial-ascent.md:531: spelled-out money: ### From 4 trillion to 5 trillion dollars (July to October 29, 2025)
+   manuscript/05-financial-ascent.md:533: spelled-out money: The final push to 5 trillion dollars took only about three months, reaching 5 trillion on October 29
+   manuscript/05-financial-ascent.md:537: spelled-out money: At 5 trillion dollars, NVIDIA's valuation became a topic of debate among investors. The company was 
+   manuscript/05-financial-ascent.md:543: spelled-out money: **Versus semiconductor peers:** Intel's market capitalization peaked around 250 billion dollars in 2
+   manuscript/05-financial-ascent.md:545: spelled-out money: **Versus technology giants:** Apple and Microsoft each reached approximately 3 trillion dollars in m
+   manuscript/05-financial-ascent.md:547: spelled-out money: **Versus national economies:** A 5 trillion dollar valuation exceeds the GDP of all but a handful of
+   manuscript/05-financial-ascent.md:573: spelled-out money: At NVIDIA's 5 trillion dollar peak in October 2025, Huang's 3.5% stake was worth approximately 175 b
+   manuscript/05-financial-ascent.md:587: spelled-out money: The annual dividend is approximately 0.01 dollars per share (pre-split), with a payout ratio in the 
+   manuscript/05-financial-ascent.md:597: spelled-out money: In recent years, NVIDIA's buyback activity has been relatively modest compared to its cash flow gene
+   manuscript/05-financial-ascent.md:603: spelled-out money: NVIDIA's primary use of capital is R&D investment. The company spends 5-10 billion dollars annually 
+   manuscript/05-financial-ascent.md:623: spelled-out money: The Mellanox acquisition (2019) for 6.9 billion dollars proved transformational. Mellanox's InfiniBa
+   manuscript/05-financial-ascent.md:625: spelled-out money: The failed ARM acquisition (2020-2022) for 40 billion dollars was a bold attempt to expand into CPUs
+   manuscript/05-financial-ascent.md:625: two-decimal aggregate in the billions: The failed ARM acquisition (2020-2022) for 40 billion dollars was a bold attempt to expand into CPUs
+   manuscript/05-financial-ascent.md:629: spelled-out money: NVIDIA has also made strategic investments in ecosystem partners. The company invested 13 billion do
+   manuscript/05-financial-ascent.md:643: spelled-out money: For investors seeking current income through dividends, NVIDIA is not an appropriate holding. For in
+   manuscript/05-financial-ascent.md:645: spelled-out money: The question is whether this approach remains appropriate as NVIDIA matures. At 5 trillion dollars i
+   manuscript/05-financial-ascent.md:655: spelled-out money: As of fiscal 2026, NVIDIA's total assets reached 206.8 billion dollars. The composition of these ass
+   manuscript/05-financial-ascent.md:657: spelled-out money: **Cash and equivalents: approximately 30 billion dollars.** This cash position provides immediate li
+   manuscript/05-financial-ascent.md:659: spelled-out money: **Marketable securities: approximately 20 billion dollars.** These are investments in highly liquid 
+   manuscript/05-financial-ascent.md:661: spelled-out money: **Property and equipment: approximately 10 billion dollars.** This relatively low figure reflects th
+   manuscript/05-financial-ascent.md:681: spelled-out money: NVIDIA's total equity as of fiscal 2026 reached 144.3 billion dollars. This equity represents the ne
+   manuscript/05-financial-ascent.md:691: spelled-out money: NVIDIA's profitability translates effectively into cash flow. Operating cash flow has approximately 
+   manuscript/05-financial-ascent.md:739: spelled-out money: Price targets in 2025-2026 typically implied 10-20% upside from current levels, reflecting optimism 
+   manuscript/05-financial-ascent.md:745: spelled-out money: **AI infrastructure build-out:** Hyperscaler spending on AI infrastructure represents a multi-year c
+   manuscript/05-financial-ascent.md:777: spelled-out money: The fundamental question for NVIDIA investors is whether the current financial performance is sustai
+   manuscript/05-financial-ascent.md:795: spelled-out money: From this perspective, NVIDIA's 5 trillion dollar valuation is justified by the size of the AI oppor
+   manuscript/05-financial-ascent.md:833: spelled-out money: In this base case, NVIDIA continues to grow but at gradually decelerating rates. Revenue could reach
+   manuscript/05-financial-ascent.md:841: spelled-out money: Yet the financial fundamentals justify much of the optimism. Revenue growth exceeding 50% with net m
+   manuscript/07-who-buys-the-shovels.md:5: spelled-out money: The customer data tells a clear story. NVIDIA's Data Center revenue reached 193.7 billion dollars in
+   manuscript/07-who-buys-the-shovels.md:17: spelled-out money: The OpenAI partnership is foundational to Microsoft's AI strategy. Microsoft invested approximately 
+   manuscript/07-who-buys-the-shovels.md:39: spelled-out money: Microsoft's AI infrastructure spending exceeds 10 billion dollars annually as of 2025. Even if Maia 
+   manuscript/07-who-buys-the-shovels.md:47: spelled-out money: The strategic importance of this relationship cannot be overstated. Microsoft is one of the world's 
+   manuscript/07-who-buys-the-shovels.md:57: spelled-out money: Training Llama 3 405B required thousands of GPUs running for months. The training cost exceeded 100 
+   manuscript/07-who-buys-the-shovels.md:79: spelled-out money: **Millions of GPUs:** Meta will purchase millions of Blackwell and Rubin GPUs over multiple years. T
+   manuscript/07-who-buys-the-shovels.md:265: spelled-out money: Training GPT-4 required an enormous compute infrastructure. While exact specifications were not disc
+   manuscript/07-who-buys-the-shovels.md:533: spelled-out money: NVIDIA's automotive business reached 604 million dollars in Q4 fiscal 2026, up 2 percent quarter-ove
+   manuscript/07-who-buys-the-shovels.md:957: spelled-out money: Training foundation models remains the primary use case for NVIDIA's highest-end GPUs. GPT-4, Llama 
+   manuscript/07-who-buys-the-shovels.md:975: spelled-out money: The strength of the customer ecosystem is evident in the financial results. Data Center revenue of 1
+   manuscript/08-the-other-side-of-five-trillion.md:3: spelled-out money: NVIDIA's ascent to a 5 trillion dollar market capitalization represents one of the most dramatic val
+   manuscript/08-the-other-side-of-five-trillion.md:23: spelled-out money: NVIDIA's immediate financial disclosure revealed the stakes. The company estimated that approximatel
+   manuscript/08-the-other-side-of-five-trillion.md:49: spelled-out money: The financial impact of export controls began appearing in NVIDIA's results. China revenue, which ha
+   manuscript/08-the-other-side-of-five-trillion.md:63: spelled-out money: The Commerce Department estimated that the updated rules could affect approximately 7 billion dollar
+   manuscript/08-the-other-side-of-five-trillion.md:189: spelled-out money: NVIDIA has experience navigating regulatory review for major acquisitions, with mixed success. The M
+   manuscript/08-the-other-side-of-five-trillion.md:191: spelled-out money: But NVIDIA also experienced a major regulatory defeat. The Arm acquisition, announced in September 2
+   manuscript/08-the-other-side-of-five-trillion.md:191: two-decimal aggregate in the billions: But NVIDIA also experienced a major regulatory defeat. The Arm acquisition, announced in September 2
+   manuscript/08-the-other-side-of-five-trillion.md:211: spelled-out money: In October 2021, NVIDIA settled with the Securities and Exchange Commission for 5.5 million dollars 
+   manuscript/08-the-other-side-of-five-trillion.md:283: spelled-out money: The cost structure comparison is revealing. NVIDIA H100 GPUs sell for 25,000 to 40,000 dollars each 
+   manuscript/08-the-other-side-of-five-trillion.md:285: spelled-out money: If that same hyperscaler can develop a custom chip for 1 billion dollars in design and development c
+   manuscript/08-the-other-side-of-five-trillion.md:297: spelled-out money: The hyperscaler paradox is that NVIDIA's success has attracted customers large enough to develop the
+   manuscript/08-the-other-side-of-five-trillion.md:441: spelled-out money: The premium valuation reflects expected 20 to 30% or higher compound annual growth rate through 2029
+   manuscript/08-the-other-side-of-five-trillion.md:441: two-decimal aggregate in the billions: The premium valuation reflects expected 20 to 30% or higher compound annual growth rate through 2029
+   manuscript/08-the-other-side-of-five-trillion.md:451: spelled-out money: The recent surge from 1 trillion to 5 trillion dollars in market capitalization occurred with remark
+   manuscript/08-the-other-side-of-five-trillion.md:467: spelled-out money: The path to 5 trillion dollars in market capitalization created high expectations that may be diffic
+   manuscript/08-the-other-side-of-five-trillion.md:555: spelled-out money: The next chapter examines how these risks factor into forward-looking scenarios for NVIDIA's busines
+   manuscript/09-the-age-of-ai-reasoning.md:13: spelled-out money: Fiscal 2026 established a new baseline for NVIDIA's business with record revenue of 215.94 billion d
+   manuscript/09-the-age-of-ai-reasoning.md:13: two-decimal aggregate in the billions: Fiscal 2026 established a new baseline for NVIDIA's business with record revenue of 215.94 billion d
+   manuscript/09-the-age-of-ai-reasoning.md:15: spelled-out money: Market capitalization fluctuated between 4.45 and 5 trillion dollars during fiscal 2026 depending on
+   manuscript/09-the-age-of-ai-reasoning.md:17: spelled-out money: The fourth quarter of fiscal 2026, ended January 25, 2026, set new records with quarterly revenue re
+   manuscript/09-the-age-of-ai-reasoning.md:21: spelled-out money: Analyst revenue projections for fiscal 2027 show the trajectory from this extraordinary base. Consen
+   manuscript/09-the-age-of-ai-reasoning.md:23: spelled-out money: The lower end of the range, around 250 billion dollars, assumes significant competitive pressure and
+   manuscript/09-the-age-of-ai-reasoning.md:25: spelled-out money: The higher end of the range, around 280 billion dollars, assumes sustained hyperscaler investment an
+   manuscript/09-the-age-of-ai-reasoning.md:31: spelled-out money: Long-term models for fiscal 2028 project 300 to 350 billion dollars or more in annual revenue run ra
+   manuscript/09-the-age-of-ai-reasoning.md:33: spelled-out money: The moderation in growth rates reflects the law of large numbers. Growing from 200 to 250 billion do
+   manuscript/09-the-age-of-ai-reasoning.md:39: spelled-out money: Fiscal 2029 projections show wider dispersion as uncertainty increases with the time horizon. Bull c
+   manuscript/09-the-age-of-ai-reasoning.md:41: spelled-out money: More conservative projections for fiscal 2029 range from 300 to 350 billion dollars. These scenarios
+   manuscript/09-the-age-of-ai-reasoning.md:43: spelled-out money: Beyond fiscal 2029, analyst models become increasingly speculative. Some long-term models project NV
+   manuscript/09-the-age-of-ai-reasoning.md:99: spelled-out money: Pricing for Blackwell products reflects their performance advantages and supply constraints. GB200 s
+   manuscript/09-the-age-of-ai-reasoning.md:159: spelled-out money: The revenue implications are significant. Training represents large, lumpy purchases when companies 
+   manuscript/09-the-age-of-ai-reasoning.md:251: spelled-out money: Sovereign AI could add 10 to 30 billion dollars in annual government revenue by the late 2020s if cu
+   manuscript/09-the-age-of-ai-reasoning.md:285: spelled-out money: The market opportunity for humanoid robotics is substantial but uncertain. Various forecasts project
+   manuscript/09-the-age-of-ai-reasoning.md:359: spelled-out money: The healthcare AI market is projected to reach 100 billion dollars or more by 2030, encompassing med
+   manuscript/09-the-age-of-ai-reasoning.md:421: spelled-out money: The enterprise AI software market is projected to reach 100 billion dollars or more by 2030. NVIDIA 
+   manuscript/10-the-bull-case-the-bear-case.md:9: spelled-out money: The bull case requires that NVIDIA maintains or extends its AI dominance while capturing significant
+   manuscript/10-the-bull-case-the-bear-case.md:13: spelled-out money: The assumptions underlying the bull case are demanding but not impossible. AI demand must continue 2
+   manuscript/10-the-bull-case-the-bear-case.md:19: spelled-out money: Sovereign AI must add 20 to 30 billion dollars in annual government revenue. This requires that coun
+   manuscript/10-the-bull-case-the-bear-case.md:21: spelled-out money: Robotics and automotive must become meaningful revenue contributors, each reaching 10 billion dollar
+   manuscript/10-the-bull-case-the-bear-case.md:27: spelled-out money: Revenue projections under the bull case show continuing acceleration through fiscal 2029. Fiscal 202
+   ... and 29 more
+
+Report mode: 229 hit(s) total (not gating).

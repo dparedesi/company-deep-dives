@@ -6,8 +6,8 @@
 title: "The NVIDIA Moat"
 subtitle: "How One Company Built the Foundation Beneath Artificial Intelligence"
 author: "Daniel Paredes"
-date: "April 2026"
-last_published: "2026-04-12"
+date: "October 2026"
+last_published: "2026-10-18"
 language: en
 
 # Cover Image (relative to images/ folder)
@@ -42,12 +42,13 @@ epub:
 
 # Book Description (for metadata)
 description: |
-  The deepest publicly available analysis of NVIDIA Corporation, from its 1993
-  founding as a graphics chip startup through its transformation into the most
-  important semiconductor company on Earth. Covers the CUDA moat, the AI
-  infrastructure boom, Blackwell and Rubin architectures, competitive threats
-  from custom silicon, and the geopolitical dimensions of GPU dominance.
-  Current as of April 2026.
+  An analytical deep dive into NVIDIA Corporation: the CUDA platform moat, the
+  AI factory strategy, and the full financial record. Current as of October
+  2026, it covers fiscal 2027's accelerating quarters (Q2 revenue of $96.2
+  billion, up 106 percent), the supply-constrained fiscal 2028 outlook, the
+  Vera Rubin ramp, China revenue at zero against Huawei's rise, NVIDIA's
+  transformation into the balance sheet behind its own customers, and a
+  re-based scenario outlook with the book's own house view and falsifiers.
 
 # Keywords/Tags
 keywords:
