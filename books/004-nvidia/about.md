@@ -24,7 +24,7 @@ Moving far beyond surface-level financial summaries, this book meticulously deco
 Authored with a commitment to evidence-based reasoning, this book draws on financial filings, technical documentation, market research, and product analysis. Every claim is grounded in specific facts: numbers, dates, specifications, and verifiable events. *The NVIDIA Moat* is essential reading for investors evaluating the most important semiconductor company on Earth, technologists seeking to understand the infrastructure beneath the AI revolution, business leaders navigating the AI transition, and anyone who wants to understand how a twenty-year bet on parallel computing created the foundation upon which artificial intelligence now stands.
 
 ## Teaser text:
-NVIDIA went from a Denny's startup to a $5 trillion empire by betting $1 billion on a technology nobody wanted. Two decades later, every AI model on Earth runs on its hardware. *The NVIDIA Moat* dissects the CUDA software fortress, the AI factory strategy, and the competitors circling the moat. Essential analysis for the AI age.
+NVIDIA went from a Denny's startup to a $5 trillion empire by betting $1 billion on a technology nobody wanted. Two decades later, most frontier AI models train on its hardware. *The NVIDIA Moat* dissects the CUDA software fortress, the AI factory strategy, and the competitors circling the moat. Essential analysis for the AI age.
 
 ## Meta description:
 Deep analysis of NVIDIA's CUDA moat, AI infrastructure dominance, and competitive threats. From Denny's to $5 trillion. Current to October 2026. Essential NVIDIA analysis for investors and technologists.
@@ -35,10 +35,10 @@ Deep analysis of NVIDIA's CUDA moat, AI infrastructure dominance, and competitiv
 <p>Chapter 2: The Billion-Dollar Bet No One Wanted</p>
 <p>Chapter 3: From GeForce to Blackwell</p>
 <p>Chapter 4: Building the AI Factory</p>
-<p>Chapter 5: The Fastest $5 Trillion in History</p>
+<p>Chapter 5: The Fastest Five Trillion in History</p>
 <p>Chapter 6: The CUDA Moat</p>
 <p>Chapter 7: Who Buys the Shovels</p>
-<p>Chapter 8: The Other Side of $5 Trillion</p>
+<p>Chapter 8: The Other Side of Five Trillion</p>
 <p>Chapter 9: The Age of AI Reasoning</p>
 <p>Chapter 10: The Bull Case, The Bear Case, and What to Watch</p>
 
