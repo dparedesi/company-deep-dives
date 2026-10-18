@@ -1,0 +1,15 @@
+# Consistency notes: 04-chapter-4.md (2026-10 cycle)
+
+| chapter file | the cross-reference | why it may now be stale |
+|---|---|---|
+| 04-chapter-4.md | Three pointers to "Chapter 8's October snapshot" and the October 16, 2026 close of $186.03 with $447 billion market cap (valuation section) | Chapter 8's snapshot replace (F4, BAR-22) must land with the same date and values; if chapter 8 keeps the April snapshot or changes figures, chapter 4's pointers dangle |
+| 04-chapter-4.md | FY2026 guidance printed in house format as "approximately $8.2 billion" everywhere | The change lines for frontmatter, chapters 1, 8, and 9 say "$8.15 billion", which is a two-decimal aggregate and will both fail their gates and mismatch chapter 4; they need the same house-format resolution (approximately $8.2 billion, or "$8.2 billion" with the +82 percent anchor carrying precision) |
+| 04-chapter-4.md | The old sanity check cited Chapter 9's "$8 to $10 billion Base Case by mid-2030" bands; now deleted here | Chapter 9 re-bases its scenario bands this cycle (F58, BAR-26); any other chapter still citing the old bands contradicts the new $8.2 billion FY2026 guide |
+| 04-chapter-4.md | Boot camp counters 324 and 660 framed as dashboard history | Chapters 3 (line 252) and 6 (line 91) still cite the counters; they must adopt the same retirement per F27 or the book contradicts itself on whether the counter is current |
+| 04-chapter-4.md | Rule of 40 for Q2 2025 stated at approximately 94 (48 percent growth plus 46 percent adjusted operating margin) | The losing approximately 69 value also lived only in chapter 4 (deleted), but chapters 3 and 5 may echo Rule of 40 figures; verify they carry 94 or the 2026 prints (145, 155) |
+| 04-chapter-4.md | Q3 2025 total revenue growth stated as 63 percent in the acceleration framing | Other chapters may carry 62 or 63 percent for Q3 2025 from the prior edition; unify on one value |
+| 04-chapter-4.md | FY2025 US commercial stated as approximately $1.4 billion, at least 104 percent growth | Frontmatter and chapter 10 re-state FY2025 clusters; values must match this basis |
+| 04-chapter-4.md | NDR stated as company-reported 150/157 percent with segment splits explicitly undisclosed | Any chapter (frontmatter, chapter 3, chapter 5) still carrying the 115 to 120 percent standing claim or segment breakdowns contradicts BAR-14 |
+| 04-chapter-4.md | Insider selling stated as $868.71 million trailing 12 months, zero purchases, Thiel $289.7 million, Karp $86 million | Chapters 7 and 8 carry the same F7 change line; if either still prints the Thiel-era roughly $570 million figure, the book contradicts itself |
+| 04-chapter-4.md | US at 81 percent of revenue (Q2 2026), international roughly $362 million | Chapters 5 and 8 take the same F8/F26 facts; the old "approximately two-thirds" framing must not survive anywhere as a current claim |
+| 04-chapter-4.md | November 2 Q3 report flagged as next test with Street consensus roughly $2.2 billion above the guide | Chapter 9 (F9) and frontmatter anchor the same catalyst; consensus basis differs across aggregators, keep the same hedge |

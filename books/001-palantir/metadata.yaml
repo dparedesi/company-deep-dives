@@ -6,8 +6,8 @@
 title: "The Palantir Enigma"
 subtitle: "Forging Operational Sovereignty in a Data-Driven World"
 author: "Daniel Paredes"
-date: "April 2026"
-last_published: "2026-04-11"   # ISO date; anchors the next research delta window
+date: "October 2026"
+last_published: "2026-10-18"   # ISO date; anchors the next research delta window
 language: en
 
 # Cover Image (relative to images/ folder)
@@ -42,12 +42,12 @@ epub:
 
 # Book Description (for metadata)
 description: |
-  This book offers an exceptionally comprehensive and in-depth analysis
-  of Palantir Technologies, moving beyond readily available summaries
-  to uncover novel insights and connections. Current as of April 2026,
-  it incorporates Palantir's inclusion in the S&P 500, its strategic
-  transfer to Nasdaq, and the transition of AIP from pilot projects
-  to production agentic workflows.
+  An analytical deep dive into Palantir Technologies: the ontology-centered
+  platforms, the financial record, and the Operational Sovereignty thesis.
+  Current as of October 2026, it covers the Iran war and Maven at scale,
+  the NHS Federated Data Platform renewal crisis, the sovereign AI program
+  line, Q2 2026 results at 93 percent growth, and a re-based scenario
+  outlook with the book's own house view and falsifiers.
 
 # Keywords/Tags
 keywords:

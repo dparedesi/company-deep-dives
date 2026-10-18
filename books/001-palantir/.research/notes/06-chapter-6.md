@@ -1,0 +1,20 @@
+# Consistency notes: 06-chapter-6.md (2026-10 cycle)
+
+Fragile cross-references and adjacent-chapter couplings introduced or touched by this cycle's edits. Step 4 consumes these.
+
+| chapter file | reference | why stale |
+|---|---|---|
+| 06-chapter-6.md | Maven program-of-record date stated as March 2026 | Chapter 3 previously carried 2023 and Chapter 6 carried 2024; ch3's editor is unifying on March 2026 per F15. Verify no 2023/2024 PoR date survives anywhere. |
+| 06-chapter-6.md | Army EA obligations "approximately $1.8 billion (about 17.5 percent)" vs register $1.7505B / 17 percent | One-decimal rendering for the two-decimal gate; if Chapter 4 prints the obligations figure it must use the same rendering, not $1.75 billion (which trips the lint) |
+| 06-chapter-6.md | Record US commercial bookings "approximately $2.1 billion, up 153 percent" | Register value is $2.132B TCV; Chapter 4's change line says it prints $2.132B. One chapter must own full precision; ch6 deliberately renders to one decimal for the gate, so ch4's print should be the canonical full-precision one or also gate-safe |
+| 06-chapter-6.md | NHS cost basis "330 million pounds base, extension to 480 million pounds" in two places | Both occurrences in ch6 now carry the base/extension distinction per the register; any other chapter printing "480 million pounds" flat (frontmatter, ch7, ch10) needs the same split |
+| 06-chapter-6.md | NHS counter-evidence "137 trusts, 117,000 additional operations, 14.3 percent" | Chapter 7's F13 line carries the same counters plus Tom Watson and the 38 Degrees objection count; keep values identical and do not re-paste the older 77-trust / 80,923 snapshot as if current (80,923 etc. remain in ch6 as dashboard history with the 2026 counters alongside) |
+| 06-chapter-6.md | Boot camp conversion "never disclosed" replaces the old 5 to 10 percent claim | Chapter 4 line 59's conversion-rate-not-disclosed sentence is the anchor (BAR-21); ch3 had the same unsupported claim at its line 252 (BAR-10). All three must agree on not-disclosed. |
+| 06-chapter-6.md | "Department of War" adopted at first reference with renaming note | Chapter 2's F34 line adopts the same terminology; verify both chapters note the renaming once and neither mixes official-name claims |
+| 06-chapter-6.md | Q2 2026 US government revenue "$809 million, +90 percent" | Same figures appear in Chapter 4's F21 change line; keep value and anchor identical across chapters |
+| 06-chapter-6.md | Maven value "approximately $480 million" retained | Standing prior-edition figure with no register row this cycle; if step 4 finds a conflicting Maven contract value elsewhere, this is unverified and should be harmonized or flagged |
+| 06-chapter-6.md | DHS "approximately $1 billion" early-2026 contract retained | Standing prior-edition figure, no register row this cycle, not targeted by any change line; left as-is, flagged for step 4 |
+| 06-chapter-6.md | Minab casualty counts hedged ("123 children by the central count, 168 civilians by wider counts") | Register flags exact date and count as conflicting across sources; Chapters 3, 7, 8, 9 carrying Minab must hedge the same way |
+| 06-chapter-6.md | Surf Air stake "reported 7.4 percent... awaiting confirmation against the SEC filing" | Register flags unverified against the SEC filing; ch3 and ch4 also carry the stake (F52) and must hedge identically, no share counts anywhere |
+| 06-chapter-6.md | Chapter ending now names February 2027 NHS decision and Minab follow-on | Chapter 9 adds the break-clause decision as a dated bear catalyst and Chapter 10 uses it as the UK bellwether; dates and framing must stay aligned |
+| 06-chapter-6.md | "Emerging defense and security partnerships" (government) and "Partner ecosystem and channel expansion" (commercial) both describe Ondas, Polymarket/TWG, and Golden Dome | Pre-existing duplication, not introduced this cycle; the refreshed F69 content (Regna, Surf Air, Cisco) lives only in the government-section list. Step 4 may want to dedupe the commercial-side echo paragraph. |
