@@ -1,0 +1,65 @@
+# Book Metadata
+# =============
+# This file controls how your book is built and styled.
+
+# Basic Information
+title: "The NVIDIA Moat"
+subtitle: "How One Company Built the Foundation Beneath Artificial Intelligence"
+author: "Daniel Paredes"
+date: "April 2026"
+last_published: "2026-04-12"
+language: en
+
+# Cover Image (relative to images/ folder)
+cover_image: cover.jpg
+
+# Table of Contents
+toc: true
+toc_depth: 3
+
+# Chapter Numbering
+number_sections: true
+
+# PDF Styling (used by Typst template)
+pdf:
+  paper_size: "us-letter"  # or "a4"
+  font_size: "11pt"
+  margin:
+    top: "1in"
+    bottom: "1in"
+    left: "1.25in"
+    right: "1.25in"
+  fonts:
+    main: "Linux Libertine"
+    code: "Fira Code"
+  colors:
+    primary: "#76b900"      # NVIDIA green
+    accent: "#1a1a2e"       # Deep dark blue-black
+
+# EPUB Styling
+epub:
+  chapter_level: 1
+
+# Book Description (for metadata)
+description: |
+  The deepest publicly available analysis of NVIDIA Corporation, from its 1993
+  founding as a graphics chip startup through its transformation into the most
+  important semiconductor company on Earth. Covers the CUDA moat, the AI
+  infrastructure boom, Blackwell and Rubin architectures, competitive threats
+  from custom silicon, and the geopolitical dimensions of GPU dominance.
+  Current as of April 2026.
+
+# Keywords/Tags
+keywords:
+  - NVIDIA
+  - NVDA
+  - GPUs
+  - Artificial Intelligence
+  - Semiconductors
+  - CUDA
+  - AI Infrastructure
+  - Jensen Huang
+
+# Publishing Info
+publisher: "Self-Published"
+rights: "© 2026 Daniel Paredes. All rights reserved."
