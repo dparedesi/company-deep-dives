@@ -9,9 +9,14 @@ Produce exhaustive, multi-domain research that forms the factual foundation of t
 
 ## Critical requirement: team of agents
 
-This phase MUST use a team of agents. Spawn 5 to 8 research agents in parallel, each covering a different domain. A single agent cannot produce the volume and depth required for a comprehensive deep dive.
+This phase MUST use a team of agents. Spawn research agents in parallel, each covering a different domain. A single agent cannot produce the volume and depth required for a comprehensive deep dive.
 
-Use `mode: bypassPermissions` for all agents to prevent plan-approval blocking.
+**Spawn in waves of 3 to 5 agents** rather than all 7-8 simultaneously. Spawning 8+ agents at once frequently triggers API rate limits (429 errors), causing agents to fail before completing their research. A practical pattern:
+- Wave 1: financials, technology, market (3 agents)
+- Wave 2: history, customers, ethics (3 agents)
+- Wave 3: outlook plus any optional domain agents (2-3 agents)
+
+Spawned agents inherit the session's permission mode; the Agent tool's `mode` parameter is deprecated and ignored, so do not pass it. Each agent writes only its own assigned research file.
 
 ## Agent assignments
 
@@ -103,14 +108,16 @@ Add if relevant to the company:
 
 ## Research tool strategy
 
-Each agent should use **WebSearch** as the primary search method. It is available in every Claude Code instance and requires no setup.
+Each agent should use **mcp__duckduckgo__search** as the primary search tool and **mcp__duckduckgo__fetch_content** to read result pages. Both are keyless with effectively no quota cap, so agents can run many queries without rationing.
 
-If WebSearch returns errors, empty results, or is unreliable for a particular query, agents should fall back to MCP tools if available:
+The native web search tool returns 400 errors in this environment. Never use it, and never list it as a fallback.
+
+If duckduckgo is unavailable or unreliable for a particular query, agents should fall back to these MCP tools:
 
 - `mcp__zai-web-search__web_search_prime` for web search
 - `mcp__web_reader__webReader` for reading specific pages
 
-Do not treat MCP tools as required. The phase must work with WebSearch alone.
+Tell every spawned agent the tool order explicitly in its prompt. Do not assume a subagent knows the owner's global tool rules.
 
 ## Agent output format
 
@@ -124,6 +131,12 @@ Each agent writes its findings to a separate file in `books/<NNN>-<slug>/.resear
 - `06-ethics-risk.md`
 - `07-outlook.md`
 - Additional agents use `08-<domain>.md`, `09-<domain>.md`, etc.
+
+One file per domain, at the exact paths above; no other filenames belong in `.research/` root. Domain research files use only this numbering scheme; planning outputs live at their own exact paths (for example `chapter-plan.md`, never `09-chapter-plan.md`).
+
+### Aggregate the claims register
+
+After all domain agents finish, aggregate every load-bearing number (annual and quarterly financials, top contract values, flagship partnership dates and values, customer and developer counts, market share, valuation metrics) into `books/<NNN>-<slug>/.research/claims-register.md` with columns: metric, value, unit, period, source artifact, source URL or filing reference, as-of date, confidence. Every number that anchors an argument gets a row; writing and review phases cite register entries.
 
 Each research file must follow this structure:
 
@@ -165,7 +178,7 @@ Two to four paragraphs summarizing the key findings in this domain. This is the 
 
 ## Data gaps
 
-List any questions that could not be answered with available sources. These are holes that may need manual research or primary source access.
+List any questions that could not be answered with available sources. These are holes that may need manual research or primary source access. A number recorded as a data gap is unavailable downstream: no writing agent may supply it from memory or general knowledge, and flagging the gap in prose is the only permitted use.
 ```
 
 ## Agent prompt template
@@ -179,12 +192,12 @@ Company: <COMPANY NAME>
 
 Your job is to produce the deepest, most comprehensive research on <COMPANY NAME>'s <DOMAIN> that is possible using web search. Be specific: use real numbers, real dates, real names. Do not guess. If you cannot confirm something, say so.
 
-Write your findings to books/<NNN>-<slug>/.research/<NN>-<domain>.md following the structured format in the create-book skill's phase 2 step file.
+Write your findings to books/<NNN>-<slug>/.research/<NN>-<domain>.md following the structured format in .claude/skills/create-book/02-deep-research.md (read it first).
 
 Research categories to cover:
 <list from agent assignment above>
 
-Use WebSearch as your primary tool. Search for at least 10 to 15 different queries to cover your domain thoroughly. If WebSearch fails, fall back to mcp__zai-web-search__web_search_prime and mcp__web_reader__webReader.
+Use `mcp__duckduckgo__search` as your primary search tool and `mcp__duckduckgo__fetch_content` to read pages from results. Run at least 10 to 15 different queries to cover your domain thoroughly. If duckduckgo fails, fall back to `mcp__zai-web-search__web_search_prime` and `mcp__web_reader__webReader`. Never use the native web search tool: it returns 400 errors in this environment.
 
 Be exhaustive. A good deep-dive book distinguishes itself by the depth of its research, not by having the same surface-level facts everyone else has.
 ```
@@ -196,14 +209,18 @@ Be exhaustive. A good deep-dive book distinguishes itself by the depth of its re
 - No file is a stub. Each domain file has substantial, specific content with real numbers and sources.
 - Files reference specific sources (URLs, publication names, report titles).
 - Data gaps are honestly reported where sources were insufficient.
+- A claims register exists at `books/<NNN>-<slug>/.research/claims-register.md` covering every number that anchors an argument, with source and as-of date per row.
+- Exactly one file per domain exists (no `-v2` siblings, no superseded duplicates left in place).
+- Every data gap recorded in a research file is treated as unavailable downstream; no writing agent supplies such a number from memory or general knowledge.
 
 Report back with a list of the research files created and a rough word count for each. Highlight any domains where research was thin and may need supplementation.
 
 ## Handling stuck or slow agents
 
-Research agents can get stuck: WebSearch returns errors, MCP tools hit rate limits, or the agent enters a loop. Practical guidance:
+Research agents can get stuck: search tools return errors, MCP tools hit rate limits, or the agent enters a loop. Practical guidance:
 
-1. **After 20 minutes**, if an agent has not produced output, spawn a retry agent with the same domain assignment. The retry agent gets a fresh context and may succeed where the original failed.
-2. **Do not wait for all agents to complete** before proceeding to phase 3 (chapter planning). If at least 5 of 7 research files are available, start the planning agent while the stragglers finish. The planner can incorporate late-arriving research.
+1. **No wall-clock triggers.** The output file for every agent is named before spawn: `books/<NNN>-<slug>/.research/<NN>-<domain>.md`. React to the agent's completion or failure signal, not to elapsed time; a slow agent is usually still working. When a task signal reports failure, or an agent reports completion, verify the artifact: the file exists, is non-empty, and is at least 3 KB. Retry only on a failure signal, or on completion without a usable artifact; silence alone is not a failure signal. Stop a failed agent with `TaskStop` if it still shows as active, then spawn exactly one replacement. The replacement writes to the exact same file path, overwriting the failed attempt's partial output; never invent sibling filenames such as `-v2` (a previous run produced `03-market-v2.md` this way, and downstream phases had no canonical marker for which version to trust).
+2. **Do not wait for all agents to complete** before proceeding to phase 3 (chapter planning). If at least 5 of the 7 core domain research files (`01-financials.md` through `07-outlook.md`) are available, start the planning agent while the stragglers finish. The planner re-checks `.research/` before presenting its plan and incorporates files that arrived meanwhile (step 5 of `03-chapter-planning.md`). After the plan is approved, and before any writing agent spawns, confirm that every expected research file exists; wait for or retry any stragglers at that point.
 3. **Accept variable quality.** Research files will range from 8 KB to 20 KB. That variance is fine. What matters is that each domain has enough material for the chapter planner and writers to work with.
 4. **If a domain is genuinely thin** (the agent delivered less than 3 KB), note it. The chapter writing phase may need to supplement with inline research for that domain's chapters.
+5. **Dedupe before phase 3.** List `books/<NNN>-<slug>/.research/`. If any domain exists in two versions despite the same-path rule, keep exactly one canonical version per domain (the more complete file, or a merge of the two), delete the other, and record the choice in the report-back.

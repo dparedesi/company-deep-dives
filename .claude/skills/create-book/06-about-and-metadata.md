@@ -7,6 +7,10 @@
 
 Generate all Leanpub-facing content: the about page fields, final metadata, and the frontmatter (executive summary). These must reflect the actual content of the finished manuscript.
 
+## about.md ownership
+
+This phase creates every section of about.md with real content drawn from the finished manuscript. On later refreshes, other skills own their slices: `book-refresh/05-metadata-framing.md` owns the edition-date fields, `book-refresh/06-release-notes.md` owns the What's new in this edition section, and `publish-release` owns stale-fact corrections in the other sections plus the reader email. This phase does not run on refreshes; its contract covers first-edition creation only.
+
 ## Process
 
 ### 1. Read the manuscript
@@ -22,14 +26,9 @@ Also read `books/<NNN>-<slug>/.research/chapter-plan.md` to understand the inten
 
 ### 2. Write the frontmatter (00-frontmatter.md)
 
-The frontmatter is the executive summary that opens the book. It has no H1 heading. It should:
+The frontmatter is the executive summary that opens the book. It has no H1 heading.
 
-- Open with a hook: a provocative or surprising statement about the company.
-- State the book's thesis in 2 to 3 sentences.
-- List the key findings (6 to 10 bullet points) with specific numbers and facts from the manuscript.
-- Close with a paragraph on what makes this analysis different from others.
-
-Read existing frontmatter files (`books/001-palantir/manuscript/00-frontmatter.md`, `books/002-rocketlab/manuscript/00-frontmatter.md`) to match the format and depth.
+Read `.Resources/voice.md` before writing the frontmatter. Write it following the refined frontmatter structure defined there (headings and structure section): an opening claim about the company, the edition-currency line, Key findings bullets with (see Chapter N) pointers, The central thesis with a three-part mechanism, Future outlook and key variables with base, bull, and bear, and the house view section (most likely scenario, probability weights or an explicit confidence level, one-sentence risk-reward verdict). Do not close with a paragraph on what makes this analysis different from others; the house view is the close. Do not imitate any existing book frontmatter; several carry documented template regressions, and the charter is the format.
 
 ### 3. Populate about.md fields
 
@@ -57,6 +56,7 @@ Write a comprehensive description (see `books/001-palantir/about.md` for length 
 - Include specific numbers from the manuscript (revenue, growth rates, market cap, etc.).
 - End with who should read this book and why.
 - Include "current as of <Month Year>" to anchor the data freshness.
+- Follow the money format in `.Resources/voice.md` everywhere in about.md: approximately $4.5 billion, never spelled-out forms such as 4.5 billion dollars, and never two-decimal multi-billion aggregates.
 - No em dashes.
 
 #### Teaser text
@@ -110,7 +110,7 @@ If any of these disagree, reconcile them.
 
 ## Success criteria
 
-- `00-frontmatter.md` is populated with a hook, thesis, key findings, and differentiation.
+- `00-frontmatter.md` is populated following the voice charter's refined frontmatter structure, including the house view section, and passes the 300-word gate in `.Resources/quality-bar.md`.
 - `about.md` has all Leanpub fields populated (title, subtitle, about, teaser, meta description, TOC HTML, release notes).
 - `metadata.yaml` is finalized with correct title, date, description, and keywords.
 - All financial numbers in about.md match the manuscript.

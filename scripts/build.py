@@ -21,6 +21,8 @@ from pathlib import Path
 from datetime import datetime
 import re
 
+import lint_manuscript
+
 # Configuration
 BOOKS_DIR = Path(__file__).parent.parent / "books"
 TEMPLATES_DIR = Path(__file__).parent.parent / "templates"
@@ -345,19 +347,32 @@ def build_epub(book_dir: Path, metadata: dict) -> bool:
         return False
 
 
-def build_book(book_key: str, book_dir: Path, build_pdf_flag: bool = True, build_epub_flag: bool = True) -> bool:
+def build_book(book_key: str, book_dir: Path, build_pdf_flag: bool = True, build_epub_flag: bool = True, skip_lint: bool = False) -> bool:
     """Build a single book."""
     print(f"\n📖 Building: {book_key}")
     print(f"   Directory: {book_dir}")
-    
+
     metadata = load_metadata(book_dir)
     if not metadata:
         print(f"  ⚠️  No metadata.yaml found, using defaults")
         metadata = {"title": book_key, "author": DEFAULT_AUTHOR}
-    
+
     # Check for chapters
     chapters = get_chapter_files(book_dir)
     print(f"   Found {len(chapters)} chapter(s)")
+
+    # Quality-bar gates (.Resources/quality-bar.md): fail closed before any build step
+    if not skip_lint:
+        passed, hits = lint_manuscript.run_lint(book_dir)
+        if not passed:
+            print(f"  ❌ Quality gates failed ({len(hits)} hits); build blocked")
+            print(f"     Full list: python scripts/lint_manuscript.py {book_key}")
+            for h in hits[:10]:
+                print(f"     {h}")
+            if len(hits) > 10:
+                print(f"     ... and {len(hits) - 10} more")
+            return False
+        print(f"  ✅ Quality gates passed ({len(lint_manuscript.scan_files(book_dir))} files scanned)")
     
     success = True
     use_typst = check_typst()
@@ -421,6 +436,11 @@ def main():
         action="store_true",
         help="List available books"
     )
+    parser.add_argument(
+        "--skip-lint",
+        action="store_true",
+        help="Bypass quality-bar gates (use only before a book has been remediated to .Resources/quality-bar.md)"
+    )
     
     args = parser.parse_args()
     
@@ -453,13 +473,13 @@ def main():
             print(f"   Available books: {', '.join(books.keys())}")
             sys.exit(1)
         
-        success = build_book(args.book, books[args.book], build_pdf_flag, build_epub_flag)
+        success = build_book(args.book, books[args.book], build_pdf_flag, build_epub_flag, args.skip_lint)
     else:
         # Build all books
         print("🚀 Building all books...")
         success = True
         for key, path in books.items():
-            if not build_book(key, path, build_pdf_flag, build_epub_flag):
+            if not build_book(key, path, build_pdf_flag, build_epub_flag, args.skip_lint):
                 success = False
     
     print("\n" + "=" * 50)

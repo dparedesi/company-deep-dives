@@ -11,18 +11,21 @@ Update the book's metadata files to reflect the new edition date and strip any e
 1. Read `books/<NNN>-<slug>/metadata.yaml`.
 2. Read `books/<NNN>-<slug>/about.md`.
 3. Read `books/<NNN>-<slug>/manuscript/00-frontmatter.md`.
+4. Read `.Resources/voice.md`; the frontmatter structure and banned boilerplate rules live there.
 
 ## Process
 
 ### metadata.yaml
 
 - Update `date` to the new edition label (for example, `"April 2026"`).
-- Update `last_published` to today's ISO date (for example, `"2026-04-11"`). This anchors the next research delta window.
 - Update `description` if the previous description references outdated dates, data, or framing.
 - Update `rights` year if it has rolled over.
 - Do NOT change `title` or `subtitle` to include edition numbers.
+- Do NOT update `last_published` in this step. Step 7 bumps it after the build verifies, so an interrupted cycle never records a release that did not happen. `date` stays here because step 6 needs the new edition label.
 
 ### about.md
+
+Ownership: this step owns the edition-date fields of about.md (the "current as of <Month Year>" label and the edition framing). create-book/06 created every section; book-refresh/06 regenerates the What's new section; publish-release owns stale facts in the other sections plus the reader email. Fix only what this slice owns, and name the other owners in your report if you see their slices out of date.
 
 - Strip any edition-numbering language ("Second Edition", "Third Edition", "First Edition published in ...").
 - Ensure the book description paragraph uses "current as of <Month Year>" with the new date.
@@ -34,12 +37,18 @@ Update the book's metadata files to reflect the new edition date and strip any e
 - Update the "current as of" date to the new edition month and year.
 - Strip any edition-numbering language ("Second Edition of...", "First Edition").
 - Update any financial or key data summaries that reference guidance instead of actuals (if the new edition has actual results to replace guidance).
+- Update the house view when the outlook moves: the scenario weights and the risk-reward verdict must match the updated outlook chapter, and if the refresh resolved a thesis milestone, the house view reflects the resolution.
+- The frontmatter keeps its opening claim about the company and never gains a What changed or returning-reader section; edition changes live in about.md, per the charter's edition refresh rule.
+- The frontmatter structure and banned boilerplate are defined in `.Resources/voice.md`; verify against them.
 
-### Chapter 1 (introduction) and Chapter N (conclusion)
+### The introduction and conclusion chapters
+
+Locate them by role from the H1 titles, not by number.
 
 - Check for hardcoded edition references ("Second Edition", "December 2025") and update them.
 - The introduction's date context paragraph should say "current as of <Month Year>".
-- The conclusion's opening sentence should reference the new edition date.
+- Any edition-date reference in the conclusion should carry the new date, without turning the opening into edition framing (the charter bans edition-delta framing from the first three paragraphs of any file).
+- Any returning-reader framing found there gets removed, per the charter's banned openers.
 
 ## Writing conventions
 
@@ -49,10 +58,10 @@ Update the book's metadata files to reflect the new edition date and strip any e
 
 ## Success criteria
 
-- `metadata.yaml` has updated `date`, `last_published`, and `description`.
-- `about.md` has no edition-numbering language and uses the new date.
-- `00-frontmatter.md` has no edition-numbering language and uses the new date.
+- `metadata.yaml` has updated `date` and `description`; `last_published` is unchanged by this step.
+- `about.md` has no edition-numbering language and uses the new date in the edition-date fields.
+- `00-frontmatter.md` has no edition-numbering language, uses the new date, and its house view matches the updated outlook chapter.
 - No file in the manuscript contains "Second Edition", "Third Edition", or the old edition date.
 - Verify with a grep: `grep -r "Second Edition\|Third Edition\|<old date>" books/<NNN>-<slug>/manuscript/` returns zero hits.
 
-Report back with the list of files modified and confirmation that the grep check passed.
+Report back with the list of files modified, confirmation that the grep check passed, and any fields owned by other skills (stale facts in about.md sections, the What's new section) that need their owners' attention.

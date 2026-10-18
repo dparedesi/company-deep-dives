@@ -54,7 +54,7 @@ Copy the cover from any existing book (for example, `books/001-palantir/images/c
 
 ### 5. Create about.md
 
-Write an about.md with all the standard Leanpub field headers, populated with placeholders:
+Write an about.md with all the standard Leanpub field headers, populated with placeholders. Phase 6 (`06-about-and-metadata.md`) populates every section and owns the about.md creation contract; see that file for the full ownership chain across the refresh and publish skills:
 
 ```markdown
 ## Book Title:

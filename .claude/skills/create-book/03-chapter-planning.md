@@ -9,9 +9,13 @@ Read all research output from phase 2 and design a chapter structure that fits t
 
 ## Process
 
-### 1. Read all research files
+Read `.Resources/voice.md` before designing the plan; the plan must give every chapter a hook shape, a dramatic question, and at least one decision moment backed by research.
 
-Read every file in `books/<NNN>-<slug>/.research/`. You need the full picture before designing the structure. Do not skim; read thoroughly.
+### 1. Read all domain research files
+
+Read every domain research file currently in `books/<NNN>-<slug>/.research/`: the numbered domain files (`01-financials.md` through `07-outlook.md`, plus any additional domain files such as `08-<domain>.md`). Do not skim; read thoroughly. Ignore subdirectories and non-domain artifacts (for example `YYYY-MM-delta.md` and `YYYY-MM-changes.md` written by book-refresh, and `sections/`); they belong to other workflows. If two files cover the same domain, use the canonical one kept by phase 2's dedupe rule and flag the duplicate for deletion.
+
+If you were started before research fully completed (the early-start exception in `SKILL.md`, agent coordination rule 5), record which files you read now and which expected domain files are not yet present; step 5 covers them.
 
 ### 2. Identify the company's story arc
 
@@ -60,7 +64,11 @@ Create a file at `books/<NNN>-<slug>/.research/chapter-plan.md` with this struct
 
 ## Chapter 1: <title in sentence case>
 **Focus:** <one sentence on what this chapter covers>
-**Word target:** <8,000 to 15,000 words>
+**Depth approach:** Depth assessment in phase 4 will determine section count and length from available research.
+**Central dramatic question:** <the specific question this chapter answers, with the stakes named>
+**Hook:** <which of the three charter hook shapes opens it: dated anomaly, decision under stakes, or transformation>
+**Decision moments:** <the dated moments with named actors this chapter will dramatize, from the research>
+**Quotations:** <sourced speech of 40 or more characters available in the research>
 **Research domains feeding this chapter:** <list which research files>
 
 <One paragraph describing what this chapter will cover, the key questions it answers, and how it fits into the overall arc.>
@@ -74,7 +82,11 @@ Create a file at `books/<NNN>-<slug>/.research/chapter-plan.md` with this struct
 <Explain why you chose this particular order and emphasis. What makes it right for this company?>
 ```
 
-### 5. Present to the user
+### 5. Re-check for late-arriving research
+
+Before presenting the plan, list `books/<NNN>-<slug>/.research/` again and compare against what you read in step 1. For every file that appeared after you started reading, read it now and amend the plan: add or resize chapters and adjust the story arc and central thesis if the late material warrants it. If any expected core file is still missing, design the plan from what exists, but say so explicitly when presenting and name which chapters it affects.
+
+### 6. Present to the user
 
 Print the chapter plan to the conversation. Show each chapter's title and one-sentence description. Then ask the user for approval before proceeding to phase 4.
 
@@ -85,6 +97,8 @@ Use AskUserQuestion with the chapter plan summarized. The user may:
 - Suggest a different title for the book
 
 Wait for explicit approval before proceeding.
+
+Exception: if the user has explicitly authorized autonomous work earlier in this session (for example, "keep working non-stop" or "don't wait for me"), skip the approval, print the plan, note the exception in the chapter plan file, and proceed directly to phase 4.
 
 ## Adaptive structure examples
 
@@ -104,7 +118,10 @@ The structure must serve the subject, not the other way around.
 - The plan covers 8 to 12 chapters.
 - Every research domain is represented in at least one chapter.
 - The plan includes a central thesis, story arc, and per-chapter descriptions.
+- Every chapter entry names its dramatic question, hook shape, and at least one decision moment backed by research.
 - The structure is adaptive to the company, not a rigid template.
-- The user has approved the plan before phase 4 begins.
+- Exactly one chapter plan exists: if an earlier or draft plan remains (for example `09-chapter-plan.md`), merge anything valuable into `chapter-plan.md` and delete the draft.
+- Late-arriving research was re-checked and incorporated before presenting the plan.
+- Either the user has approved the plan before phase 4 begins, or the autonomous-work exception was applied and is noted in the chapter plan file.
 
-Report back with the chapter plan summary and confirmation of user approval.
+Report back with the chapter plan summary and confirmation of either user approval or the applied autonomous-work exception.
