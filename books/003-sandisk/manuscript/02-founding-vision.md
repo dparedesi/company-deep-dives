@@ -1,12 +1,12 @@
-# Founding Vision and the Flash Memory Bet
+# Founding vision and the flash memory bet
 
-## The technical foundation: Floating Gate EEPROM
+## The technical foundation: floating gate EEPROM
 
 The story of SanDisk begins not in a corporate boardroom or venture capital pitch, but in the engineering laboratories of Hughes Aircraft Company during the late 1970s. There, a young physicist named Eli Harari played a major role in developing the world's first EEPROM, or Electrically Erasable Programmable Read-Only Memory. This technical achievement would become the foundation for SanDisk's entire business and, ultimately, for much of modern digital storage technology.
 
 Harari was born in 1945 in Tel Aviv, Israel, to Polish Jewish parents who had immigrated to Mandatory Palestine in 1933. He earned his Bachelor's Degree at Manchester University in England and then moved to the United States for graduate study, completing a Master's degree in Physics at Princeton University where he focused on semiconductors. His first job after graduation was at Intel, but it was during his time as an engineering intern at Hughes Aircraft between 1976 and 1978 that he made his most consequential technical contribution.
 
-The Floating Gate EEPROM that Harari helped develop proved something revolutionary: that semiconductor-based data storage could be practical, reliable, and durable enough for real-world applications. Before this work, non-volatile memory, memory that retains data without power, relied on magnetic storage or relatively primitive technologies. The floating gate MOSFET, originally invented at Bell Labs in 1967, had theoretical promise but had not been proven at commercial scale. Harari's work, along with contributions from George Perlegos and others at Intel, established the Fowler-Nordheim tunneling mechanism that made EEPROM commercially viable.
+The floating gate EEPROM that Harari helped develop proved something revolutionary: that semiconductor-based data storage could be practical, reliable, and durable enough for real-world applications. Before this work, non-volatile memory, memory that retains data without power, relied on magnetic storage or relatively primitive technologies. The floating gate MOSFET, originally invented at Bell Labs in 1967, had theoretical promise but had not been proven at commercial scale. Harari's work, along with contributions from George Perlegos and others at Intel, established the Fowler-Nordheim tunneling mechanism that made EEPROM commercially viable.
 
 This was not merely incremental improvement. It was foundational innovation that established flash memory as a viable mainstream storage technology. The floating gate could trap electrical charge, representing a bit of data, and hold that charge for years without power. More importantly, it could be erased and rewritten electrically, without the need for ultraviolet light or other cumbersome techniques required by earlier EEPROM technologies. The practicality and endurance that Harari's work demonstrated made semiconductor storage a legitimate alternative to magnetic disks for certain applications.
 
@@ -30,7 +30,7 @@ NAND flash and NOR flash, named for the logic gate structures they employed, off
 
 The founding team faced a fundamental strategic question: if flash memory was to become a mainstream storage technology, what business model would allow a startup to compete against giant semiconductor companies? Intel dominated the microprocessor market. Japanese electronics giants like Toshiba, Fujitsu, and NEC had established positions in memory chips. How could a new American company carve out territory in this landscape?
 
-## The first SSD: Proving the concept
+## The first SSD: proving the concept
 
 SanDisk's first major product milestone came in 1991, just three years after founding. The company produced the first flash-based solid-state drive in a 2.5-inch hard disk drive form factor for IBM. The drive offered 20 MB of capacity at a price of approximately $1,000. In modern terms, this translates to roughly $50 per megabyte, or roughly $50,000 per gigabyte in today's dollars.
 
@@ -64,9 +64,9 @@ By positioning itself early in the digital photography supply chain, SanDisk gai
 
 SanDisk's participation in developing the CompactFlash standard also gave the company influence over industry specifications. As digital camera memory requirements evolved, SanDisk would be at the table when new standards were developed, ensuring its products aligned with market needs.
 
-## The 1995 IPO: Going public as SanDisk
+## The 1995 IPO: going public as SanDisk
 
-On November 8, 1995, SanDisk Corporation, formerly SunDisk, conducted its initial public offering. The company sold 16 million shares at $10.00 per share on the Nasdaq exchange under the ticker symbol SNDK. The IPO raised $160 million in gross proceeds, a substantial sum that would fund the company's expansion throughout the late 1990s.
+On November 8, 1995, SanDisk Corporation, formerly SunDisk, conducted its initial public offering. The company sold 16 million shares at $10.00 per share on the NASDAQ exchange under the ticker symbol SNDK. The IPO raised $160 million in gross proceeds, a substantial sum that would fund the company's expansion throughout the late 1990s.
 
 The timing of the IPO proved advantageous. The mid-1990s marked the early stages of the internet boom, and investor interest in technology companies was growing. SanDisk could point to tangible products, actual revenue, and a clear growth narrative in digital photography. This was not a concept stock dependent on future technologies. The company had been shipping products since 1991 and had established itself as a legitimate player in the flash memory market.
 
@@ -98,7 +98,7 @@ The scaling path was the fourth advantage. Magnetic disk storage faced physical 
 
 Silicon manufacturing economics provided the fifth advantage. Flash memory was manufactured using modified semiconductor processes, allowing it to benefit from the enormous capital investment and continuous improvement in semiconductor fabrication. Magnetic storage required specialized manufacturing equipment and processes that could not leverage the broader semiconductor industry's scale.
 
-These advantages meant that flash memory would inevitably replace magnetic storage in many applications as costs declined. The question was not whether flash would win, but when costs would reach thresholds for mass adoption in various market segments. SanDisk's strategy was to position itself in the segments where flash's advantages mattered most and where brand and distribution could provide differentiation.
+These advantages meant that flash memory would inevitably replace magnetic storage in many applications as costs declined. Harari never moderated the claim. Speaking at the International Solid-State Circuits Conference in 2012, two decades after founding the company, he predicted that "by 2020, flash ... will be the undisputed king of storage." The question was not whether flash would win, but when costs would reach thresholds for mass adoption in various market segments. SanDisk's strategy was to position itself in the segments where flash's advantages mattered most and where brand and distribution could provide differentiation.
 
 ## The removable storage differentiation strategy
 
@@ -164,7 +164,7 @@ After Western Digital's acquisition of SanDisk in 2016, Mehrotra became CEO of M
 
 ## The patent portfolio as strategic asset
 
-From its founding, SanDisk recognized the importance of intellectual property in the flash memory industry. Eli Harari's foundational work on Floating Gate EEPROM established early patent position. The company's continuous R&D investment expanded this portfolio throughout the 1990s and 2000s.
+From its founding, SanDisk recognized the importance of intellectual property in the flash memory industry. Eli Harari's foundational work on floating gate EEPROM established early patent position. The company's continuous R&D investment expanded this portfolio throughout the 1990s and 2000s.
 
 The patent portfolio served multiple strategic purposes. First, it provided defensive protection against potential litigation from competitors. As flash memory became increasingly valuable, patent disputes became common in the industry. A strong patent portfolio gave SanDisk leverage in any disputes and reduced vulnerability to infringement claims.
 
@@ -210,4 +210,4 @@ Eli Harari's 2014 National Medal of Technology and Innovation formalized recogni
 
 The founding vision proved correct in ways that may have exceeded even the founders' expectations. Flash memory did become mainstream storage, displacing magnetic disks in applications from mobile phones to data centers. The digital photography wave that CompactFlash positioned SanDisk to capture proved larger and more durable than many predicted. The removable storage differentiation strategy created brand value that persisted through market transitions and corporate ownership changes.
 
-As SanDisk moved into the WD era and eventually toward the 2025 spin-off, the foundations laid during 1988-2016 would remain relevant. The Toshiba joint venture, the retail brand, the patent portfolio, and the focus on removable storage all represented strategic choices that continued to shape the company's trajectory long after the founding era ended.
+The company that re-emerged in 2025 stood on foundations poured in 1988, and nothing in the spin-off, the shortage, or the contracts that followed has replaced them. The joint venture became the manufacturing base extended to 2034; the retail brand became the shelf presence the 2026 shortage emptied; the patent portfolio became the licensing income that smoothed every cycle since. The open question is whether foundations laid for a commodity business can carry a company that has just promised half its bits away.

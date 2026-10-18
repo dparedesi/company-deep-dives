@@ -1,0 +1,139 @@
+# Sandisk Corporation per-chapter changes: October 2026
+
+Source research: `2026-10-delta.md` (64 findings, validated). Window: 2026-04-11 through 2026-10-18.
+
+Number-format policy for this cycle (voice charter, enforced by build gates): aggregates above $1 billion carry at most one decimal. Canonical conversions: FY2026 revenue $20,248M becomes approximately $20.2 billion; FQ4 revenue $8,965M becomes approximately $9.0 billion; FQ3 $5,950M becomes approximately $5.95 billion (one decimal: $6.0 billion where space is tight, but prefer $5.95 billion is TWO decimals, so use approximately $6.0 billion); FY2025 $7,355M becomes approximately $7.4 billion; net loss $1,641M becomes approximately $1.6 billion; WD 2025 revenue $9.52B becomes $9.5 billion; JV payment $1.165B becomes approximately $1.2 billion (matches the 10-K rounding); buybacks executed $4,524M becomes $4.5 billion; Samsung Q2 revenue $23.06B becomes approximately $23.1 billion; top-five Q2 revenue $68.87B becomes approximately $68.9 billion. Per-share prices and EPS stay exact ($73.76, $1,299.30). Headline numbers enter once at full allowed precision (ch05 owns the FY2026 financial arc; other chapters cite briefly).
+
+Chapter update order for step 3 (volatility, per skill): 05, 06, 10, 08, 09, 03, 04, 07, then 01, 02, and 00-frontmatter last.
+
+## Frontmatter (00-frontmatter.md)
+
+- **Update** (F5, F6, F7, F8): the commodity-cycle key finding bullet's closing sentence ("The 2025 pro forma financials, with revenue of approximately $7.355 billion but a net loss of approximately $1.64 billion, illustrate this continued exposure") is superseded; reframe the bullet's ending: FY2026 printed revenue of approximately $20.2 billion with GAAP net income of approximately $11.4 billion as an AI-driven shortage took hold, and the four-quarter arc ($2.31B to $3.03B to $5.95B to $8.97B, one decimal where needed) replaced recovery with rupture; the cycle mechanism itself is being dampened by New Business Model contracts covering about half of FY2027 bits.
+- **Update** (F1, F3): the WD-acquisition bullet and Act III framing: remove "the manufacturing paradox of WD retaining 50 percent ownership of joint venture capacity" and the Act III "manufacturing paradox" paragraph; replace with: Sandisk itself holds the 49.9 percent Flash Ventures interests with Kioxia through 2034, WD's only tether was a 19.9 percent equity stake reduced under 1 percent by mid-2026.
+- **Update** (F23, F25): the market-position bullet: replace Q3 2025 shares with Q2 2026 on the same revenue basis (Samsung 29.3, SK hynix 18.2, Micron 15.1, Kioxia near 14, SanDisk near 11, smallest of the majors) plus one clause that YMTC ranks third in shipment bits.
+- **Update** (F52): the ethics/risk bullet: add one clause that the April 2026 Sanriku earthquake live-tested the Japan concentration risk with no damage per Kioxia's own statement.
+- **Replace (snapshot)** (F42, F43, F44, F45): rebuild the "Future Outlook and Key Variables" section around the scored scenarios (F57 to F64): old bull passed in one year, base invalidated, bear falsified near-term; new central question is whether roughly 80 percent gross margins and NBM floors survive the 2027 to 2028 supply response; include the house view (gate-mandated, see below).
+- **Add (gate remediation)**: house view block per the charter: most likely scenario with probability weights for the new bull/base/bear, and a one-sentence risk-reward verdict at the 2026-10-16 close of $1,299.30 (market cap approximately $190 billion, market-implied forward P/E about 6). State the book's position relative to the $2,173 average analyst target. Numbers follow the conversion policy.
+- **Update (step 5 ownership)**: the "current as of April 2026" line becomes October 2026 in step 5; no action in step 3 beyond leaving it for step 5.
+
+## Chapter 1: Introduction (01-introduction.md)
+
+- **Update** (F1, F16): the Act III paragraph ("The manufacturing paradox remains: Western Digital exited flash products but still owns 50 percent of flash manufacturing through the Kioxia joint ventures") must be corrected; see stale blocks. Replace with the true structure: Sandisk holds the JV interests; the paradox language dies here too.
+- **Update** (step 5 ownership): the closing "current as of April 2026" sentence (line 68) is step 5's to bump; flag only.
+
+## Chapter 2: Founding Vision and the Flash Memory Bet (02-founding-vision.md)
+
+- (no changes this edition)
+
+## Chapter 3: The Toshiba Joint Venture and Manufacturing Logic (03-toshiba-jv.md)
+
+- **Update** (F1): "How the JV survived the WD acquisition and ownership changes" section, lines 101-111: the post-spin sentence ("the manufacturing facilities at Yokkaichi remained under joint ownership, now split between Western Digital and Kioxia") is corrected: the JV interests transferred to Sandisk in the separation; WD held only a 19.9 percent Sandisk equity stake, since unwound. Same correction at lines 195-207 ("Western Digital owns 50 percent of the manufacturing joint ventures").
+- **Update** (F2): lines 203-205: "Kioxia has repeatedly postponed IPO plans... most recently in 2023" and the Bain 51.11/Toshiba 30.5 ownership structure: Kioxia listed on the TSE Prime market December 18, 2024 (ticker 285A, IPO price 1,455 yen); inside the window Bain fully exited (approximately $17 billion, Japan's largest PE exit), Toshiba fell to roughly 14 percent, and SK hynix's convertible-bond vehicle became the largest holder.
+- **Update** (F4): the JV-through-cycles and conclusion sections: the agreements were extended January 29, 2026 to December 31, 2034 (Yokkaichi and Kitakami aligned), with Sandisk paying Kioxia approximately $1.2 billion across 2026 to 2029 for manufacturing services and supply availability.
+- **Update** (F32): the conclusion and Yokkaichi evolution sections: on August 27, 2026 the partners announced over $31 billion (about 5 trillion yen) of joint Japan investment through 2032, contingent on Japanese government support, plus Kitakami Fab3 site preparation targeting fiscal 2029; cumulative JV investment in Japan now exceeds $50 billion over 25 years.
+- **Update** (F34): the technology sections: BiCS10 332-layer production started at Kitakami K2 July 3, 2026 (1Tb TLC dies first, 2Tb QLC disclosed, 2027 volume ramp).
+- **Update** (F10, F41): add 2 to 3 sentences in the economics or conclusion section: Sandisk reached outside Flash Ventures for the first time in March 2026, investing approximately $1.0 billion for 3.9 percent of Nanya Technology alongside Kioxia, Solidigm, and Cisco, with a multi-year DRAM supply arrangement (SSD makers without in-house DRAM sourcing for buffers); plus the September 9, 2026 $1.5 billion revolver replacing the spin-era facility, on a zero-debt balance sheet.
+- **Update** (F56): one sentence: in July 2025 Sandisk walked away from its preferred Michigan fab site and decided against a US plant anywhere; when the big capacity commitment came in August 2026 it went to Japan.
+- **Update** (F55): one clause in the risk or geopolitics thread: a 15 percent US baseline tariff applies to Japanese imports under the 2025 trade agreement; January 2026 Section 232 action spared NAND, but broader chip tariffs remain a live threat.
+- **Remove** (F1): the section "The manufacturing paradox" (lines 237-249) as written (WD owns half the fabs); rewrite in place around the real paradox: capital-light mutual dependence with a competitor-partner now anchored through 2034 and jointly funded expansion, with the strategic constraint being Kioxia co-control, not WD ownership.
+
+## Chapter 4: Product Strategy and Format Innovation (04-product-strategy.md)
+
+- **Add** (F33, F38, F61): new subsection after the enterprise-acquisitions section, suggested title "The second enterprise turn: Stargate and UltraQLC": UltraQLC platform (256TB demonstrated August 2025, SN670 line at up to 122.88TB), Stargate QLC revenue shipments beginning fiscal Q4 2026, datacenter rising from roughly 12 percent of bits to 38 percent in one fiscal year (datacenter revenue approximately $5.2 billion, up 437 percent).
+- **Add** (F16, F15): extend the retail-vs-OEM section: the New Business Model inverted the commodity-sales model from fiscal Q3 2026, multi-year committed contracts (10 agreements, 8 customers, about half of FY2027 bits) replacing spot exposure; note customers are unnamed in disclosure.
+- **Update** (F40): the January 2026 Optimus rebrand sentence (line 163): extend with Optimus GX PRO 8100 retail availability in the window (up to 14,900 MB/s, 1TB to 8TB) and the February 24, 2026 USB4 portable line.
+- **Update** (F39): the professional-photography thread: NAB 2026 CFexpress 4.0 Type B up to 4TB, the 1TB microSD Express card for Nintendo Switch 2 ($429.99 MSRP, August 2026), and the three-tier portable SSD portfolio rolling out through H2 2026.
+- **Update** (F27): the competitive-framing paragraph: Crucial (Micron's consumer brand) exited the consumer business entirely (announced December 3, 2025, shipments ended February 2026), leaving SanDisk's retail heartland with fewer branded rivals as the industry pivoted bits to AI data centers.
+- **Update** (F22): one or two sentences in the retail-brand section: the retail SSD market "almost disappeared" in 1H 2026 as allocation went to data centers; retail shelf presence became scarce supply, not declining demand.
+
+## Chapter 5: The Commodity Cycle and Financial Story (05-commodity-cycle.md)
+
+- **Add** (F5, F6, F7, F8, F9): new section after "The Pro Forma 2025 Financials", suggested title "The 2026 inflection: four quarters that broke the model": the gap-filled FQ1 ($2.31B revenue, first solid GAAP profit, net cash six months early) and FQ2 ($3.03B, 51.1 percent non-GAAP gross margin, JV extension announced the same day), then the in-window prints: FQ3 approximately $5.95 billion at 78.4 percent GAAP gross margin (non-GAAP EPS $23.41 versus $12 to $14 guided), FQ4 approximately $9.0 billion at 84.6 percent, FY2026 revenue approximately $20.2 billion with GAAP net income approximately $11.4 billion, zero debt, and FQ1 FY2027 guidance of $10.3 to $10.8 billion. This section owns the headline numbers at full allowed precision; other chapters cite.
+- **Add** (F14, F15, F16): new subsection on the New Business Model inside the inflection section: five agreements by April 30 (approximately $42 billion minimum contractual revenue as RPO, over $11 billion in financial guarantees), ten agreements across eight customers by August 5, about half of FY2027 bits and two-thirds of FY2028 bits, weighted-average duration over four years, at roughly 80 percent expected gross margin; balance-sheet evidence ($2.5 billion of prepayments and refund liabilities at year end); attribute the $93.9 billion floor to management statements per the data-gaps note.
+- **Update** (F17, F18, F19, F21, F64): the cycle-mechanism sections: the 2026 prints (contract prices up 55 to 60 percent in Q1, 70 to 75 percent in Q2, 10 to 15 percent in Q3, 15 to 20 percent forecast for Q4; enterprise SSD up a cumulative 235 percent in 2026; the worst shortage since 2011 with the NAND deficit modeled through 2028; HBM crowding explained as the mechanism starving conventional memory of wafer capacity).
+- **Update** (F20): supply discipline: Samsung cut 2026 wafer starts about 4.5 percent, SK hynix about 10 percent, before Korea unlocked roughly $520 billion of state-backed fab programs including a new SK hynix NAND fab at Cheongju; discipline first, then state-backed expansion.
+- **Update** (F22): the demand-destruction passage: retail SSD near-disappearance, consumer DDR5 up roughly 500 percent, a 30TB enterprise SSD at $22,600 (6.5 times its year-earlier price), PCs down over 20 percent in Q3 2026.
+- **Update** (F11, F12): capital returns: first buyback April 30 ($6 billion), $4.5 billion executed in FY2026, $14 billion added August 5 ($15.5 billion remaining), S&P upgrade to BBB (medium confidence, keep the qualifier); note the dilution tension (shares outstanding up 6.9 percent year over year despite buybacks).
+- **Update** (F13): one paragraph: the August 13, 2026 Investor Day framework (mid-to-high-teens revenue growth, roughly 80 percent non-GAAP gross margin, roughly 75 percent operating margin, about 50 percent adjusted FCF margin, 100 percent of excess cash returned, FY2028 to FY2030).
+- **Update** (F57, F58, F59): the closing "Lessons" section: add the scorecard verdicts (bull passed, base invalidated, bear falsified near-term) and reframe the chapter's determinism thesis: the cycle's transmission is now deliberately dampened by contracts, an untested structure against the 2027 to 2028 supply response.
+- **Update (gate)**: two-decimal fixes at lines 3, 103, 165, 167 per the conversion policy ($7.355 billion becomes approximately $7.4 billion, $1.64 billion becomes approximately $1.6 billion).
+
+## Chapter 6: Market Position in Consolidating Industry (06-market-position.md)
+
+- **Replace (snapshot)** (F23, F25): delete the Q3 2025 share table (lines 99-113) and write the Q2 2026 table with its basis labeled (revenue basis, TrendForce, August 18, 2026): Samsung 29.3 (approximately $23.1 billion revenue, up 70.7 percent sequentially), SK hynix group 18.2 (including Solidigm), Micron 15.1 (third), Kioxia near 14, SanDisk near 11 (smallest of the majors on revenue); add the Counterpoint bit-basis table alongside (Samsung 25, SK hynix 22, YMTC 14 third in bits, Kioxia fourth) and label the two bases explicitly; top-five revenue approximately $68.9 billion, up 77 percent sequentially.
+- **Update** (F26): YMTC profile: filed for a Shanghai STAR IPO (raising approximately $4.9 billion), rose to third in global shipment volume, told IPO meetings it aims to be the world's largest NAND maker by end-2027; revenue share from 9 percent (Q1 2025) to 14 percent; still on the Entity List.
+- **Update** (F27): the client-SSD competitive landscape (line 149): Crucial exited the consumer business December 3, 2025.
+- **Update** (F28): technology thread: Samsung unveiled 400-plus-layer V10 BV-NAND (August 2026) with a stated path toward 900 layers; SK hynix ramps 321-layer; sharpen the layer-count race.
+- **Update** (F2, F30, F31): Kioxia profile rewrite: listed since December 2024 (285A), briefly Japan's most valuable company in June 2026 (above 44 trillion yen) before correcting sharply; Bain fully exited July 2026; SK hynix's convertible-bond vehicle is now the largest holder with consent rights; an ¥800 billion buyback completed in six trading days in August 2026. A combined SK hynix-Kioxia position would top Samsung.
+- **Update** (F29): consolidation thread: renewed WD-Kioxia merger rumors July 2026 meet long odds (medium confidence; Bain gone, SK hynix veto, antitrust, and the JV partner is Sandisk, not WD).
+- **Update** (F44): one sentence: the market pays for AI-levered NAND exposure; SNDK plus 52.5 percent over the window versus WDC minus 3.3 percent.
+- **Update (gate)**: verify no two-decimal billions introduced; none flagged by lint in this file.
+
+## Chapter 7: The Western Digital Acquisition Era (07-wd-acquisition.md)
+
+- **Update** (F1): the October 2023 announcement section, line 162 ("The announcement also noted that Western Digital would retain its 50% stake...") and the spin-off completion block lines 179, 186 ("Continued 50% stake in Western Digital-Kioxia joint ventures"): correct to the actual structure; the Flash Ventures interests went to Sandisk in the separation; WD retained a 19.9 percent equity stake in Sandisk instead.
+- **Update** (F3): the completion section and "Legacy" section: WD unwound the stake across June 2025, February 2026, and May 2026 debt-for-equity and equity-for-equity exchanges, falling under 1 percent by mid-2026 with full exit expected by end of 2026; "For Western Digital, the acquisition represents a costly strategic error... with ongoing exposure to flash manufacturing" loses its final clause.
+- **Remove** (F1): the section "The Manufacturing Paradox" (lines 227-239): the paradox as written (an HDD company owning half the fabs) is false; replace with a short passage on the real post-spin separation and the irony that WD's exit completed inside 16 months of the spin.
+- **Update (gate)**: two-decimal fixes at lines 172-173, 178 ($7.355 billion becomes approximately $7.4 billion; -$1.64 billion becomes a net loss of approximately $1.6 billion; $9.52 billion becomes $9.5 billion).
+
+## Chapter 8: The Spin-Off and Re-Emergence (08-spin-off.md)
+
+- **Update** (F1): lines 5, 53, 137: the "WD retained the 50 percent JV stake" framing dies; the manufacturing thread becomes Sandisk's own 49.9 percent Flash Ventures position with Kioxia.
+- **Update** (F3): the WD post-spin block (lines 175-186): replace "Continued 50% stake" with the equity-stake unwind sequence (under 1 percent by mid-2026, full exit expected by end of 2026).
+- **Update** (F2): lines 43-61: Kioxia ownership block rewritten (listed December 2024; Bain exit July 2026; SK hynix vehicle largest holder; Toshiba near 14 percent).
+- **Update** (F4, F32): the JV thread: extension to December 31, 2034 announced January 29, 2026 (the same day as FQ2 results); over $31 billion of joint Japan investment announced August 27, 2026.
+- **Update** (F7, F8): the re-emergence arc: add the results transformation (FY2026 revenue approximately $20.2 billion, GAAP net income approximately $11.4 billion) briefly, citing chapter 5 for the arc.
+- **Replace (snapshot)** (F42, F43, F46, F47, F48, F49): the "First Days of Trading and Market Reception" section (lines 99-115): replace the admitted data gap with the actual reception record: relisting-era closing low $29.62 (April 22, 2025), index trajectory SmallCap 600 to S&P 500 (November 28, 2025) to S&P 100 (September 21, 2026), all-time close $2,335.00 on June 25, 2026, the July crash (down 56.5 percent peak-to-trough on a leveraged fund's forced liquidation, then up 26 percent in a day on Samsung's print), the August 5 beat-and-fall, and the October CXMT rout to $1,299.30 on October 16; the stock trades as leveraged AI-memory beta.
+- **Update** (F50, F54): the Goeckeler-continuity passage (line 67): Chairman and CEO by August 2026; add the September 2026 10b5-1 sales (approximately $105 million) as an optics footnote per the record.
+- **Update** (F11, F12): one or two sentences in the scale/structure passage: zero funded debt, first buybacks, BBB upgrade (qualifier kept).
+- **Update (gate)**: two-decimal fixes at lines 13, 19, 73, 75, 107, 139 per the conversion policy.
+
+## Chapter 9: Ethics, Controversies, and Risks (09-ethics-risk.md)
+
+- **Update** (F52, F63): the manufacturing-concentration section: the April 20, 2026 Sanriku earthquake (JMA magnitude 7.5) live-tested the risk; Kioxia's April 21 statement confirmed no Kitakami damage and normal production; SanDisk and Phison briefly suspended spot quotes. Use Kioxia's statement as primary; do not repeat halted-production wire framing.
+- **Update** (F2): line 131: Kioxia ownership paragraph rewritten (listed, Bain out, SK hynix vehicle), which changes the geopolitical framing: Sandisk's manufacturing is now effectively anchored by a Korean competitor's influence over its partner.
+- **Add** (F22): the consumer-harm angle in the controversies thread: allocation choices during the shortage emptied retail channels (the retail SSD market "almost disappeared", consumer DDR5 up roughly 500 percent); the book's ethics frame should weigh a company choice with visible consumer consequences.
+- **Add** (F49, F26): the China risk passage: CXMT's claimed density breakthrough sparked the October rout; YMTC's rise under sanctions is the concrete bear mechanism; China competition is now a priced, live risk.
+- **Add** (F55): regulatory: 15 percent baseline tariff on Japanese imports; Section 232 spared NAND in January 2026; broader chip tariffs remain a live threat into 2027.
+- **Add** (F53, F54): small counterpoint items: the August 2026 Israel cuts (dozens of roles at Kfar Saba) and pre-planned insider sales; both framed exactly (pre-planned, disclosed; optimization during a boom).
+- **Update (gate remediation)**: the structural-risks sections should end with a ranked top three by likelihood times impact (quality bar requirement); candidates from this cycle: (1) cycle turn on 2027 to 2028 supply response, (2) China supply scale-up (CXMT/YMTC), (3) Japan concentration plus tariff escalation; rank with one-sentence reasons.
+- **Update (gate)**: two-decimal fixes at lines 77, 81, 121, 157 per the conversion policy.
+
+## Chapter 10: Future Outlook and Competitive Position (10-future-outlook.md)
+
+This chapter carries the largest rewrite; every section is touched. The scenario framework is rebuilt, not patched.
+
+- **Update** (F1, F3): the manufacturing-paradox section (lines 45-65) rewritten around the true structure: Sandisk's own 49.9 percent JV position, extension to 2034, the resolution-by-deepening finding; the "acquire Western Digital's 50% stake" resolution paths (line 63) are moot and replaced by the real questions (Kioxia co-control, SK hynix influence over Kioxia).
+- **Update** (F2, F30): the Kioxia competitor-partner passage (line 33): fix Koxia spellings, listed status, new ownership, and the SK hynix triangle.
+- **Update** (F13, F16): the outlook opens from the Investor Day framework and the NBM transformation as the new baseline: contracted demand (about half of FY2027 bits, two-thirds of FY2028), roughly 80 percent gross margin framework, FY2028 to FY2030.
+- **Replace (snapshot)** (F57, F58, F59): the Multi-Scenario Outlook section (lines 105-149) is rebuilt. Old bands are scored and retired in one scorecard passage (bull passed in one year: FY2026 approximately $20.2 billion against the old $12 billion-by-2030 marker; base invalidated; bear falsified, balance sheet inverted to fortress). New scenarios anchored on the margin-model question rather than revenue bands: bull, the NBM holds roughly 80 percent gross margins through the FY2028-FY2030 framework and HBF opens the inference tier; base, margins compress toward 50 to 60 percent as the 2027 to 2028 supply response lands but contracted floors keep Sandisk solidly profitable; bear, China scale-up plus the supply wave plus NBM renegotiation crush margins back toward historical bands with the stock's AI-beta volatility amplifying the drawdown. State the most probable outcome in concrete operational terms (the base), probability weights, and the falsifiers with dated and numeric triggers (enterprise SSD contract-price direction through Q1 2027; the October 29, 2026 FQ1 print and FY2027 guidance; METI's decision on the $31 billion program; CXMT volume at advanced nodes by 2028; NBM coverage of FY2029 bits).
+- **Update** (F42, F45, F48, F49): the valuation sanity check (charter requirement): at $1,299.30 (October 16, 2026 close) the market cap is approximately $190 billion, roughly 6 times market-implied forward earnings; place the price against the book's own scenarios (closest to the base with bear tail risk priced) and state the book's position relative to the $2,173 average target (above, below, or in line, with a reason). Include the bear case's quantitative multiple math (charter requirement).
+- **Update** (F60, F61, F62, F63, F64): the critical-variables section: all five watch variables resolved (cloud capex accelerated; enterprise SSD became 25 percent of sales; JV governance deepened; earthquake live-tested favorably; pricing up violently); replace with the new watch list from the rebuilt scenarios.
+- **Update** (F28, F33, F34, F35, F36, F37): the technology sections: BiCS10 332-layer at K2, BiCS9 2Tb QLC derivative, the CBA scaling engine, HBF specification published August 3, 2026 with Google and Tenstorrent joining, first HBF die taped out with 2027 samples, 3D Matrix Memory progress; the "Emerging Technology Threats" section reframes HBF from wildcard to NAND's own answer to the memory wall.
+- **Update** (F18, F19, F20, F21): the demand/supply context: sold-out enterprise market, deficit through 2028, Korea's state-backed expansion, HBM crowding.
+- **Update** (F9): the October 29, 2026 FQ1 print named as the next catalyst with the $10.3 to $10.8 billion guide.
+- **Update (gate)**: fix every "Koxia" spelling (charter: one canonical spelling, Kioxia); replace the CJK fragment at line 173 with the intended English ("as the pace of new demand sources is uncertain" or better, rewrite the sentence to reflect what is now known: AI demand arrived and consumer demand cracked); two-decimal fixes at lines 5, 17, 43, 63, 83, 185; reconcile the old bear-band inconsistency (line 147 "below $6 billion" versus frontmatter "below $5 billion") by retiring both in the scenario rebuild.
+- **Update (ending)**: keep the resilience-versus-structure closing question, sharpened by the new tension: the company that spent 28 years proving independence is fragile has just bought itself a contracted decade; whether the contract holds when the cycle turns is the third act's real test.
+
+## Stale blocks to delete
+
+- The Q3 2025 market-share table, 06-market-position.md lines 99-113 (replaced by the Q2 2026 two-basis snapshot; keep Q3 2025 only if the narrative needs the historical point, restated briefly with its date).
+- The "WD retained the 50 percent JV stake" claims: 00-frontmatter.md (Act III paragraph), 01-introduction.md line 31 region, 03-toshiba-jv.md lines 103-111 (post-spin sentence), 195-207, and the manufacturing-paradox section 237-249; 07-wd-acquisition.md lines 162, 175-186, and the section 227-239; 08-spin-off.md lines 5, 53, 129, 137; 10-future-outlook.md lines 5, 33, 45-65, 177, 187.
+- The Kioxia-unlisted and Bain/Toshiba ownership blocks: 03-toshiba-jv.md lines 203-205; 08-spin-off.md lines 43-61; 09-ethics-risk.md line 131; 10-future-outlook.md line 33 portions.
+- The "First Days of Trading" data-gap passage, 08-spin-off.md lines 101-115 (superseded by the actual reception record).
+- The old scenario bands and "manufacturing paradox unresolved" framing: 00-frontmatter.md Future Outlook section; 10-future-outlook.md lines 105-149 (retire the old bull/base/bear bands with a one-paragraph scorecard, then rebuild).
+- Every "pro forma 2025 financials as current state" framing that presents FY2025 as the latest data (00-frontmatter bullet endings, 05 line 160-176 block keeps FY2025 as history with corrected number formats, 08 line 73-75, 10 line 5): FY2025 stays as the spin-era baseline, clearly dated; FY2026 becomes the current frame.
+- The CJK fragment at 10-future-outlook.md line 173.
+- The "below $6 billion" versus "below $5 billion" bear-band contradiction (both retired).
+
+## Dropped findings
+
+None. All 64 findings route to at least one chapter or the frontmatter. The consolidation from 90 raw findings to 64 happened in step 1 and is documented in the delta file's consolidation note.
+
+## Structural change proposals
+
+None proposed. The two candidate domains, the New Business Model transformation and the 2026 supercycle, are absorbed by the existing structure: the NBM lands in chapter 5 (it is the commodity-cycle story's continuation), chapter 4 (go-to-market), and chapter 10 (outlook re-anchor); the supercycle lands in chapter 5 and chapter 6. Chapter set, order, and H1 titles stay unchanged, per the iteration-continuity rule. Flagging for the record: if a future edition adds a chapter, the natural cut is a dedicated "The contracted decade" chapter splitting the NBM story out of chapter 5; not warranted this cycle.
+
+## Claims register
+
+Created at `.research/claims-register.md` this cycle; every load-bearing number entering the manuscript has a row with value, period, source, as-of date, and finding ID.

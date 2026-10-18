@@ -1,0 +1,24 @@
+# Sandisk Corporation consistency notes: October 2026
+
+Fragile cross-references and open consistency decisions flagged during step 3, for step 4 to resolve. Format: | chapter file | the reference | why it may be stale or needs a decision |
+
+| 00-frontmatter.md | Edition-currency line still reads April 2026 | Step 5 owns the flip to October 2026; do not double-edit |
+| 00-frontmatter.md | House view weights and $1,299.30 verdict derived from chapter 10 | Must stay identical to chapter 10's rebuilt scenario section (base 45, bull 30, bear 25; weighted value roughly $1,250; below the $2,173 average target) |
+| 05-commodity-cycle.md | FQ3 revenue prints as approximately $6.0 billion; FQ1 and FQ2 at approximately $2.3 and $3.0 billion | Two-decimal gate overrides the raw $5.95B/$2.31B/$3.03B; every other chapter citing these quarters must match the one-decimal prints |
+| book-wide | SK Hynix versus SK hynix | Manuscript uses SK Hynix consistently (about 69 occurrences, zero lowercase); all chapter agents kept it; changes-file prose styled SK hynix for new content but was overridden. Canonical decision needed: keep SK Hynix (recommended; changing 69 instances is style-only churn) and verify zero lowercase instances survive anywhere |
+| book-wide | Percent style split: chapters 05 to 10 use "%", frontmatter and chapters 02-03 spell out "percent" | Not a gate item; recommend leaving the per-zone style as published unless a cheap sweep is safe |
+| 06-market-position.md | Legacy headings are Title Case (for example "The Industry Structure in the Early 2000s") | Charter requires sentence case for every heading; new sections are compliant, legacy headings are not; step 4 should convert headings across all chapters (bar-mandated, heading lines only) |
+| 06-market-position.md | No 40-plus-character speech quotation in the chapter | Quality-bar per-chapter item; graft a sourced quote that already exists in research, e.g. Ilkbahar's "we see no end to the scaling limit in the foreseeable future" (F35) or Gross-Bain lines (F30), into the Sandisk or Kioxia profile |
+| 07-wd-acquisition.md | Chapter average sentence length measured at 25.8 words, above the 24 ceiling | Quality-bar per-chapter item; light remediation: split the longest sentences in untouched dense sections until the average lands inside 14 to 24 |
+| 07-wd-acquisition.md | Kioxia shareholders block relabeled to the 2018 consortium era (Bain 51.11%, Toshiba 30.5%) and kept as history | Verify readers cannot mistake it for the current register; chapter 8 and 10 now carry the transformed register (Bain out July 2026, SK Hynix vehicle largest, Toshiba near 14 percent) |
+| 07-wd-acquisition.md | Line 29 "Western Digital retained its 50% stake" kept as 2016-2025-era history | True for the ownership era; verify the surrounding prose dates it explicitly so it cannot read as current |
+| 03-toshiba-jv.md | Line 11 "Micron acquired Toshiba's memory operations in 1987" | Historically dubious (1987 is Fujio Masuoka's NAND invention year at Toshiba, not a Micron acquisition); not covered by any delta finding; step 4 should verify or delete the clause |
+| 03-toshiba-jv.md | Flash Ventures described as supplying all wafers and as about 80 percent of manufacturing capacity | Both from the 10-K's own framing; keep but ensure wording does not read as contradictory |
+| 04-product-strategy.md | First-act verdicts ("enterprise diversification proved difficult", "Intel, Samsung, and Micron" as enterprise rivals) now coexist with the second-turn section that reverses them | Deliberate narrative arc; verify the new section explicitly dates the reversal so no contradiction reads |
+| 04-product-strategy.md | Intel listed as an active enterprise SSD competitor in the legacy assessment | Intel exited (business became Solidigm under the SK Hynix group, 2021); legacy passage is dated history, verify framing |
+| claims-register.md | Fixed: spin-date row said 2026-02-24, corrected to 2025-02-24 | Resolved in step 3 |
+| about.md | Line 11 two-decimal billions and April 2026 currency lines | Steps 5 and 6 own about.md; must be clean before the build |
+| 09-ethics-risk.md | Chapter updated by relaunched agent after rate-limit failure | Step 4 must verify its lint is clean, its paradox/ownership corrections landed, and the ranked top-three risks section exists |
+| book-wide | Relative dates ("currently", "this year", "as of today") | Sweep and convert to absolute dates per step 4 checklist |
+| book-wide | The $93.9 billion NBM floor must keep management-statements attribution in every occurrence (chapters 4, 5, 10, frontmatter) | F16 data-gaps rule |
+| book-wide | The $31 billion Japan investment keeps contingency language (pending Japanese government support) in every occurrence | F32 data-gaps rule |

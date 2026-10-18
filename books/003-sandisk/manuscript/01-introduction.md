@@ -1,4 +1,4 @@
-# Introduction: The Company That Went Full Circle
+# Introduction: The company that went full circle
 
 ## Why SanDisk deserves a deep analysis
 
@@ -6,7 +6,7 @@ On February 24, 2025, a company called Sandisk Corporation began trading on the 
 
 No other major technology company has completed a full founding-to-IPO-to-acquisition-to-independence cycle within four decades. SanDisk's journey from a three-person startup called SunDisk in 1988 to a newly independent public company in 2025 traverses the entire modern history of flash memory, from an unproven technology with niche applications to the dominant storage medium across consumer electronics, mobile devices, data centers, and automotive systems. Understanding this journey reveals the structural realities of the semiconductor industry: $10 to $20 billion fabrication facilities, extreme pricing volatility, the persistent advantage of Asian manufacturers with state backing or vertical integration, and the narrow path available to Western companies trying to compete in capital-intensive hardware businesses.
 
-This book, "The SanDisk Paradox: How Flash Memory's Pioneer Learned to Survive Itself," presents the most comprehensive publicly available analysis of SanDisk Corporation. It moves beyond surface-level summaries to examine the technology, strategy, competitive dynamics, and structural forces that shaped a company whose story is ultimately about whether independence is viable in an industry that punishes mid-sized players.
+This book, "The SanDisk Paradox: How Flash Memory's Pioneer Learned to Survive Itself," examines the technology, strategy, competitive dynamics, and structural forces that shaped a company whose story is ultimately about whether independence is viable in an industry that punishes mid-sized players.
 
 ## The uniqueness of the SanDisk story
 
@@ -28,20 +28,7 @@ This analysis is structured around three acts that reflect the major phases of S
 
 **Act II: The WD Years and the Undoing (2016 to 2025)** examines the nine-year period when SanDisk was owned by Western Digital. Chapters 5 through 7 cover the NAND commodity cycle that drove the acquisition rationale, SanDisk's market position amid industry consolidation, and the Western Digital ownership era itself. This act explores what happens when a flash storage pioneer is folded into a hard disk drive company: the strategic logic, the complications, the product controversies, and the ultimate decision to undo the merger.
 
-**Act III: Re-emergence and the New Reality (2025 to present)** assesses Sandisk Corporation's prospects as a newly independent company. Chapters 8 through 10 cover the spin-off mechanics and corporate structure, the ethical and risk profile, and the competitive outlook. This act confronts the central question of whether independence is more viable now than in 2016, or whether the structural challenges have only intensified.
-
-## Methodology
-
-The analysis in this book draws on a comprehensive research process encompassing:
-
-* Public financial filings and corporate disclosures from SanDisk, Western Digital, and Sandisk Corporation.
-* Industry research reports and market data covering the NAND flash market from the 1990s through 2026.
-* Technology publications and patent records documenting flash memory innovations.
-* Journalistic reporting on product controversies, corporate strategy, and industry consolidation.
-* Competitive analysis against the five other major NAND manufacturers: Samsung, SK Hynix, Kioxia, Micron, and YMTC.
-* Multi-scenario forecasting based on current market dynamics and historical cycle patterns.
-
-All claims are supported by cited evidence. Where data gaps exist, they are explicitly noted. The analysis maintains a multi-perspective approach, presenting bullish and bearish cases alongside the central thesis.
+**Act III: Re-emergence and the New Reality (2025 to present)** assesses Sandisk Corporation's prospects as a newly independent company. Chapters 8 through 10 cover the spin-off mechanics and corporate structure, the ethical and risk profile, and the competitive outlook. This act confronts the central question of whether independence is more viable now than in 2016, or whether the structural challenges have only intensified. The interval's decisive marker arrived on January 29, 2026, when the manufacturing joint venture underpinning the whole enterprise was extended to 2034, with chief executive David Goeckeler calling it a partnership "into the next decade" delivering into "what is expected to be a $150B market in 2026."
 
 ## What this book is not
 
@@ -51,18 +38,22 @@ This book is not a company-sponsored narrative. SanDisk and Sandisk Corporation 
 
 This book is not a technical manual on flash memory design. While the technology is explained at a level sufficient for understanding strategic and competitive implications, readers seeking deep semiconductor physics should consult specialized technical resources.
 
+All claims are supported by cited evidence. Where data gaps exist, they are explicitly noted. The analysis presents bullish and bearish cases alongside the central thesis.
+
 ## Book structure
 
 Following this introduction, the analysis proceeds through nine chapters:
 
-* **Chapter 2: Founding Vision and the Flash Memory Bet** traces SanDisk's origins from Eli Harari's EEPROM work through the 1995 IPO, examining the technical foundations and early strategic decisions that shaped the company.
-* **Chapter 3: The Toshiba Joint Venture and Manufacturing Logic** analyzes the May 2000 joint venture that made SanDisk's survival possible, explaining why shared manufacturing was essential and how the structure balanced competing interests.
-* **Chapter 4: Product Strategy and Format Innovation** examines SanDisk's multi-format approach to flash storage, from CompactFlash through microSD, and the enterprise acquisitions that attempted to diversify beyond consumer products.
-* **Chapter 5: The Commodity Cycle and Financial Story** explains the boom-and-bust dynamics of NAND flash pricing and how these cycles shaped SanDisk's financial trajectory.
-* **Chapter 6: Market Position in a Consolidating Industry** situates SanDisk within the NAND flash industry's consolidation from more than a dozen manufacturers to six major players.
-* **Chapter 7: The Western Digital Acquisition Era** covers the nine-year ownership period from 2016 to 2025, including the acquisition rationale, integration challenges, product controversies, and the decision to separate.
-* **Chapter 8: The Spin-Off and Re-Emergence** documents the February 2025 spin-off that returned the flash business to independence as Sandisk Corporation.
-* **Chapter 9: Ethics, Controversies, and Risks** examines SanDisk's ethical profile, the product controversies of the WD era, and the structural risks facing the independent company.
-* **Chapter 10: Future Outlook and Competitive Position** assesses Sandisk Corporation's prospects against each major competitor and presents multi-scenario forecasts through 2030.
+* **Chapter 2: Founding vision and the flash memory bet** traces SanDisk's origins from Eli Harari's EEPROM work through the 1995 IPO, examining the technical foundations and early strategic decisions that shaped the company.
+* **Chapter 3: The Toshiba joint venture and manufacturing logic** analyzes the May 2000 joint venture that made SanDisk's survival possible, explaining why shared manufacturing was essential and how the structure balanced competing interests.
+* **Chapter 4: Product strategy and format innovation** examines SanDisk's multi-format approach to flash storage, from CompactFlash through microSD, and the enterprise acquisitions that attempted to diversify beyond consumer products.
+* **Chapter 5: The commodity cycle and financial story** explains the boom-and-bust dynamics of NAND flash pricing and how these cycles shaped SanDisk's financial trajectory.
+* **Chapter 6: Market position in a consolidating industry** situates SanDisk within the NAND flash industry's consolidation from more than a dozen manufacturers to six major players.
+* **Chapter 7: The Western Digital acquisition era** covers the nine-year ownership period from 2016 to 2025, including the acquisition rationale, integration challenges, product controversies, and the decision to separate.
+* **Chapter 8: The spin-off and re-emergence** documents the February 2025 spin-off that returned the flash business to independence as Sandisk Corporation.
+* **Chapter 9: Ethics, controversies, and risks** examines SanDisk's ethical profile, the product controversies of the WD era, and the structural risks facing the independent company.
+* **Chapter 10: Future outlook and competitive position** assesses Sandisk Corporation's prospects against each major competitor and presents multi-scenario forecasts through 2030.
 
-The analysis is current as of April 2026. In a rapidly evolving industry, readers should verify key financial and market data against the most recent available sources.
+The company that re-emerged in 2025 is richer, more profitable, and more constrained than at any point in its history: richer because the AI shortage handed it pricing power no NAND manufacturer has ever held, more constrained because roughly half of its fiscal 2027 bits are already spoken for under multiyear contracts. The collision between those two facts is where this analysis begins.
+
+The analysis is current as of October 2026.
